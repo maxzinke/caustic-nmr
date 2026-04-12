@@ -6,6 +6,10 @@ Predict NMR backbone chemical shifts (H, HA, N, CA, CB, C') from any PDB, mmCIF,
 
 A 400K-parameter SchNet graph neural network trained on 4,834 BMRB-linked experimental structures. Beats SPARTA+, LEGOLAS, and UCBShift2 on all 6 backbone nuclei on a 712-protein homology-separated test set.
 
+[![Try CAUSTIC on Hugging Face Spaces](docs/screenshot.png)](https://huggingface.co/spaces/SiXa18/caustic)
+
+**[Try it in your browser](https://huggingface.co/spaces/SiXa18/caustic)** — no install needed.
+
 ## Quick start
 
 ```bash
