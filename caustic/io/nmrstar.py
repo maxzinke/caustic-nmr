@@ -52,7 +52,7 @@ def _iupac_atom_name(residue_name: str, nucleus: str) -> str:
     """Pick an IUPAC-compatible atom label for ``(residue, nucleus)``.
 
     NMR-STAR (and BMRB deposition) follows the same IUPAC atom-name
-    rules that NEF inherits. The shift predictor's single glycine HA
+    rules that NEF inherits. The Caustic's single glycine HA
     output is a degenerate average of HA2/HA3 and is emitted as ``HA%``
     for consistency with the NEF writer; BMRB depositors importing the
     file can re-label or split the wildcard at their discretion.

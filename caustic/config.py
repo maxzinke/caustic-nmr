@@ -1,4 +1,4 @@
-"""Configuration dataclasses for the shift predictor."""
+"""Configuration dataclasses for the Caustic."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field

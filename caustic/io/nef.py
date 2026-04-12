@@ -46,13 +46,13 @@ def _nef_atom_name(residue_name: str, nucleus: str) -> str:
     based on NEF 1.1).
 
     Most backbone nuclei map 1:1 with their NEF name (``H``, ``N``,
-    ``CA``, ``CB``, ``C``). The one exception the shift predictor hits
+    ``CA``, ``CB``, ``C``). The one exception the Caustic hits
     is **glycine HA**: GLY has two alpha protons (HA2 pro-R, HA3 pro-S)
     and the model outputs a single averaged value, so the NEF-correct
     label is ``HA%`` (the degenerate wildcard). Anything else would
     either falsely imply stereospecificity (``HA2``/``HA3``) or
     non-stereospecific assignment (``HAx``/``HAy``), neither of which
-    the shift predictor claims.
+    the Caustic claims.
 
     CB is implicitly skipped upstream for GLY (there is no CB so the
     prediction is NaN). This function is only invoked on residues with
@@ -73,7 +73,7 @@ class NEFWriterOptions:
     list_id: int = 1
     """NEF chemical-shift-list ID. Incremented per saveframe if multiple."""
 
-    name: str = "crystalline_shift_predictor"
+    name: str = "caustic"
     """Free-text name stored in the saveframe header. Shows up in CCPN."""
 
     ppm_digits: int = 4

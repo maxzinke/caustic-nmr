@@ -1,4 +1,4 @@
-"""ONNX export for the shift predictor.
+"""ONNX export for the Caustic.
 
 ``ShiftPredictor.forward`` takes a PyTorch Geometric ``Data`` object and uses
 boolean masking + dict outputs — neither of those traces cleanly through
@@ -343,7 +343,7 @@ def export_to_onnx(
     opset: int = 17,
     verbose: bool = False,
 ) -> str:
-    """Export a trained shift-predictor checkpoint to ONNX.
+    """Export a trained Caustic checkpoint to ONNX.
 
     Parameters
     ----------
@@ -559,7 +559,7 @@ def validate_onnx(
 if __name__ == "__main__":
     import argparse
 
-    ap = argparse.ArgumentParser(description="Export shift predictor to ONNX")
+    ap = argparse.ArgumentParser(description="Export Caustic to ONNX")
     ap.add_argument("--checkpoint", required=True)
     ap.add_argument("--output", default="model.onnx")
     ap.add_argument("--opset", type=int, default=17)

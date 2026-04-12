@@ -210,7 +210,7 @@ class FiLMLayer(nn.Module):
 
 
 class ShiftPredictor(nn.Module):
-    """Structure -> backbone chemical shift predictor.
+    """Structure -> backbone chemical Caustic.
 
     v2 architecture:
         1. Per-atom embedding (element + AA + role + B-factor)

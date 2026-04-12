@@ -1,4 +1,6 @@
-# Caustic
+# CAUSTIC
+
+**C**onformation-**A**ware **U**ncertainty and **S**hift predic**T**ion from prote**I**n **C**onformer ensembles
 
 Predict NMR backbone chemical shifts (H, HA, N, CA, CB, C') from any PDB, mmCIF, or AlphaFold protein structure.
 
