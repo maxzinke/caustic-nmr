@@ -1,0 +1,3 @@
+caustic @ git+https://github.com/bluegems661/caustic.git
+gradio>=4.0
+matplotlib>=3.7
