@@ -130,7 +130,7 @@ def _synthesise_missing_hydrogens(
 
     Returns the number of atoms that were added.
     """
-    from .features import ELEMENT_TO_IDX, ATOM_ROLE_MAP
+    from caustic.features import ELEMENT_TO_IDX, ATOM_ROLE_MAP
 
     # Nucleus indices in BACKBONE_NUCLEI: H=0, HA=1, N=2, CA=3, CB=4, C=5
     I_H, I_HA, I_N, I_CA, I_CB, I_C = 0, 1, 2, 3, 4, 5
@@ -1548,7 +1548,7 @@ def compute_residue_geometry(data: Any) -> "torch.Tensor":
     """
     import torch
     import numpy as np
-    from .features import NUM_GEO_FEATURES
+    from caustic.features import NUM_GEO_FEATURES
 
     R = int(data.num_residues)
     geo = torch.zeros(R, NUM_GEO_FEATURES, dtype=torch.float32)
@@ -1665,7 +1665,7 @@ def compute_residue_geometry(data: Any) -> "torch.Tensor":
     # ------------------------------------------------------------------
     if atom_names is not None and hasattr(data, "target_indices"):
         try:
-            from .physics_features import compute_ring_currents
+            from caustic.physics_features import compute_ring_currents
             pos_np = pos.numpy()
             rc = compute_ring_currents(
                 pos_np, res_idx.numpy(),
@@ -1683,7 +1683,7 @@ def compute_residue_geometry(data: Any) -> "torch.Tensor":
     # [18-24] Hydrogen bond geometry
     # ------------------------------------------------------------------
     try:
-        from .physics_features import compute_hbond_geometry
+        from caustic.physics_features import compute_hbond_geometry
         pos_np = pos.numpy() if not isinstance(pos, np.ndarray) else pos
         hb, hb_partner_dirs = compute_hbond_geometry(
             pos_np, roles.numpy(), res_idx.numpy(), R, bb,
@@ -1709,7 +1709,7 @@ def compute_residue_geometry(data: Any) -> "torch.Tensor":
     # return signature.
     _atom_rsasa_out: "np.ndarray | None" = None
     try:
-        from .physics_features import compute_sasa_and_hse
+        from caustic.physics_features import compute_sasa_and_hse
         sasa, _atom_rsasa_out = compute_sasa_and_hse(
             pos, elements, res_idx,
             data.residue_types, bb, R,
@@ -1724,7 +1724,7 @@ def compute_residue_geometry(data: Any) -> "torch.Tensor":
     # ------------------------------------------------------------------
     if atom_names is not None:
         try:
-            from .physics_features import compute_electric_field
+            from caustic.physics_features import compute_electric_field
             ef = compute_electric_field(
                 pos.numpy() if hasattr(pos, "numpy") else pos,
                 res_idx.numpy() if hasattr(res_idx, "numpy") else res_idx,
@@ -1924,7 +1924,7 @@ def compute_target_environment(data: Any) -> "torch.Tensor":
     """
     import torch
     import numpy as np
-    from .physics_features import compute_target_atom_environment
+    from caustic.physics_features import compute_target_atom_environment
 
     R = int(data.num_residues)
     pos_np = data.pos.numpy() if hasattr(data.pos, "numpy") else np.asarray(data.pos)
@@ -2635,7 +2635,7 @@ def compute_target_atom_rsasa(
     """
     import torch
     import numpy as np
-    from .physics_features import compute_sasa_and_hse, compute_target_atom_rsasa as _ctar
+    from caustic.physics_features import compute_sasa_and_hse, compute_target_atom_rsasa as _ctar
 
     R = int(data.num_residues)
     pos_np = data.pos.numpy() if hasattr(data.pos, "numpy") else np.asarray(data.pos)
@@ -2713,7 +2713,7 @@ def compute_solchem_features(data: Any) -> "torch.Tensor":
     """
     import torch
     import numpy as np
-    from .features import (
+    from caustic.features import (
         NUM_SOLCHEM_FEATURES,
         TITRATABLE_NEG,
         TITRATABLE_POS,
@@ -2839,7 +2839,7 @@ def recompute_potenci_rc_from_graph(data: Any) -> "torch.Tensor":
     import torch
     import numpy as np
     try:
-        from .potenci import compute_random_coil_array
+        from caustic.potenci import compute_random_coil_array
     except Exception:
         R = int(data.num_residues)
         return torch.full((R, 6), float("nan"), dtype=torch.float32)

@@ -958,7 +958,7 @@ def compute_target_atom_environment(
         [R, 6, 15] float32 environment features.
     """
     from scipy.spatial import cKDTree
-    from .features import NUM_TARGET_ENV_FEATURES
+    from caustic.features import NUM_TARGET_ENV_FEATURES
 
     R = num_residues
     env = np.zeros((R, 6, NUM_TARGET_ENV_FEATURES), dtype=np.float32)

@@ -270,7 +270,11 @@ def predict_shifts_onnx(
             if ref is None:
                 ref = g
         except Exception as e:
-            logger.warning("ONNX inference failed on model %d: %s", mi, e)
+            import traceback
+            logger.warning(
+                "ONNX inference failed on model %d (%s: %s)\n%s",
+                mi, type(e).__name__, e, traceback.format_exc(),
+            )
 
     if not per_conf_mean or ref is None:
         raise ValueError(f"Could not run ONNX inference on any conformer of {structure_path}")
