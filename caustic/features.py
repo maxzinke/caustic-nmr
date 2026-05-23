@@ -1,8 +1,53 @@
 """Feature encoding utilities: vocabularies, RBF expansion, atom roles."""
 from __future__ import annotations
 
+import logging
+from pathlib import Path
+
 import torch
 import torch.nn.functional as F  # noqa: N812
+
+
+# ---------------------------------------------------------------------------
+# Caustic Rescue Plan A6: cache version tag
+# ---------------------------------------------------------------------------
+# NUM_GEO_FEATURES has grown 34 → 40 → 46 → 52 across D-runs. Three physics-
+# feature bugs (Efield / ring-currents / rSASA) were also fixed mid-project
+# (2026-04-21/22). All historical D-checkpoints are evaluated against the
+# current cache state, not what they trained on. CACHE_VERSION is the user-
+# visible tag of the current feature pipeline; cache snapshots use this name.
+#
+# The verify function below is a soft check — it logs a WARNING when the
+# graph_cache_dir's CACHE_VERSION file disagrees with this constant. Plumb
+# into training/inference in a follow-up; the constant alone is the A6
+# deliverable.
+
+CACHE_VERSION = "d50_v2_fixed_nc_contacts"  # d47 ring/HB + d50 capped hetero context + fixed N/C contacts
+
+_logger_a6 = logging.getLogger(__name__)
+
+
+def verify_cache_version(graph_cache_dir) -> str | None:
+    """Read ``<graph_cache_dir>/CACHE_VERSION`` and warn on drift.
+
+    Returns the cache tag found on disk (or ``None`` if the file is absent —
+    legacy caches predate the snapshot). Never raises.
+    """
+    p = Path(graph_cache_dir).expanduser() / "CACHE_VERSION"
+    if not p.exists():
+        return None
+    try:
+        on_disk = p.read_text().strip()
+    except OSError as e:
+        _logger_a6.warning("Could not read %s: %s", p, e)
+        return None
+    if on_disk != CACHE_VERSION:
+        _logger_a6.warning(
+            "Graph cache at %s has CACHE_VERSION=%r but features.py expects %r. "
+            "Re-run scripts/snapshot_cache.py or rebuild graphs.",
+            graph_cache_dir, on_disk, CACHE_VERSION,
+        )
+    return on_disk
 
 # ---------------------------------------------------------------------------
 # Backbone nuclei we predict (order matters — matches shift array columns)
@@ -43,7 +88,33 @@ NUM_NUCLEI = 6
 # [31]    frac_deut_amide (0-1)
 # [32]    frac_deut_alpha (0-1)
 # [33]    frac_deut_sidechain (0-1)
-NUM_GEO_FEATURES = 34
+# Continuous chi1 torsion (NEW — gamma-gauche effect on N shifts):
+# [34]    sin_chi1 (0.0 when chi1 undefined: GLY/ALA/PRO)
+# [35]    cos_chi1 (0.0 when chi1 undefined: GLY/ALA/PRO)
+# Nearest aromatic neighbor sidechain orientation (NEW — ring-current control):
+# [36]    arom_nb_sin_chi1 (0.0 if no aromatic within 8 A)
+# [37]    arom_nb_cos_chi1 (0.0 if no aromatic within 8 A)
+# [38]    arom_nb_sin_chi2 (0.0 if no aromatic within 8 A)
+# [39]    arom_nb_cos_chi2 (0.0 if no aromatic within 8 A)
+# D32 (2026-04-23): six new slots targeting specific pain-points surfaced
+# by the 2026-04-23 structural error audit (PRO N / CYS SS CB / terminal C').
+# Chain-aware terminal flags (NOT "first/last residue by index" — must
+# respect chain boundaries / OXT presence):
+# [40]    is_n_terminal (1.0 if first polymer residue of the extracted chain)
+# [41]    is_c_terminal (1.0 if last polymer residue AND has an OXT atom)
+# Explicit disulfide geometry for CYS-in-SS-bond residues (zero for the other 19 AAs
+# and for reduced CYS):
+# [42]    ss_dist          SG-SG distance (A) / 3.0  (partner's SG sits ~2.05 A from own SG)
+# [43]    ss_cbscb_angle   cos(CB-SG-SG'-CB') dihedral  (chi_SS)
+# [44]    ss_cb_sg_sg_ang  cos(CB-SG-SG') bond angle
+# [45]    ss_partner_sep   |i - j| / 50  (sequence separation to disulfide partner)
+# D42 (2026-04-26): H-bond partner directions in lab frame.
+# Each is a unit vector (zero if no H-bond detected). Used by the head's
+# H-bond frame projection — exposes partner-orientation info the residue
+# frame doesn't capture. Hits sheet CB / amide H/N / terminal C'.
+# [46-48] hb_nh_partner_dir  (this residue's amide H or N → partner C=O direction)
+# [49-51] hb_co_partner_dir  (this residue's carbonyl O or C → partner H-N direction)
+NUM_GEO_FEATURES = 52
 
 # ---------------------------------------------------------------------------
 # Per-target-atom local environment features (D8 — 15 features per nucleus)
@@ -71,6 +142,139 @@ NUM_GEO_FEATURES = 34
 # Disulfide geometry (1 feature):
 #   [14] nearest_SG_dist          dist to nearest disulfide SG / 8.0 (1.0 if none)
 NUM_TARGET_ENV_FEATURES = 15
+
+# ---------------------------------------------------------------------------
+# Optional chemistry feature tensors (d49)
+# ---------------------------------------------------------------------------
+# These are deliberately separate from residue_geometry and target_environment
+# so old checkpoints with use_geometry/use_target_env=True can still load with
+# their historical projection widths. New runs opt in via ModelConfig flags.
+#
+# residue_chemistry [R, NUM_RESIDUE_CHEM_FEATURES]
+#   [0]  is_cys
+#   [1]  cys_reduced_free
+#   [2]  cys_disulfide
+#   [3]  cys_metal_bound
+#   [4]  cys_heme_thioether
+#   [5]  cys_oxidized_or_ptm
+#   [6]  cys_nterm_candidate
+#   [7]  residue_metal_bound
+#   [8]  metal_coord_count / 4
+#   [9]  nearest_metal_dist / 8 (1.0 if none)
+#   [10] hetero_heavy_count_4A / 8
+#   [11] nearest_hetero_dist / 8 (1.0 if none)
+#   [12] his_metal_bound
+#   [13] charged_sidechain_near_backbone_count / 6
+#   [14] covalent_ligand_connection
+#   [15] residue_nonstandard_or_modified
+NUM_RESIDUE_CHEM_FEATURES = 16
+
+# target_chemistry [R, 6, NUM_TARGET_CHEM_FEATURES]
+#   [0]  nearest_metal_dist / 8 (1.0 if none)
+#   [1]  metal_count_4A / 4
+#   [2]  hetero_heavy_count_4A / 8
+#   [3]  hetero_heavy_count_4_8A / 16
+#   [4]  nearest_hetero_dist / 8 (1.0 if none)
+#   [5]  charged_contact_count_4A / 6
+#   [6]  nearest_charged_atom_dist / 8 (1.0 if none)
+#   [7]  polar_sidechain_contact_count_3p6A / 6
+#   [8]  signed_ring_current_sum clipped to +/-3 ppm, /3
+#   [9]  axial_ring_current_sum clipped to +/-3 ppm, /3
+#   [10] equatorial_ring_current_sum clipped to +/-3 ppm, /3
+#   [11] max_abs_ring_current clipped to 3 ppm, /3
+#   [12] aromatic_ring_count_8p5A / 8
+#   [13] nearest_ring_dist / 8.5 (1.0 if none)
+NUM_TARGET_CHEM_FEATURES = 14
+
+# target_nc_chemistry [R, 6, NUM_TARGET_NC_CHEM_FEATURES]
+#   [0] selective target-NH acceptor count / 2
+#   [1] nearest target-NH acceptor distance / cutoff (1.0 if none)
+#   [2] target-NH sidechain/hetero acceptor count / 2
+#   [3] target-NH long-range acceptor count / 2
+#   [4] selective target-CO donor/cation contact count / 2
+#   [5] nearest target-CO donor/cation contact distance / 4 (1.0 if none)
+#   [6] target-CO sidechain/hetero contact count / 2
+#   [7] target-CO cationic sidechain contact count / 2
+NUM_TARGET_NC_CHEM_FEATURES = 8
+TARGET_NC_CHEMISTRY_VERSION = 2
+
+
+def _version_int(value) -> int | None:
+    if value is None:
+        return None
+    try:
+        if hasattr(value, "detach"):
+            value = value.detach().cpu()
+        if hasattr(value, "numel") and int(value.numel()) > 0:
+            return int(value.reshape(-1)[0].item())
+        if isinstance(value, (list, tuple)) and value:
+            return int(value[0])
+        return int(value)
+    except Exception:
+        return None
+
+
+def target_nc_chemistry_is_current(data) -> bool:
+    """Return True when the cached direct N/C chemistry tensor is current."""
+    tensor = getattr(data, "target_nc_chemistry", None)
+    if tensor is None or not hasattr(tensor, "shape"):
+        return False
+    if len(tensor.shape) < 1 or int(tensor.shape[-1]) != NUM_TARGET_NC_CHEM_FEATURES:
+        return False
+    return (
+        _version_int(getattr(data, "target_nc_chemistry_version", None))
+        == TARGET_NC_CHEMISTRY_VERSION
+    )
+
+
+def stamp_target_nc_chemistry_version(data) -> None:
+    """Stamp a PyG graph after recomputing target_nc_chemistry."""
+    data.target_nc_chemistry_version = torch.tensor(
+        [TARGET_NC_CHEMISTRY_VERSION], dtype=torch.long,
+    )
+
+# edge_chemistry [E, NUM_EDGE_CHEM_FEATURES]
+#   [0] polar donor/acceptor proximity
+#   [1] backbone-backbone H-bond
+#   [2] sidechain-involved polar contact
+#   [3] charged sidechain contact
+#   [4] metal coordination/contact
+#   [5] long-range typed contact (|seq sep| >= 5)
+#   [6] sulfur/thiol contact
+#   [7] hetero/ligand contact
+NUM_EDGE_CHEM_FEATURES = 8
+
+# ---------------------------------------------------------------------------
+# Solution-chemistry features (D15 — 12 features per residue)
+# Stored as [R, NUM_SOLCHEM_FEATURES]. Combines sample-level metadata with
+# local titratable-neighbor context so the model can learn how protonation
+# state of nearby ASP/GLU/ARG/LYS/HIS/CYS/TYR sidechains perturbs the
+# backbone shifts at a given residue.
+#
+# Sample conditions (4 features, broadcast across residues):
+#   [0]  pH normalized  (pH - 6.5) / 2.0
+#   [1]  ionic strength normalized  (clamp(I, 0, 5) - 0.1) / 0.5
+#   [2]  has_ph (binary, 1 if pH was recorded for this entry)
+#   [3]  has_ionic_strength (binary, 1 if ionic strength was recorded)
+#
+# Titratable-neighbor counts within 8 A of this residue's CA (4 features):
+#   [4]  count of negative sidechains (ASP, GLU) / 5
+#   [5]  count of positive sidechains (ARG, LYS) / 5
+#   [6]  count of HIS sidechains / 3
+#   [7]  count of thiol/hydroxyl sidechains (CYS, TYR) / 3
+#
+# Nearest-distance to each titratable group (4 features, 1.0 if none):
+#   [8]  nearest negative CA / 20.0
+#   [9]  nearest positive CA / 20.0
+#   [10] nearest HIS CA / 20.0
+#   [11] nearest thiol/hydroxyl CA / 20.0
+NUM_SOLCHEM_FEATURES = 12
+
+# AA indices for titratable residue groups — verified against _CANONICAL_AA.
+TITRATABLE_NEG: frozenset[int] = frozenset({3, 6})     # ASP, GLU
+TITRATABLE_POS: frozenset[int] = frozenset({1, 11})    # ARG, LYS
+TITRATABLE_HIS: frozenset[int] = frozenset({8})        # HIS
+TITRATABLE_THIOL: frozenset[int] = frozenset({4, 18})  # CYS, TYR
 
 # ---------------------------------------------------------------------------
 # Amino acid vocabulary (canonical 20 → index 0-19, variants map in)
@@ -142,8 +346,11 @@ def normalize_residue_name(resname: str) -> tuple[int, bool, bool]:
 # Element vocabulary
 # ---------------------------------------------------------------------------
 ELEMENT_TO_IDX: dict[str, int] = {"C": 0, "N": 1, "O": 2, "S": 3, "H": 4}
-NUM_ELEMENT_TYPES = 5
-UNK_ELEMENT_IDX = NUM_ELEMENT_TYPES  # 5 = unknown; embeddings sized + 1
+# RING (5) is a virtual element used for aromatic-ring centroid nodes; it is
+# not produced by any real atom in the structure. UNK is now 6.
+RING_ELEMENT_IDX = 5
+NUM_ELEMENT_TYPES = 6
+UNK_ELEMENT_IDX = NUM_ELEMENT_TYPES  # 6 = unknown; embeddings sized + 1
 
 # ---------------------------------------------------------------------------
 # Atom role categories (backbone + sidechain classification)
@@ -157,7 +364,27 @@ ATOM_ROLE_MAP: dict[str, int] = {
 ROLE_SIDECHAIN_HEAVY = 7
 ROLE_SIDECHAIN_H = 8
 ROLE_UNKNOWN = 9
-NUM_ATOM_ROLES = 10
+ROLE_RING = 10  # aromatic-ring centroid virtual node
+ROLE_LIGAND_HEAVY = 11
+ROLE_METAL = 12
+ROLE_WATER = 13
+NUM_ATOM_ROLES = 14
+
+# ---------------------------------------------------------------------------
+# Aromatic ring atom-name conventions per AA. Each entry is a list of rings;
+# TRP has two (6-member benzene + 5-member pyrrole). When all atoms in a ring
+# are present, graph.py emits a virtual node at the centroid with element
+# RING_ELEMENT_IDX, atom_role ROLE_RING, and a node-level normal vector.
+# ---------------------------------------------------------------------------
+AROMATIC_RINGS: dict[str, list[tuple[str, ...]]] = {
+    "PHE": [("CG", "CD1", "CD2", "CE1", "CE2", "CZ")],
+    "TYR": [("CG", "CD1", "CD2", "CE1", "CE2", "CZ")],
+    "TRP": [
+        ("CD2", "CE2", "CE3", "CZ2", "CZ3", "CH2"),  # 6-member benzene
+        ("CG", "CD1", "NE1", "CE2", "CD2"),          # 5-member pyrrole
+    ],
+    "HIS": [("CG", "ND1", "CE1", "NE2", "CD2")],
+}
 
 # ---------------------------------------------------------------------------
 # Target atom names per nucleus (used to identify prediction targets in PDB)

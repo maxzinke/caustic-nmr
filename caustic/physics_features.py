@@ -101,10 +101,17 @@ def compute_ring_currents(
         [R, 6] ring current shift at each target position (ppm).
         Order: H, HA, N, CA, CB, C.
     """
+    # D30 fix (2026-04-22): canonical AA index order matching
+    # features.AA_THREE_TO_IDX. Previous list was alphabetical-by-one-letter
+    # (A,C,D,E,F,G,H,I,K,L,M,N,P,Q,R,S,T,V,W,Y) which mismapped canonical
+    # residue_types indices to wrong AA names. Consequence: ring currents
+    # attributed PHE aromatic behavior to CYS (idx 4), suppressed PHE/HIS/TRP
+    # ring currents entirely (idx 13/8/17 looked up as GLN/LYS/VAL), and
+    # gave TYR (idx 18) TRP's ring geometry. Ring current slots [12-17] of
+    # residue_geometry were garbage on every model since D14.
     _IDX_TO_AA3 = [
-        "ALA", "CYS", "ASP", "GLU", "PHE", "GLY", "HIS", "ILE",
-        "LYS", "LEU", "MET", "ASN", "PRO", "GLN", "ARG", "SER",
-        "THR", "TRP", "TYR", "VAL",
+        "ALA", "ARG", "ASN", "ASP", "CYS", "GLN", "GLU", "GLY", "HIS", "ILE",
+        "LEU", "LYS", "MET", "PHE", "PRO", "SER", "THR", "TRP", "TYR", "VAL",
     ]
 
     rc = np.zeros((num_residues, 6), dtype=np.float32)
@@ -172,7 +179,8 @@ def compute_hbond_geometry(
     residue_idx: np.ndarray,
     num_residues: int,
     bb_lookup: dict[int, dict[int, int]],
-) -> np.ndarray:
+    return_partner_dirs: bool = False,
+) -> "np.ndarray | tuple[np.ndarray, np.ndarray]":
     """Compute backbone hydrogen bond geometry features per residue.
 
     For each residue, finds the best NH→O=C (donor) and C=O←H-N (acceptor)
@@ -184,9 +192,13 @@ def compute_hbond_geometry(
         residue_idx: [N_atoms] residue index.
         num_residues: R.
         bb_lookup: {res_i: {role: atom_idx}} for backbone atoms.
+        return_partner_dirs: if True, also return a [R, 6] array of unit
+            vectors pointing from each residue's amide H/N (or carbonyl O/C)
+            toward its H-bond partner. Zero rows if no partner. Used by
+            D42's H-bond frame projection.
 
     Returns:
-        [R, 7] features:
+        [R, 7] features (default), or ([R, 7], [R, 6]) if return_partner_dirs:
           [0] hb_nh_d: NH→O distance / 3.5 (1.0 if no bond)
           [1] hb_nh_cos_nho: cos(N-H···O) donor angle (0 if no bond)
           [2] hb_nh_cos_hoc: cos(H···O=C) acceptor angle (0 if no bond)
@@ -194,8 +206,13 @@ def compute_hbond_geometry(
           [4] hb_co_d: CO←H distance / 3.5 (1.0 if no bond)
           [5] hb_co_cos_coh: cos(C=O···H) angle (0 if no bond)
           [6] hb_co_present: 1.0 if CO H-bond detected
+
+        If return_partner_dirs:
+          partner_dirs[:, 0:3]: nh_partner_dir (NH donor → O acceptor unit vec)
+          partner_dirs[:, 3:6]: co_partner_dir (CO acceptor → H donor unit vec)
     """
     hb = np.zeros((num_residues, 7), dtype=np.float32)
+    partner_dirs = np.zeros((num_residues, 6), dtype=np.float32)
     # Default: no bond → distance = 3.5/3.5 = 1.0
     hb[:, 0] = 1.0
     hb[:, 4] = 1.0
@@ -224,6 +241,7 @@ def compute_hbond_geometry(
         best_d = 3.5
         best_cos_nho = 0.0
         best_cos_hoc = 0.0
+        best_partner_o = None  # D42: store the chosen O position for partner_dir
         found = False
 
         for co_ri, c_pos, o_pos in co_atoms_list:
@@ -275,17 +293,27 @@ def compute_hbond_geometry(
             best_d = d_ho
             best_cos_nho = cos_nho
             best_cos_hoc = cos_hoc
+            best_partner_o = o_pos
             found = True
 
         hb[n_ri, 0] = best_d / 3.5
         hb[n_ri, 1] = best_cos_nho
         hb[n_ri, 2] = best_cos_hoc
         hb[n_ri, 3] = 1.0 if found else 0.0
+        # D42: partner direction = (acceptor_O − donor_anchor) / |·|.
+        # Use H position when available, else fall back to N.
+        if found and best_partner_o is not None:
+            anchor = h_pos if h_pos is not None else n_pos
+            d_vec = best_partner_o - anchor
+            d_norm = np.linalg.norm(d_vec)
+            if d_norm > 1e-6:
+                partner_dirs[n_ri, 0:3] = d_vec / d_norm
 
     # For each residue's C=O, find best H-N donor
     for co_ri, c_pos, o_pos in co_atoms_list:
         best_d = 3.5
         best_cos_coh = 0.0
+        best_partner_donor = None  # D42: store the chosen H/N position
         found = False
 
         for n_ri, n_pos, h_pos in n_atoms_list:
@@ -318,12 +346,21 @@ def compute_hbond_geometry(
 
             best_d = d_oh
             best_cos_coh = cos_coh
+            best_partner_donor = h_pos if h_pos is not None else n_pos
             found = True
 
         hb[co_ri, 4] = best_d / 3.5
         hb[co_ri, 5] = best_cos_coh
         hb[co_ri, 6] = 1.0 if found else 0.0
+        # D42: partner direction = (donor − acceptor_O) / |·|.
+        if found and best_partner_donor is not None:
+            d_vec = best_partner_donor - o_pos
+            d_norm = np.linalg.norm(d_vec)
+            if d_norm > 1e-6:
+                partner_dirs[co_ri, 3:6] = d_vec / d_norm
 
+    if return_partner_dirs:
+        return hb, partner_dirs
     return hb
 
 
@@ -352,7 +389,7 @@ def compute_sasa_and_hse(
     bb_lookup: dict[int, dict[int, int]],
     num_residues: int,
     n_sphere_points: int = 92,
-) -> np.ndarray:
+) -> tuple[np.ndarray, np.ndarray]:
     """Compute relative SASA and half-sphere exposure per residue.
 
     Uses KDTree-accelerated Shrake-Rupley algorithm.
@@ -369,11 +406,27 @@ def compute_sasa_and_hse(
         n_sphere_points: Points on unit sphere for SASA (Fibonacci).
 
     Returns:
-        [R, 3] features: [rSASA (0-1), HSE_up (/50), HSE_down (/50)]
+        Tuple of:
+          - residue_features: [R, 3] — [rSASA (0-1), HSE_up (/50), HSE_down (/50)]
+          - atom_rsasa: [N_atoms] — atom-sphere-normalized rSASA
+            (= n_exposed / n_sphere_points) for heavy atoms; NaN for H
+            atoms. This is the *fraction of the atom's own vdW+probe
+            sphere that is solvent-exposed*, independent of AA identity
+            or residue-level reference — pure per-atom granularity.
     """
     from scipy.spatial import cKDTree
 
-    _IDX_TO_AA1 = "ACDEFGHIKLMNPQRSTVWY"
+    # D30 fix (2026-04-22): canonical AA index order matching
+    # features.AA_THREE_TO_IDX. Previous list was alphabetical-by-one-letter
+    # ("ACDEFGHIKLMNPQRSTVWY") — only ALA, SER, THR happened to align with
+    # canonical indexing by coincidence. All 17 other AAs were normalized
+    # by the wrong _MAX_SASA divisor. Per-residue rSASA at slot 25 of
+    # residue_geometry was systematically wrong since D14.
+    # Canonical order: ALA, ARG, ASN, ASP, CYS, GLN, GLU, GLY, HIS, ILE,
+    # LEU, LYS, MET, PHE, PRO, SER, THR, TRP, TYR, VAL
+    # One-letter:      A,   R,   N,   D,   C,   Q,   E,   G,   H,   I,
+    #                  L,   K,   M,   F,   P,   S,   T,   W,   Y,   V
+    _IDX_TO_AA1 = "ARNDCQEGHILKMFPSTWYV"
     _ELEM_MAP = {0: "C", 1: "N", 2: "O", 3: "S", 4: "H"}
 
     result = np.zeros((num_residues, 3), dtype=np.float32)
@@ -393,10 +446,13 @@ def compute_sasa_and_hse(
     pos_np = pos.numpy() if hasattr(pos, 'numpy') else np.asarray(pos)
     res_idx_np = residue_idx.numpy() if hasattr(residue_idx, 'numpy') else np.asarray(residue_idx)
 
+    # Atom-sphere-normalized rSASA per atom (NaN for H; filled for heavy atoms below)
+    atom_rsasa_full = np.full(len(elem_arr), np.nan, dtype=np.float32)
+
     heavy_mask = elem_arr != 4
     heavy_idx = np.where(heavy_mask)[0]
     if len(heavy_idx) == 0:
-        return result
+        return result, atom_rsasa_full
 
     heavy_pos = pos_np[heavy_idx]
     heavy_radii = np.array([
@@ -433,6 +489,11 @@ def compute_sasa_and_hse(
                 n_exposed += 1
 
         atom_sasa[ii] = 4 * math.pi * r_i**2 * n_exposed / n_sphere_points
+        # Atom-sphere normalized rSASA: fraction of this atom's own
+        # vdW+probe sphere that is solvent-exposed. Equivalent to
+        # atom_sasa[ii] / (4*pi*r_i**2). Pure per-atom quantity, no
+        # AA-type or residue-level reference.
+        atom_rsasa_full[heavy_idx[ii]] = n_exposed / n_sphere_points
 
     # Aggregate per-residue SASA
     res_sasa = np.zeros(num_residues, dtype=np.float64)
@@ -497,7 +558,74 @@ def compute_sasa_and_hse(
             result[ri, 1] = up_count / 50.0
             result[ri, 2] = down_count / 50.0
 
-    return result
+    return result, atom_rsasa_full
+
+
+def compute_target_atom_rsasa(
+    atom_rsasa_full: np.ndarray,
+    target_indices: np.ndarray,
+    target_mask: np.ndarray,
+    atom_role: np.ndarray,
+    bb_lookup: dict[int, dict[int, int]],
+    num_residues: int,
+) -> np.ndarray:
+    """Build per-target-atom rSASA tensor of shape [R, 6].
+
+    Target-nucleus indexing matches BACKBONE_NUCLEI:
+        0=H, 1=HA, 2=N, 3=CA, 4=CB, 5=C
+
+    Heavy target atoms (N, CA, CB, C) look up their own rSASA directly.
+    Hydrogen targets (H, HA) inherit their parent heavy atom's rSASA:
+        H  → parent N  (role index 0)
+        HA → parent CA (role index 1)
+    Missing target atoms return 0.0 (and the corresponding mask slot
+    will already be False in target_mask).
+
+    Args:
+        atom_rsasa_full: [N_atoms] atom-sphere-normalized rSASA from
+            compute_sasa_and_hse (NaN for H atoms).
+        target_indices: [R, 6] atom index per target nucleus.
+        target_mask: [R, 6] bool — True if target atom exists.
+        atom_role: [N_atoms] role indices (N=0, CA=1, C=2, O=3, CB=4,
+            H=5, HA=6, sc_heavy=7, sc_H=8).
+        bb_lookup: {ri: {role: atom_idx}}.
+        num_residues: R.
+
+    Returns:
+        [R, 6] float32 — per-target-atom rSASA (0-1), 0.0 where absent.
+    """
+    R = num_residues
+    out = np.zeros((R, 6), dtype=np.float32)
+    N = len(atom_rsasa_full)
+
+    for ri in range(R):
+        bb = bb_lookup.get(ri, {})
+        for ni in range(6):
+            if not target_mask[ri, ni]:
+                continue
+            atom_idx = int(target_indices[ri, ni])
+            if atom_idx < 0 or atom_idx >= N:
+                continue
+
+            val = atom_rsasa_full[atom_idx]
+            if not np.isnan(val):
+                out[ri, ni] = float(val)
+                continue
+
+            # H or HA: inherit from parent heavy atom.
+            # ni 0 = H  → parent N  (bb role 0)
+            # ni 1 = HA → parent CA (bb role 1)
+            parent_role = 0 if ni == 0 else (1 if ni == 1 else None)
+            if parent_role is None:
+                continue
+            parent_ai = bb.get(parent_role)
+            if parent_ai is None:
+                continue
+            pval = atom_rsasa_full[parent_ai]
+            if not np.isnan(pval):
+                out[ri, ni] = float(pval)
+
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -549,30 +677,43 @@ def compute_dssp_3state(
             # Build seqid -> dssp mapping from the result
             # gemmi.calculate_dssp returns a list of (chain, residue, ss_code) or similar
             # The exact API depends on gemmi version; fall through to fallback if it fails
-            if hasattr(dssp_result, '__iter__'):
-                # dssp_result may be a string of SS codes for the whole model
-                if isinstance(dssp_result, str):
-                    # One character per residue in chain order
-                    target_chain = None
-                    for chain in model:
-                        if chain_id is None or chain.name == chain_id:
-                            target_chain = chain
-                            break
-                    if target_chain is not None and seq_ids is not None:
-                        # Map residues to SS codes
-                        chain_residues = list(target_chain.get_polymer())
-                        ss_by_seqid = {}
-                        for i, res in enumerate(chain_residues):
-                            if i < len(dssp_result):
-                                ss_by_seqid[res.seqid.num] = dssp_result[i]
-                        for ri in range(num_residues):
-                            sid = int(seq_ids[ri])
-                            ss = ss_by_seqid.get(sid, ' ')
-                            if ss in helix_codes:
-                                result[ri] = 1.0
-                            elif ss in sheet_codes:
-                                result[ri] = -1.0
-                    return result
+            # Bug R: track whether the string-specific branch actually ran,
+            # so we don't return an all-zero 'coil' result when a newer
+            # gemmi returns a non-string iterable we don't know how to
+            # consume. On non-string returns, fall through to the PDB-
+            # records fallback instead of silently returning zeros.
+            _dssp_handled = False
+            if isinstance(dssp_result, str):
+                target_chain = None
+                for chain in model:
+                    if chain_id is None or chain.name == chain_id:
+                        target_chain = chain
+                        break
+                if target_chain is not None and seq_ids is not None:
+                    chain_residues = list(target_chain.get_polymer())
+                    ss_by_seqid = {}
+                    for i, res in enumerate(chain_residues):
+                        if i < len(dssp_result):
+                            ss_by_seqid[res.seqid.num] = dssp_result[i]
+                    for ri in range(num_residues):
+                        sid = int(seq_ids[ri])
+                        ss = ss_by_seqid.get(sid, ' ')
+                        if ss in helix_codes:
+                            result[ri] = 1.0
+                        elif ss in sheet_codes:
+                            result[ri] = -1.0
+                    _dssp_handled = True
+            elif dssp_result is not None:
+                logger.warning(
+                    "compute_dssp_3state: gemmi.calculate_dssp returned a "
+                    "non-string result (type=%s); falling back to PDB "
+                    "helix/strand records. Upgrade the DSSP handler for "
+                    "the current gemmi version to restore full coverage.",
+                    type(dssp_result).__name__,
+                )
+            if _dssp_handled:
+                return result
+            # else: fall through to the PDB-deposited fallback below
         except (AttributeError, TypeError):
             pass  # gemmi version doesn't have calculate_dssp
 
@@ -610,6 +751,17 @@ def compute_dssp_3state(
     except Exception as e:
         logger.debug("DSSP computation failed: %s", e)
 
+    # Bug R tripwire: for a real protein of ≥ 30 residues, an all-zero DSSP
+    # result (100% coil) is essentially always a computation failure, not
+    # a real biological signal. Log a debug-level hint so audits can spot
+    # silent DSSP regressions after gemmi upgrades.
+    if num_residues >= 30 and float(result.sum()) == 0.0 and float(np.abs(result).sum()) == 0.0:
+        logger.debug(
+            "compute_dssp_3state: all %d residues labeled coil (no H/E). "
+            "Possibly a gemmi-API or PDB-records fallback miss.",
+            num_residues,
+        )
+
     return result
 
 
@@ -639,10 +791,17 @@ def compute_electric_field(
     Returns:
         [R, 2]: [Efield_NH / 0.1, Efield_CaHa / 0.1]
     """
+    # D29 fix (2026-04-21): canonical AA index order matching
+    # features.AA_THREE_TO_IDX. The previous list had CYS at index 1
+    # (should be 4), ASP at 2 (should be 3), GLU at 3 (should be 6),
+    # etc. — every charged-residue lookup was reading the wrong AA from
+    # the residue_types array, so the formal-charge sum was drawn from
+    # essentially random positions in the protein. All checkpoints from
+    # D14 onward were trained on scrambled Efield features at slots
+    # 28-29 of residue_geometry.
     _IDX_TO_AA3 = [
-        "ALA", "CYS", "ASP", "GLU", "PHE", "GLY", "HIS", "ILE",
-        "LYS", "LEU", "MET", "ASN", "PRO", "GLN", "ARG", "SER",
-        "THR", "TRP", "TYR", "VAL",
+        "ALA", "ARG", "ASN", "ASP", "CYS", "GLN", "GLU", "GLY", "HIS", "ILE",
+        "LEU", "LYS", "MET", "PHE", "PRO", "SER", "THR", "TRP", "TYR", "VAL",
     ]
 
     # Charged atom definitions: {AA3: [(atom_name, charge)]}
@@ -799,7 +958,7 @@ def compute_target_atom_environment(
         [R, 6, 15] float32 environment features.
     """
     from scipy.spatial import cKDTree
-    from caustic.features import NUM_TARGET_ENV_FEATURES
+    from .features import NUM_TARGET_ENV_FEATURES
 
     R = num_residues
     env = np.zeros((R, 6, NUM_TARGET_ENV_FEATURES), dtype=np.float32)
