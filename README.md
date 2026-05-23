@@ -4,7 +4,9 @@
 
 Predict NMR backbone chemical shifts (H, HA, N, CA, CB, C') from any PDB, mmCIF, or AlphaFold protein structure.
 
-A 400K-parameter SchNet graph neural network trained on 4,834 BMRB-linked experimental structures. Beats SPARTA+, LEGOLAS, and UCBShift2 on all 6 backbone nuclei on a 712-protein homology-separated test set.
+A ~740K-parameter **PaiNN equivariant** graph neural network trained on 3,400+ BMRB-linked experimental structures with carbon-aggressive label-noise cleaning. Beats SPARTA+, LEGOLAS, and UCBShift2 on all 6 backbone nuclei on a homology-separated test set (`cc.test`, n=735).
+
+**v0.3.0** (2026-05-22) — Carbon predictions improved by retraining on cleaned labels: CA −5.7%, CB −5.5%, C −3.7% relative MAE on cc.test vs the previous PaiNN baseline. Net composite improvement **−4.37%** (paired bootstrap by protein, CI [−0.041, −0.024] excludes zero). H/HA/N unchanged — proton noise is biological (dynamics, exchange), not referencing drift; only carbons benefit from cleaning the systematic referencing offsets out of training.
 
 ![CAUSTIC vs SPARTA+ vs UCBShift2](docs/caustic_summary.png)
 
@@ -31,8 +33,11 @@ caustic AF-P12345-F1-model_v4.cif
 
 ```python
 from caustic import predict_shifts_onnx
+from importlib.resources import files
 
-result = predict_shifts_onnx("myprotein.pdb", "path/to/best.onnx")
+# v0.3.0 ships the carbon-cleaned PaiNN checkpoint inside the package
+ckpt = files("caustic.data") / "best_v2_carbons.onnx"
+result = predict_shifts_onnx("myprotein.pdb", str(ckpt))
 
 # Per-residue arrays
 print(result.mean["CA"])   # CA shifts in ppm

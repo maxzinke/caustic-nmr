@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "caustic"
-version = "0.1.0"
+version = "0.3.0"
 description = "Predict NMR backbone chemical shifts from 3D protein structure"
 readme = "README.md"
 license = "MIT"
@@ -47,6 +47,17 @@ Documentation = "https://github.com/bluegems661/caustic#readme"
 
 [tool.hatch.build.targets.wheel]
 packages = ["caustic"]
+
+[tool.hatch.build.targets.wheel.force-include]
+"caustic/data/best_v2_carbons.onnx" = "caustic/data/best_v2_carbons.onnx"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "caustic/**/*.py",
+    "caustic/data/*.onnx",
+    "README.md",
+    "pyproject.toml",
+]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

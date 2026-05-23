@@ -5,3 +5,6 @@ dist/
 build/
 .eggs/
 *.onnx
+# v0.3.0 shipped checkpoint: bundle inside the wheel so `pip install caustic`
+# is self-contained. Override the blanket *.onnx rule for this one path.
+!caustic/data/*.onnx
