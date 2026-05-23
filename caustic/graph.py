@@ -309,7 +309,33 @@ try:
             return super().__cat_dim__(key, value, *args, **kw)
 
 except ImportError:
-    ProteinData = None  # type: ignore[misc,assignment]
+    # Lightweight fallback when torch_geometric isn't installed (HF Space /
+    # ONNX-only inference). The full PyG Data class is only needed for batched
+    # training; single-protein inference just needs an attribute container that
+    # tolerates .clone() / .to(device) no-ops.
+    class ProteinData:  # type: ignore[no-redef]
+        def __init__(self, **kwargs: Any):
+            for k, v in kwargs.items():
+                setattr(self, k, v)
+
+        def clone(self):
+            new = ProteinData()
+            for k, v in self.__dict__.items():
+                try:
+                    new_v = v.clone() if hasattr(v, "clone") else v
+                except Exception:
+                    new_v = v
+                setattr(new, k, new_v)
+            return new
+
+        def to(self, device):
+            for k, v in list(self.__dict__.items()):
+                if hasattr(v, "to"):
+                    try:
+                        setattr(self, k, v.to(device))
+                    except Exception:
+                        pass
+            return self
 
 
 # ---------------------------------------------------------------------------
