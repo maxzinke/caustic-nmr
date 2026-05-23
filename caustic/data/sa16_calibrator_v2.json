@@ -1,0 +1,29 @@
+{
+  "version": "sa16_v2_carbons_slim",
+  "description": "Global per-nucleus offsets + CYS-CB disulfide/metal/reduced modifiers. Stratum offsets (dssp x aromatic x rSASA) omitted in v1 deploy because aromatic ring count requires neighbor search not in the external graph pipeline.",
+  "global_offsets": {
+    "C": -0.01171875,
+    "CA": 0.024677276611328125,
+    "CB": -0.004974365234375,
+    "H": 0.0025894641876220703,
+    "HA": 0.0076770782470703125,
+    "N": 0.02962493896484375
+  },
+  "cys_modifiers": {
+    "disulfide": {
+      "n": 85,
+      "offset": 1.3605753600083288,
+      "shrunk": false
+    },
+    "metal_bound": {
+      "n": 357,
+      "offset": 0.06541870738589065,
+      "shrunk": false
+    },
+    "reduced_free": {
+      "n": 413,
+      "offset": 0.31903251583011816,
+      "shrunk": false
+    }
+  }
+}

@@ -195,6 +195,7 @@ def predict_shifts_onnx(
     use_ensemble: bool = True,
     max_conformers: int = 20,
     session: Any | None = None,
+    apply_calibrator: bool = True,
 ) -> ShiftPrediction:
     """Predict backbone shifts via a pre-exported ONNX model.
 
@@ -226,6 +227,10 @@ def predict_shifts_onnx(
     session: optional pre-opened ``onnxruntime.InferenceSession``. When
         the caller predicts many structures, reuse a single session rather
         than re-loading the ``.onnx`` each call.
+    apply_calibrator: when True (default), apply the slim SA16 post-prediction
+        calibration after ONNX inference: global per-nucleus offsets +
+        CYS-CB disulfide modifier. Disulfide bonds detected via Sγ-Sγ
+        distance gate. Set False to get raw ONNX outputs.
     """
     # Local imports so onnxruntime / the export module stay optional at
     # package import time — callers that only use the PyTorch path never
@@ -287,6 +292,28 @@ def predict_shifts_onnx(
     num_res = int(ref.num_residues)
     seq_ids = ref.seq_ids.tolist()
     residue_names = _residue_types_to_three_letter(ref.residue_types)
+
+    if apply_calibrator:
+        # SA16 v2 slim: global per-nucleus offsets + CYS-CB disulfide
+        # modifier (Sγ-Sγ distance gate). See caustic/calibrate.py.
+        try:
+            from caustic.calibrate import (
+                apply_calibrator as _apply_cal,
+                detect_disulfides,
+                find_cys_sg_indices,
+                load_calibrator,
+            )
+            calibrator = load_calibrator()
+            sg_indices = find_cys_sg_indices(ref)
+            ref_pos = ref.pos.detach().cpu().numpy() if hasattr(ref.pos, "detach") else np.asarray(ref.pos)
+            disulfide_set = detect_disulfides(ref_pos, residue_names, sg_indices)
+            agg_mean = _apply_cal(agg_mean, residue_names, disulfide_set, calibrator)
+            logger.info(
+                "Applied SA16 v2 slim calibration (%d disulfide CYS detected)",
+                len(disulfide_set),
+            )
+        except Exception as e:
+            logger.warning("Calibration failed (%s); returning uncalibrated predictions.", e)
 
     result = ShiftPrediction(
         seq_ids=seq_ids,

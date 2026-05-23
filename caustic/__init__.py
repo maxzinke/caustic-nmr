@@ -12,6 +12,11 @@ CI [−0.041, −0.024] excludes zero) vs the previous PaiNN baseline.
 Heavy atoms benefit most: CA −5.7%, CB −5.5%, C −3.7%; H/HA/N
 unchanged (proton noise is biological, not referencing drift).
 
+v0.3.0 also embeds slim SA16 post-prediction calibration: global
+per-nucleus offsets + a +1.36 ppm CYS-CB modifier for disulfide-bonded
+cysteines (detected via Sγ-Sγ distance gate). On by default; opt out
+with ``predict_shifts_onnx(..., apply_calibrator=False)``.
+
 Quick start::
 
     caustic input.pdb -o shifts.nef
