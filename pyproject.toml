@@ -3,7 +3,11 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "caustic"
+# Distribution name, not the import name. `caustic` on PyPI belongs to an unrelated
+# gravitational-lensing project, so declaring it would have pointed installers at a
+# stranger's package. The import name stays `caustic`, matching the sibling
+# `facet-nmr`/`facet` pair.
+name = "caustic-nmr"
 version = "0.3.0"
 description = "Predict NMR backbone chemical shifts from 3D protein structure"
 readme = "README.md"

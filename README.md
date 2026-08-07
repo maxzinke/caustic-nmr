@@ -17,7 +17,7 @@ A ~740K-parameter **PaiNN equivariant** graph neural network trained on 3,400+ B
 ## Quick start
 
 ```bash
-pip install caustic
+pip install caustic-nmr
 
 # Predict shifts from a PDB file
 caustic myprotein.pdb
