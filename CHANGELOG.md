@@ -23,6 +23,14 @@ predictions are unchanged; everything around them is fixed or new.
   (unused imports/variables, an ambiguous variable name in `potenci.py`).
 - `--backend` help text claimed no PyTorch was needed; PyTorch is a hard
   dependency for graph construction in both backends.
+- `caustic --help` raised `UnicodeEncodeError` when stdout was redirected under
+  an OEM console codepage (cp437/cp850), because the help strings contained em
+  dashes. The help text is now ASCII-only.
+- The sdist shipped `tests/` but not `examples/`, so the test suite could not run
+  inside an unpacked sdist; the example structures are now included.
+- `benchmarks/check_leakage.py` rewrote the committed leakage report on every run,
+  silently degrading it when the competitor reference databases were absent.
+  Writing now requires `--write`.
 
 ### Added
 - Provenance stamp in every output: package version, model file and SHA-256,
@@ -52,6 +60,8 @@ predictions are unchanged; everything around them is fixed or new.
   URLs, `dev` extra; project moved to `github.com/maxzinke/caustic-nmr`, branch
   `main`.
 - NMR-STAR default entry id `crystalline_predicted` → `caustic_predicted`.
+- `ruff` is upper-bounded in the `dev` extra so a new linter release cannot turn
+  CI red without a repository change.
 - README rewritten; the previous README listed two features that have no
   implementation in the package ("pLDDT-calibrated sigma widening" and
   "isotonic CDF calibration") — both removed from the feature list. The
