@@ -26,7 +26,7 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 OUT = HERE / "tmp" / "pdb_prepared"
-PDB_DIR = Path(os.environ.get("CAUSTIC_BENCH_PDB_DIR", Path.home() / ".crystalline_fid" / "pdb_cache"))
+PDB_DIR = Path(os.environ.get("CAUSTIC_BENCH_PDB_DIR", Path.home() / ".caustic-data" / "pdb_cache"))
 
 
 def prepare_one(pdb_id: str, chain_id: str, out_path: Path) -> dict:

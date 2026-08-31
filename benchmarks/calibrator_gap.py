@@ -3,14 +3,15 @@ calibrator of record?
 
 The package ships ``sa16_calibrator_v2.json`` = global per-nucleus offsets +
 CYS-CB modifiers. The calibrator the internal record was measured with
-(``calibrator_ensemble`` in the noft report ``20260522_sa16_v2_carbons_combo.json``)
+(``calibrator_ensemble`` in the training repository's report
+``20260522_sa16_v2_carbons_combo.json``)
 has the same two components plus per-(nucleus, DSSP class, aromatic-ring bin,
 atom-rSASA bin) stratum offsets. Because the shared components are identical,
 full − slim = the stratum offset alone, so the full calibrator can be applied
 on top of the public-path predictions without re-running the model.
 
 The three stratum features come from the **production medoid graphs**
-(``~/.crystalline_fid/shift_predictor_graphs/<id>.pt``): the DSSP 3-state label is
+(``$CAUSTIC_DATA_HOME/shift_predictor_graphs/<id>.pt``): the DSSP 3-state label is
 pre-stored on those graphs at build time and the public package cannot compute it
 (``structure_to_graph`` zero-fills feature [30]; a first version of this script used the
 public graphs and its ``dssp_nonzero_frac`` counter caught every residue reading "coil").
@@ -46,9 +47,9 @@ import numpy as np
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 RESULTS = HERE / "results"
-GRAPH_DIR = Path(os.environ.get("CRYSTALLINE_FID_HOME", Path.home() / ".crystalline_fid")) / "shift_predictor_graphs"
+GRAPH_DIR = Path(os.environ.get("CAUSTIC_DATA_HOME", Path.home() / ".caustic-data")) / "shift_predictor_graphs"
 NUCLEI = ["H", "HA", "N", "CA", "CB", "C"]
-DEFAULT_FULL = Path(os.environ.get("NOFT_DIR", r"C:\Users\maxim\Documents\coding\noft")) / "reports" / "caustic" / "active" / "20260522_sa16_v2_carbons_combo.json"
+DEFAULT_FULL = Path(os.environ.get("TRAINING_REPO_DIR", Path.home() / "training-repo")) / "reports" / "caustic" / "active" / "20260522_sa16_v2_carbons_combo.json"
 
 
 def bin_rsasa(v: float) -> str:

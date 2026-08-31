@@ -57,7 +57,7 @@ by a single-model file whose CA B-factors all lie in [0, 100] with median > 50
 to a pseudo-B-factor `100 − pLDDT` before it enters the node features (`graph.py:870-873`).
 Nothing else changes — see [LIMITATIONS.md](LIMITATIONS.md) §4.
 
-**Temperature.** The model has a temperature input `(T − 298) / 20` (noft
+**Temperature.** The model has a temperature input `(T − 298) / 20` (training repository,
 `dataset.py:1366-1378`). At inference the package does not read a temperature, so the
 feature is zero, i.e. every prediction is made for **298 K** (`export.py:553-558`).
 

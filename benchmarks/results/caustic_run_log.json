@@ -1,7 +1,7 @@
 {
  "meta": {
   "caustic_version": "0.3.0",
-  "caustic_file": "C:\\Users\\maxim\\AppData\\Local\\Temp\\claude\\C--Users-maxim-Documents-coding-noft\\74e8ae82-f4aa-48ae-9bad-765f3e6e9061\\scratchpad\\bench_venv\\Lib\\site-packages\\caustic\\__init__.py",
+  "caustic_file": "<tmp>",
   "onnx_sha256": "ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2",
   "max_conformers": "package default",
   "python": "3.13.3",

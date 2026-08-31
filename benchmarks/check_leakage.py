@@ -27,9 +27,9 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 RESULTS = HERE / "results"
-CSPRED = Path(os.environ.get("CSPRED_DIR", r"C:\Users\maxim\Documents\coding\noft\deps\CSpred"))
+CSPRED = Path(os.environ.get("CSPRED_DIR", Path.home() / "CSpred"))
 SPARTAP = Path(os.environ.get("SPARTAP_DIR", r"C:\tmp\SPARTA+"))
-GRAPH_DIR = Path(os.environ.get("CRYSTALLINE_FID_HOME", Path.home() / ".crystalline_fid")) / "shift_predictor_graphs"
+GRAPH_DIR = Path(os.environ.get("CAUSTIC_DATA_HOME", Path.home() / ".caustic-data")) / "shift_predictor_graphs"
 
 
 def ids(name: str) -> set[str]:

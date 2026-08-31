@@ -10,7 +10,7 @@ Metric definitions (the only ones used anywhere in the repository):
   table scores each method on whatever it predicted — it is reported only to
   show coverage and is never used for a claim.
 * **Per-protein composite** (the definition used for the internal record,
-  ``noft/scripts/phase5_final_pipeline_bootstrap.py::composite_per_protein``):
+  the training repository's ``phase5_final_pipeline_bootstrap.py::composite_per_protein``):
   per protein, MAE per nucleus, then the weighted mean over the nuclei the
   protein has, weights H 1, HA 1, N 1, CA 1.5, CB 2, C 1; the headline
   composite is the mean of that over proteins.

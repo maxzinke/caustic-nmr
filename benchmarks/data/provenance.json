@@ -1,7 +1,7 @@
 {
  "sources": {
   "splits": {
-   "path": "C:\\Users\\maxim\\.crystalline_fid\\shift_predictor_graphs\\splits.connected_components.json",
+   "path": "<path>",
    "sha256": "322f3bfb8103a14318e1e4f537bf2b93fc6293a081a5df84cc586ddebdf13d81",
    "sizes": {
     "train": 3433,
@@ -10,12 +10,12 @@
    }
   },
   "crystalline_all.npz": {
-   "path": "C:\\Users\\maxim\\.crystalline_fid\\crystalline_cache\\crystalline_all.npz",
+   "path": "<path>",
    "sha256": "7e8d7b17a632ee44f317f793ab9af4a9f5c3f93c6e1b94208a914493bb4233c9",
    "n_rows": 448819
   },
   "blocklist": {
-   "path": "C:\\Users\\maxim\\Documents\\coding\\noft\\results\\caustic_label_blocklists\\label_blocklist_v2_sweep_carbons.json",
+   "path": "<training-repo>/results\\caustic_label_blocklists\\label_blocklist_v2_sweep_carbons.json",
    "sha256": "49a28864be9dcd7fd5da90396c293145ad074dee96635af5e6a866bd1c693bdc",
    "metadata": {
     "date": "2026-05-21",

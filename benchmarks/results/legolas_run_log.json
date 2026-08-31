@@ -2712,7 +2712,7 @@
   },
   "30140": {
    "status": "error",
-   "error": "FileNotFoundError: prepared PDB missing: C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30140.pdb",
+   "error": "FileNotFoundError: prepared PDB missing: <repo>/benchmarks\\tmp\\pdb_prepared\\30140.pdb",
    "seconds": 0.0
   },
   "30155": {
@@ -3683,7 +3683,7 @@
    "n_model_files": 30,
    "model_files_sha256_of_concatenated_sha256s": "545a96c4fa3e9162155f50e1c0c71d6c2c4c1736d61b1e3d13933100fbce189b",
    "model_file_mtime": "2026-03-29T15:30:50.192506",
-   "wrapper": "crystalline_fid.crystalline.data.legolas_runner (AEV + 30-model ensemble, constants copied from the LEGOLAS repository)"
+   "wrapper": "training-pipeline.crystalline.data.legolas_runner (AEV + 30-model ensemble, constants copied from the LEGOLAS repository)"
   },
   "started": "2026-08-30T18:46:37+00:00"
  },
@@ -3692,7 +3692,7 @@
   "n_ok": 734,
   "n_error": 1,
   "errors": {
-   "30140": "FileNotFoundError: prepared PDB missing: C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30140.pdb"
+   "30140": "FileNotFoundError: prepared PDB missing: <repo>/benchmarks\\tmp\\pdb_prepared\\30140.pdb"
   },
   "total_seconds": 211.3
  }

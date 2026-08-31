@@ -2,7 +2,7 @@
  "meta": {
   "caustic_version": "0.3.0",
   "onnx_sha256": "ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2",
-  "graph_dir": "C:\\Users\\maxim\\.crystalline_fid\\shift_predictor_graphs",
+  "graph_dir": "<path>",
   "conformers": "medoid graph only"
  },
  "entries": {

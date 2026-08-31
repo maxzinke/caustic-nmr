@@ -1,7 +1,7 @@
 """Reference point: the shipped ONNX model run on the *production* graphs.
 
 The internal record was measured on graphs built by the training pipeline
-(``~/.crystalline_fid/shift_predictor_graphs/<bmrb_id>.pt``: medoid conformer,
+(``$CAUSTIC_DATA_HOME/shift_predictor_graphs/<bmrb_id>.pt``: medoid conformer,
 DSSP 3-state pre-stored, NMR-ensemble features, BMRB sample conditions). The
 public path rebuilds the graph from the structure file with the package's
 ``structure_to_graph`` and does not have all of those. Running the same ONNX
@@ -11,8 +11,8 @@ this column (``caustic_recordgraph``) and the public column (``caustic``) is
 the public-path parity gap.
 
 Medoid conformer only (the record additionally averaged up to 5 alternative
-conformers). Requires the private graph cache and the ``noft`` checkout on
-``sys.path`` (the cached objects are ``crystalline_fid`` ``ProteinData``).
+conformers). Requires the private graph cache and the training repository on ``sys.path``
+(the cached objects are its ``ProteinData``).
 """
 from __future__ import annotations
 
@@ -32,8 +32,8 @@ import numpy as np
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 RESULTS = HERE / "results"
-GRAPH_DIR = Path(os.environ.get("CRYSTALLINE_FID_HOME", Path.home() / ".crystalline_fid")) / "shift_predictor_graphs"
-NOFT = Path(os.environ.get("NOFT_DIR", r"C:\Users\maxim\Documents\coding\noft"))
+GRAPH_DIR = Path(os.environ.get("CAUSTIC_DATA_HOME", Path.home() / ".caustic-data")) / "shift_predictor_graphs"
+NOFT = Path(os.environ.get("TRAINING_REPO_DIR", Path.home() / "training-repo"))
 NUCLEI = ["H", "HA", "N", "CA", "CB", "C"]
 
 

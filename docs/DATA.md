@@ -138,11 +138,14 @@ counted for this document (not verified).
 
 ## 6. Licences and redistribution
 
-- **BMRB.** Deposited data are freely available; BMRB asks that users cite the database
-  (Hoch et al., *Nucleic Acids Res.* 2023) and the depositors. No BMRB record is
-  redistributed with this package; the training labels are not shipped. (A machine-readable
-  BMRB licence statement could not be located on bmrb.io at the time of writing — not
-  verified.)
+- **BMRB.** Deposited data are released under **CC0 1.0** — a public-domain dedication
+  with no attribution requirement and no restriction on redistribution or commercial
+  use. This follows from BMRB's wwPDB membership and was confirmed directly with BMRB
+  on 2026-08-06. Citation is therefore courtesy rather than obligation, and BMRB asks
+  for Hoch *et al.*, *Nucleic Acids Res.* **51**, D368 (2023),
+  doi:[10.1093/nar/gkac1050](https://doi.org/10.1093/nar/gkac1050), plus the
+  depositors. No BMRB record is redistributed with this package in any case; the
+  training labels are not shipped.
 - **wwPDB.** Coordinate data are in the public domain under CC0 1.0
   (https://www.wwpdb.org/about/usage-policies, checked 2026-08-30). No coordinates are
   redistributed.

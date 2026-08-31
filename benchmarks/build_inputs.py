@@ -1,8 +1,8 @@
 """Build the benchmark input files under ``benchmarks/data/`` from the private
 training caches.
 
-This is the ONE step that depends on the private ``noft`` checkout and the
-``~/.crystalline_fid`` caches; everything else under ``benchmarks/`` runs on
+This is the ONE step that depends on the private training repository and its
+dataset caches; everything else under ``benchmarks/`` runs on
 the public package plus the files this script writes. It is kept in the repo
 so the provenance of every shipped data file is explicit.
 
@@ -44,8 +44,8 @@ import numpy as np
 
 HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
-NOFT = Path(os.environ.get("NOFT_DIR", r"C:\Users\maxim\Documents\coding\noft"))
-CACHE = Path(os.environ.get("CRYSTALLINE_FID_HOME", Path.home() / ".crystalline_fid"))
+NOFT = Path(os.environ.get("TRAINING_REPO_DIR", Path.home() / "training-repo"))
+CACHE = Path(os.environ.get("CAUSTIC_DATA_HOME", Path.home() / ".caustic-data"))
 GRAPH_DIR = CACHE / "shift_predictor_graphs"
 PDB_DIR = CACHE / "pdb_cache"
 CRYST = CACHE / "crystalline_cache"

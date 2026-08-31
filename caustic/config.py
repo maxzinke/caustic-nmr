@@ -202,10 +202,13 @@ class EnsembleConfig:
 class DataConfig:
     """Dataset paths and filtering."""
 
-    cache_dir: str = "~/.crystalline_fid/crystalline_cache"
-    bmrb_cache_dir: str = "~/.crystalline_fid/bmrb_cache"
-    pdb_cache_dir: str = "~/.crystalline_fid/pdb_cache"
-    graph_cache_dir: str = "~/.crystalline_fid/shift_predictor_graphs"
+    # Training-time dataset caches. Inference does not read these; they are kept
+    # so a training run can be reproduced from this config object. Point them at
+    # the training pipeline's cache root ($CAUSTIC_DATA_HOME) to retrain.
+    cache_dir: str = "~/.caustic-data/dataset_cache"
+    bmrb_cache_dir: str = "~/.caustic-data/bmrb_cache"
+    pdb_cache_dir: str = "~/.caustic-data/pdb_cache"
+    graph_cache_dir: str = "~/.caustic-data/shift_predictor_graphs"
     # Caustic Rescue Plan B1: filename of the train/val/test partition under
     # graph_cache_dir. Default is the legacy 'splits.json' (linkage='complete',
     # leaky). The leak-safe alternative written by

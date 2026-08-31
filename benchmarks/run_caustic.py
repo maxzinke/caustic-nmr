@@ -34,7 +34,7 @@ HERE = Path(__file__).resolve().parent
 DATA = HERE / "data"
 RESULTS = HERE / "results"
 TMP = HERE / "tmp" / "caustic"
-PDB_DIR = Path(os.environ.get("CAUSTIC_BENCH_PDB_DIR", Path.home() / ".crystalline_fid" / "pdb_cache"))
+PDB_DIR = Path(os.environ.get("CAUSTIC_BENCH_PDB_DIR", Path.home() / ".caustic-data" / "pdb_cache"))
 NUCLEI = ["H", "HA", "N", "CA", "CB", "C"]
 COLS = ["bmrb_id", "pdb_id", "chain_id", "pdb_seq_id", "resname", "nucleus", "pred", "sigma"]
 

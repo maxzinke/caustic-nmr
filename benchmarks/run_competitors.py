@@ -43,8 +43,8 @@ NUCLEI = ["H", "HA", "N", "CA", "CB", "C"]
 COLS = ["bmrb_id", "pdb_id", "chain_id", "pdb_seq_id", "resname", "nucleus", "pred", "sigma"]
 
 SPARTAP_DIR = Path(os.environ.get("SPARTAP_DIR", r"C:\tmp\SPARTA+"))
-CSPRED_WIN = Path(os.environ.get("CSPRED_DIR", r"C:\Users\maxim\Documents\coding\noft\deps\CSpred"))
-NOFT_DIR = Path(os.environ.get("NOFT_DIR", r"C:\Users\maxim\Documents\coding\noft"))
+CSPRED_WIN = Path(os.environ.get("CSPRED_DIR", Path.home() / "CSpred"))
+NOFT_DIR = Path(os.environ.get("TRAINING_REPO_DIR", Path.home() / "training-repo"))
 UCB_PY = os.environ.get("UCBSHIFT_PYTHON", "/root/ucbshift_env/bin/python3")
 
 
