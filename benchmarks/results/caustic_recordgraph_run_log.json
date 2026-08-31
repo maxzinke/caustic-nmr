@@ -1,0 +1,4425 @@
+{
+ "meta": {
+  "caustic_version": "0.3.0",
+  "onnx_sha256": "ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2",
+  "graph_dir": "C:\\Users\\maxim\\.crystalline_fid\\shift_predictor_graphs",
+  "conformers": "medoid graph only"
+ },
+ "entries": {
+  "4223": {
+   "status": "ok",
+   "n_rows": 347,
+   "graph_pdb_id": "1tba",
+   "dssp_present": true
+  },
+  "4285": {
+   "status": "ok",
+   "n_rows": 451,
+   "graph_pdb_id": "1k2h",
+   "dssp_present": true
+  },
+  "4498": {
+   "status": "ok",
+   "n_rows": 145,
+   "graph_pdb_id": "1cl4",
+   "dssp_present": true
+  },
+  "4510": {
+   "status": "ok",
+   "n_rows": 141,
+   "graph_pdb_id": "1cxw",
+   "dssp_present": true
+  },
+  "4589": {
+   "status": "ok",
+   "n_rows": 231,
+   "graph_pdb_id": "1ehx",
+   "dssp_present": true
+  },
+  "4706": {
+   "status": "ok",
+   "n_rows": 695,
+   "graph_pdb_id": "1cx1",
+   "dssp_present": true
+  },
+  "5309": {
+   "status": "ok",
+   "n_rows": 619,
+   "graph_pdb_id": "1m3v",
+   "dssp_present": true
+  },
+  "5326": {
+   "status": "ok",
+   "n_rows": 447,
+   "graph_pdb_id": "1l6t",
+   "dssp_present": true
+  },
+  "5340": {
+   "status": "ok",
+   "n_rows": 878,
+   "graph_pdb_id": "2bid",
+   "dssp_present": true
+  },
+  "5459": {
+   "status": "ok",
+   "n_rows": 309,
+   "graph_pdb_id": "1iym",
+   "dssp_present": true
+  },
+  "5567": {
+   "status": "ok",
+   "n_rows": 547,
+   "graph_pdb_id": "1n3j",
+   "dssp_present": true
+  },
+  "5719": {
+   "status": "ok",
+   "n_rows": 587,
+   "graph_pdb_id": "1s79",
+   "dssp_present": true
+  },
+  "5748": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "1ryu",
+   "dssp_present": true
+  },
+  "5768": {
+   "status": "ok",
+   "n_rows": 189,
+   "graph_pdb_id": "1oq6",
+   "dssp_present": true
+  },
+  "5867": {
+   "status": "ok",
+   "n_rows": 374,
+   "graph_pdb_id": "1uhf",
+   "dssp_present": true
+  },
+  "5868": {
+   "status": "ok",
+   "n_rows": 377,
+   "graph_pdb_id": "1pve",
+   "dssp_present": true
+  },
+  "5923": {
+   "status": "ok",
+   "n_rows": 117,
+   "graph_pdb_id": "2a37",
+   "dssp_present": true
+  },
+  "5925": {
+   "status": "ok",
+   "n_rows": 153,
+   "graph_pdb_id": "2a36",
+   "dssp_present": true
+  },
+  "6260": {
+   "status": "ok",
+   "n_rows": 63,
+   "graph_pdb_id": "1u0i",
+   "dssp_present": true
+  },
+  "6549": {
+   "status": "ok",
+   "n_rows": 1122,
+   "graph_pdb_id": "2qmv",
+   "dssp_present": true
+  },
+  "6580": {
+   "status": "ok",
+   "n_rows": 792,
+   "graph_pdb_id": "2bbu",
+   "dssp_present": true
+  },
+  "6690": {
+   "status": "ok",
+   "n_rows": 158,
+   "graph_pdb_id": "2bn5",
+   "dssp_present": true
+  },
+  "6718": {
+   "status": "ok",
+   "n_rows": 384,
+   "graph_pdb_id": "1zv6",
+   "dssp_present": true
+  },
+  "6755": {
+   "status": "ok",
+   "n_rows": 558,
+   "graph_pdb_id": "2aby",
+   "dssp_present": true
+  },
+  "6850": {
+   "status": "ok",
+   "n_rows": 282,
+   "graph_pdb_id": "2b7e",
+   "dssp_present": true
+  },
+  "6863": {
+   "status": "ok",
+   "n_rows": 152,
+   "graph_pdb_id": "2bai",
+   "dssp_present": true
+  },
+  "6969": {
+   "status": "ok",
+   "n_rows": 299,
+   "graph_pdb_id": "2fxp",
+   "dssp_present": true
+  },
+  "6997": {
+   "status": "ok",
+   "n_rows": 538,
+   "graph_pdb_id": "2g46",
+   "dssp_present": true
+  },
+  "7008": {
+   "status": "ok",
+   "n_rows": 703,
+   "graph_pdb_id": "2fwu",
+   "dssp_present": true
+  },
+  "7033": {
+   "status": "ok",
+   "n_rows": 96,
+   "graph_pdb_id": "2rqh",
+   "dssp_present": true
+  },
+  "7067": {
+   "status": "ok",
+   "n_rows": 159,
+   "graph_pdb_id": "2g31",
+   "dssp_present": true
+  },
+  "7069": {
+   "status": "ok",
+   "n_rows": 355,
+   "graph_pdb_id": "2g9o",
+   "dssp_present": true
+  },
+  "7114": {
+   "status": "ok",
+   "n_rows": 2067,
+   "graph_pdb_id": "2h25",
+   "dssp_present": true
+  },
+  "7120": {
+   "status": "ok",
+   "n_rows": 358,
+   "graph_pdb_id": "2gyt",
+   "dssp_present": true
+  },
+  "7124": {
+   "status": "ok",
+   "n_rows": 221,
+   "graph_pdb_id": "2dq5",
+   "dssp_present": true
+  },
+  "7128": {
+   "status": "ok",
+   "n_rows": 611,
+   "graph_pdb_id": "2ha1",
+   "dssp_present": true
+  },
+  "7129": {
+   "status": "ok",
+   "n_rows": 350,
+   "graph_pdb_id": "2ggr",
+   "dssp_present": true
+  },
+  "7185": {
+   "status": "ok",
+   "n_rows": 288,
+   "graph_pdb_id": "2gut",
+   "dssp_present": true
+  },
+  "7205": {
+   "status": "ok",
+   "n_rows": 236,
+   "graph_pdb_id": "2lcx",
+   "dssp_present": true
+  },
+  "7225": {
+   "status": "ok",
+   "n_rows": 234,
+   "graph_pdb_id": "2hep",
+   "dssp_present": true
+  },
+  "7270": {
+   "status": "ok",
+   "n_rows": 813,
+   "graph_pdb_id": "2o4e",
+   "dssp_present": true
+  },
+  "7272": {
+   "status": "ok",
+   "n_rows": 766,
+   "graph_pdb_id": "2i59",
+   "dssp_present": true
+  },
+  "7274": {
+   "status": "ok",
+   "n_rows": 758,
+   "graph_pdb_id": "2hh8",
+   "dssp_present": true
+  },
+  "7323": {
+   "status": "ok",
+   "n_rows": 405,
+   "graph_pdb_id": "2no8",
+   "dssp_present": true
+  },
+  "7339": {
+   "status": "ok",
+   "n_rows": 880,
+   "graph_pdb_id": "2i9y",
+   "dssp_present": true
+  },
+  "7360": {
+   "status": "ok",
+   "n_rows": 846,
+   "graph_pdb_id": "2ijy",
+   "dssp_present": true
+  },
+  "7401": {
+   "status": "ok",
+   "n_rows": 308,
+   "graph_pdb_id": "2p6j",
+   "dssp_present": true
+  },
+  "10002": {
+   "status": "ok",
+   "n_rows": 308,
+   "graph_pdb_id": "1vex",
+   "dssp_present": true
+  },
+  "10019": {
+   "status": "ok",
+   "n_rows": 85,
+   "graph_pdb_id": "2rqg",
+   "dssp_present": true
+  },
+  "10025": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "1ul7",
+   "dssp_present": true
+  },
+  "10026": {
+   "status": "ok",
+   "n_rows": 721,
+   "graph_pdb_id": "1v5s",
+   "dssp_present": true
+  },
+  "10043": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "1wgw",
+   "dssp_present": true
+  },
+  "10048": {
+   "status": "ok",
+   "n_rows": 317,
+   "graph_pdb_id": "1wji",
+   "dssp_present": true
+  },
+  "10057": {
+   "status": "ok",
+   "n_rows": 682,
+   "graph_pdb_id": "1wfz",
+   "dssp_present": true
+  },
+  "10076": {
+   "status": "ok",
+   "n_rows": 692,
+   "graph_pdb_id": "1wfo",
+   "dssp_present": true
+  },
+  "10101": {
+   "status": "ok",
+   "n_rows": 664,
+   "graph_pdb_id": "1ug7",
+   "dssp_present": true
+  },
+  "10115": {
+   "status": "ok",
+   "n_rows": 714,
+   "graph_pdb_id": "1v88",
+   "dssp_present": true
+  },
+  "10119": {
+   "status": "ok",
+   "n_rows": 467,
+   "graph_pdb_id": "1iur",
+   "dssp_present": true
+  },
+  "10136": {
+   "status": "ok",
+   "n_rows": 506,
+   "graph_pdb_id": "1uff",
+   "dssp_present": true
+  },
+  "10142": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "2e9i",
+   "dssp_present": true
+  },
+  "10149": {
+   "status": "ok",
+   "n_rows": 662,
+   "graph_pdb_id": "2e9k",
+   "dssp_present": true
+  },
+  "10163": {
+   "status": "ok",
+   "n_rows": 539,
+   "graph_pdb_id": "2eed",
+   "dssp_present": true
+  },
+  "10241": {
+   "status": "ok",
+   "n_rows": 397,
+   "graph_pdb_id": "1x6b",
+   "dssp_present": true
+  },
+  "10251": {
+   "status": "ok",
+   "n_rows": 681,
+   "graph_pdb_id": "1x1g",
+   "dssp_present": true
+  },
+  "10256": {
+   "status": "ok",
+   "n_rows": 550,
+   "graph_pdb_id": "2cof",
+   "dssp_present": true
+  },
+  "10263": {
+   "status": "ok",
+   "n_rows": 571,
+   "graph_pdb_id": "2dn7",
+   "dssp_present": true
+  },
+  "10269": {
+   "status": "ok",
+   "n_rows": 344,
+   "graph_pdb_id": "2ee1",
+   "dssp_present": true
+  },
+  "10286": {
+   "status": "ok",
+   "n_rows": 410,
+   "graph_pdb_id": "2da4",
+   "dssp_present": true
+  },
+  "10288": {
+   "status": "ok",
+   "n_rows": 517,
+   "graph_pdb_id": "2da6",
+   "dssp_present": true
+  },
+  "10308": {
+   "status": "ok",
+   "n_rows": 199,
+   "graph_pdb_id": "2yte",
+   "dssp_present": true
+  },
+  "10321": {
+   "status": "ok",
+   "n_rows": 649,
+   "graph_pdb_id": "2dib",
+   "dssp_present": true
+  },
+  "10324": {
+   "status": "ok",
+   "n_rows": 514,
+   "graph_pdb_id": "2dlg",
+   "dssp_present": true
+  },
+  "11011": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "1oq3",
+   "dssp_present": true
+  },
+  "11024": {
+   "status": "ok",
+   "n_rows": 365,
+   "graph_pdb_id": "2rnj",
+   "dssp_present": true
+  },
+  "11026": {
+   "status": "ok",
+   "n_rows": 403,
+   "graph_pdb_id": "2rmo",
+   "dssp_present": true
+  },
+  "11043": {
+   "status": "ok",
+   "n_rows": 403,
+   "graph_pdb_id": "2rot",
+   "dssp_present": true
+  },
+  "11054": {
+   "status": "ok",
+   "n_rows": 66,
+   "graph_pdb_id": "2rps",
+   "dssp_present": true
+  },
+  "11061": {
+   "status": "ok",
+   "n_rows": 1031,
+   "graph_pdb_id": "2rpz",
+   "dssp_present": true
+  },
+  "11067": {
+   "status": "ok",
+   "n_rows": 833,
+   "graph_pdb_id": "1n9p",
+   "dssp_present": true
+  },
+  "11078": {
+   "status": "ok",
+   "n_rows": 624,
+   "graph_pdb_id": "2z5v",
+   "dssp_present": true
+  },
+  "11087": {
+   "status": "ok",
+   "n_rows": 753,
+   "graph_pdb_id": "2ys3",
+   "dssp_present": true
+  },
+  "11092": {
+   "status": "ok",
+   "n_rows": 521,
+   "graph_pdb_id": "2efi",
+   "dssp_present": true
+  },
+  "11097": {
+   "status": "ok",
+   "n_rows": 646,
+   "graph_pdb_id": "2edd",
+   "dssp_present": true
+  },
+  "11099": {
+   "status": "ok",
+   "n_rows": 599,
+   "graph_pdb_id": "2edb",
+   "dssp_present": true
+  },
+  "11102": {
+   "status": "ok",
+   "n_rows": 755,
+   "graph_pdb_id": "2dmm",
+   "dssp_present": true
+  },
+  "11103": {
+   "status": "ok",
+   "n_rows": 551,
+   "graph_pdb_id": "2ed8",
+   "dssp_present": true
+  },
+  "11110": {
+   "status": "ok",
+   "n_rows": 541,
+   "graph_pdb_id": "2cum",
+   "dssp_present": true
+  },
+  "11122": {
+   "status": "ok",
+   "n_rows": 782,
+   "graph_pdb_id": "2dba",
+   "dssp_present": true
+  },
+  "11131": {
+   "status": "ok",
+   "n_rows": 429,
+   "graph_pdb_id": "1x4u",
+   "dssp_present": true
+  },
+  "11132": {
+   "status": "ok",
+   "n_rows": 469,
+   "graph_pdb_id": "2cto",
+   "dssp_present": true
+  },
+  "11136": {
+   "status": "ok",
+   "n_rows": 552,
+   "graph_pdb_id": "2ctk",
+   "dssp_present": true
+  },
+  "11152": {
+   "status": "ok",
+   "n_rows": 607,
+   "graph_pdb_id": "2yrz",
+   "dssp_present": true
+  },
+  "11154": {
+   "status": "ok",
+   "n_rows": 340,
+   "graph_pdb_id": "2ecz",
+   "dssp_present": true
+  },
+  "11160": {
+   "status": "ok",
+   "n_rows": 479,
+   "graph_pdb_id": "2yuk",
+   "dssp_present": true
+  },
+  "11178": {
+   "status": "ok",
+   "n_rows": 351,
+   "graph_pdb_id": "1ugv",
+   "dssp_present": true
+  },
+  "11180": {
+   "status": "ok",
+   "n_rows": 532,
+   "graph_pdb_id": "1wie",
+   "dssp_present": true
+  },
+  "11189": {
+   "status": "ok",
+   "n_rows": 561,
+   "graph_pdb_id": "2dlu",
+   "dssp_present": true
+  },
+  "11199": {
+   "status": "ok",
+   "n_rows": 561,
+   "graph_pdb_id": "1wf7",
+   "dssp_present": true
+  },
+  "11204": {
+   "status": "ok",
+   "n_rows": 610,
+   "graph_pdb_id": "1x5n",
+   "dssp_present": true
+  },
+  "11219": {
+   "status": "ok",
+   "n_rows": 352,
+   "graph_pdb_id": "2dl3",
+   "dssp_present": true
+  },
+  "11225": {
+   "status": "ok",
+   "n_rows": 379,
+   "graph_pdb_id": "2dl8",
+   "dssp_present": true
+  },
+  "11240": {
+   "status": "ok",
+   "n_rows": 350,
+   "graph_pdb_id": "2coo",
+   "dssp_present": true
+  },
+  "11244": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "2eqr",
+   "dssp_present": true
+  },
+  "11246": {
+   "status": "ok",
+   "n_rows": 670,
+   "graph_pdb_id": "1wln",
+   "dssp_present": true
+  },
+  "11250": {
+   "status": "ok",
+   "n_rows": 351,
+   "graph_pdb_id": "2rre",
+   "dssp_present": true
+  },
+  "11273": {
+   "status": "ok",
+   "n_rows": 295,
+   "graph_pdb_id": "2dal",
+   "dssp_present": true
+  },
+  "11286": {
+   "status": "ok",
+   "n_rows": 544,
+   "graph_pdb_id": "1x3a",
+   "dssp_present": true
+  },
+  "11290": {
+   "status": "ok",
+   "n_rows": 540,
+   "graph_pdb_id": "1x5x",
+   "dssp_present": true
+  },
+  "11314": {
+   "status": "ok",
+   "n_rows": 346,
+   "graph_pdb_id": "2csz",
+   "dssp_present": true
+  },
+  "11321": {
+   "status": "ok",
+   "n_rows": 431,
+   "graph_pdb_id": "2ct7",
+   "dssp_present": true
+  },
+  "11326": {
+   "status": "ok",
+   "n_rows": 337,
+   "graph_pdb_id": "2d8t",
+   "dssp_present": true
+  },
+  "11332": {
+   "status": "ok",
+   "n_rows": 382,
+   "graph_pdb_id": "2djb",
+   "dssp_present": true
+  },
+  "11338": {
+   "status": "ok",
+   "n_rows": 717,
+   "graph_pdb_id": "2ebm",
+   "dssp_present": true
+  },
+  "11345": {
+   "status": "ok",
+   "n_rows": 466,
+   "graph_pdb_id": "2elj",
+   "dssp_present": true
+  },
+  "11346": {
+   "status": "ok",
+   "n_rows": 236,
+   "graph_pdb_id": "2rpj",
+   "dssp_present": true
+  },
+  "11351": {
+   "status": "ok",
+   "n_rows": 910,
+   "graph_pdb_id": "2yue",
+   "dssp_present": true
+  },
+  "11355": {
+   "status": "ok",
+   "n_rows": 373,
+   "graph_pdb_id": "2dk4",
+   "dssp_present": true
+  },
+  "11357": {
+   "status": "ok",
+   "n_rows": 353,
+   "graph_pdb_id": "2dk7",
+   "dssp_present": true
+  },
+  "11370": {
+   "status": "ok",
+   "n_rows": 410,
+   "graph_pdb_id": "2rne",
+   "dssp_present": true
+  },
+  "11371": {
+   "status": "ok",
+   "n_rows": 469,
+   "graph_pdb_id": "2rne",
+   "dssp_present": true
+  },
+  "11372": {
+   "status": "ok",
+   "n_rows": 478,
+   "graph_pdb_id": "2rne",
+   "dssp_present": true
+  },
+  "11373": {
+   "status": "ok",
+   "n_rows": 477,
+   "graph_pdb_id": "2rne",
+   "dssp_present": true
+  },
+  "11376": {
+   "status": "ok",
+   "n_rows": 607,
+   "graph_pdb_id": "2rne",
+   "dssp_present": true
+  },
+  "11380": {
+   "status": "ok",
+   "n_rows": 241,
+   "graph_pdb_id": "2eps",
+   "dssp_present": true
+  },
+  "11409": {
+   "status": "ok",
+   "n_rows": 526,
+   "graph_pdb_id": "2rra",
+   "dssp_present": true
+  },
+  "11422": {
+   "status": "ok",
+   "n_rows": 795,
+   "graph_pdb_id": "2rrk",
+   "dssp_present": true
+  },
+  "11452": {
+   "status": "ok",
+   "n_rows": 248,
+   "graph_pdb_id": "2liy",
+   "dssp_present": true
+  },
+  "11496": {
+   "status": "ok",
+   "n_rows": 429,
+   "graph_pdb_id": "2rsn",
+   "dssp_present": true
+  },
+  "11501": {
+   "status": "ok",
+   "n_rows": 515,
+   "graph_pdb_id": "1x4r",
+   "dssp_present": true
+  },
+  "11502": {
+   "status": "ok",
+   "n_rows": 488,
+   "graph_pdb_id": "2crl",
+   "dssp_present": true
+  },
+  "11527": {
+   "status": "ok",
+   "n_rows": 437,
+   "graph_pdb_id": "1woc",
+   "dssp_present": true
+  },
+  "11575": {
+   "status": "ok",
+   "n_rows": 673,
+   "graph_pdb_id": "1uf1",
+   "dssp_present": true
+  },
+  "11581": {
+   "status": "ok",
+   "n_rows": 39,
+   "graph_pdb_id": "2run",
+   "dssp_present": true
+  },
+  "11590": {
+   "status": "ok",
+   "n_rows": 588,
+   "graph_pdb_id": "2rv8",
+   "dssp_present": true
+  },
+  "11592": {
+   "status": "ok",
+   "n_rows": 754,
+   "graph_pdb_id": "2rva",
+   "dssp_present": true
+  },
+  "11597": {
+   "status": "ok",
+   "n_rows": 573,
+   "graph_pdb_id": "2rvf",
+   "dssp_present": true
+  },
+  "11601": {
+   "status": "ok",
+   "n_rows": 577,
+   "graph_pdb_id": "2rvj",
+   "dssp_present": true
+  },
+  "15013": {
+   "status": "ok",
+   "n_rows": 349,
+   "graph_pdb_id": "1tuc",
+   "dssp_present": true
+  },
+  "15020": {
+   "status": "ok",
+   "n_rows": 754,
+   "graph_pdb_id": "2ifs",
+   "dssp_present": true
+  },
+  "15039": {
+   "status": "ok",
+   "n_rows": 538,
+   "graph_pdb_id": "2jmk",
+   "dssp_present": true
+  },
+  "15045": {
+   "status": "ok",
+   "n_rows": 528,
+   "graph_pdb_id": "2jmm",
+   "dssp_present": true
+  },
+  "15055": {
+   "status": "ok",
+   "n_rows": 572,
+   "graph_pdb_id": "2jmp",
+   "dssp_present": true
+  },
+  "15074": {
+   "status": "ok",
+   "n_rows": 425,
+   "graph_pdb_id": "2jmo",
+   "dssp_present": true
+  },
+  "15084": {
+   "status": "ok",
+   "n_rows": 722,
+   "graph_pdb_id": "2jn3",
+   "dssp_present": true
+  },
+  "15106": {
+   "status": "ok",
+   "n_rows": 298,
+   "graph_pdb_id": "2ike",
+   "dssp_present": true
+  },
+  "15109": {
+   "status": "ok",
+   "n_rows": 420,
+   "graph_pdb_id": "2jng",
+   "dssp_present": true
+  },
+  "15111": {
+   "status": "ok",
+   "n_rows": 195,
+   "graph_pdb_id": "2jnh",
+   "dssp_present": true
+  },
+  "15117": {
+   "status": "ok",
+   "n_rows": 351,
+   "graph_pdb_id": "1ns1",
+   "dssp_present": true
+  },
+  "15128": {
+   "status": "ok",
+   "n_rows": 754,
+   "graph_pdb_id": "2jnu",
+   "dssp_present": true
+  },
+  "15137": {
+   "status": "ok",
+   "n_rows": 141,
+   "graph_pdb_id": "1a43",
+   "dssp_present": true
+  },
+  "15150": {
+   "status": "ok",
+   "n_rows": 471,
+   "graph_pdb_id": "2osg",
+   "dssp_present": true
+  },
+  "15152": {
+   "status": "ok",
+   "n_rows": 502,
+   "graph_pdb_id": "2ot2",
+   "dssp_present": true
+  },
+  "15160": {
+   "status": "ok",
+   "n_rows": 161,
+   "graph_pdb_id": "2i5o",
+   "dssp_present": true
+  },
+  "15243": {
+   "status": "ok",
+   "n_rows": 996,
+   "graph_pdb_id": "2hr9",
+   "dssp_present": true
+  },
+  "15247": {
+   "status": "ok",
+   "n_rows": 878,
+   "graph_pdb_id": "2v9h",
+   "dssp_present": true
+  },
+  "15248": {
+   "status": "ok",
+   "n_rows": 1083,
+   "graph_pdb_id": "1spb",
+   "dssp_present": true
+  },
+  "15279": {
+   "status": "ok",
+   "n_rows": 756,
+   "graph_pdb_id": "2jq6",
+   "dssp_present": true
+  },
+  "15296": {
+   "status": "ok",
+   "n_rows": 535,
+   "graph_pdb_id": "1k2h",
+   "dssp_present": true
+  },
+  "15312": {
+   "status": "ok",
+   "n_rows": 803,
+   "graph_pdb_id": "2jr0",
+   "dssp_present": true
+  },
+  "15324": {
+   "status": "ok",
+   "n_rows": 366,
+   "graph_pdb_id": "2jra",
+   "dssp_present": true
+  },
+  "15334": {
+   "status": "ok",
+   "n_rows": 573,
+   "graph_pdb_id": "2jrl",
+   "dssp_present": true
+  },
+  "15347": {
+   "status": "ok",
+   "n_rows": 441,
+   "graph_pdb_id": "2k8s",
+   "dssp_present": true
+  },
+  "15348": {
+   "status": "ok",
+   "n_rows": 657,
+   "graph_pdb_id": "2jrz",
+   "dssp_present": true
+  },
+  "15356": {
+   "status": "ok",
+   "n_rows": 851,
+   "graph_pdb_id": "2js7",
+   "dssp_present": true
+  },
+  "15361": {
+   "status": "ok",
+   "n_rows": 861,
+   "graph_pdb_id": "2jsd",
+   "dssp_present": true
+  },
+  "15370": {
+   "status": "ok",
+   "n_rows": 432,
+   "graph_pdb_id": "2jsn",
+   "dssp_present": true
+  },
+  "15371": {
+   "status": "ok",
+   "n_rows": 514,
+   "graph_pdb_id": "2jso",
+   "dssp_present": true
+  },
+  "15393": {
+   "status": "ok",
+   "n_rows": 1099,
+   "graph_pdb_id": "2jss",
+   "dssp_present": true
+  },
+  "15438": {
+   "status": "ok",
+   "n_rows": 350,
+   "graph_pdb_id": "2jub",
+   "dssp_present": true
+  },
+  "15440": {
+   "status": "ok",
+   "n_rows": 708,
+   "graph_pdb_id": "2m2k",
+   "dssp_present": true
+  },
+  "15476": {
+   "status": "ok",
+   "n_rows": 243,
+   "graph_pdb_id": "2hep",
+   "dssp_present": true
+  },
+  "15509": {
+   "status": "ok",
+   "n_rows": 339,
+   "graph_pdb_id": "2juf",
+   "dssp_present": true
+  },
+  "15512": {
+   "status": "ok",
+   "n_rows": 611,
+   "graph_pdb_id": "2lqr",
+   "dssp_present": true
+  },
+  "15535": {
+   "status": "ok",
+   "n_rows": 324,
+   "graph_pdb_id": "2jws",
+   "dssp_present": true
+  },
+  "15537": {
+   "status": "ok",
+   "n_rows": 327,
+   "graph_pdb_id": "2jwu",
+   "dssp_present": true
+  },
+  "15541": {
+   "status": "ok",
+   "n_rows": 913,
+   "graph_pdb_id": "1fpo",
+   "dssp_present": true
+  },
+  "15585": {
+   "status": "ok",
+   "n_rows": 440,
+   "graph_pdb_id": "2jya",
+   "dssp_present": true
+  },
+  "15599": {
+   "status": "ok",
+   "n_rows": 517,
+   "graph_pdb_id": "2ozx",
+   "dssp_present": true
+  },
+  "15614": {
+   "status": "ok",
+   "n_rows": 384,
+   "graph_pdb_id": "2jzb",
+   "dssp_present": true
+  },
+  "15644": {
+   "status": "ok",
+   "n_rows": 591,
+   "graph_pdb_id": "2k0a",
+   "dssp_present": true
+  },
+  "15645": {
+   "status": "ok",
+   "n_rows": 523,
+   "graph_pdb_id": "2k0d",
+   "dssp_present": true
+  },
+  "15651": {
+   "status": "ok",
+   "n_rows": 865,
+   "graph_pdb_id": "2k0l",
+   "dssp_present": true
+  },
+  "15660": {
+   "status": "ok",
+   "n_rows": 459,
+   "graph_pdb_id": "2ko5",
+   "dssp_present": true
+  },
+  "15673": {
+   "status": "ok",
+   "n_rows": 473,
+   "graph_pdb_id": "2k19",
+   "dssp_present": true
+  },
+  "15685": {
+   "status": "ok",
+   "n_rows": 420,
+   "graph_pdb_id": "2bvb",
+   "dssp_present": true
+  },
+  "15690": {
+   "status": "ok",
+   "n_rows": 377,
+   "graph_pdb_id": "1kvj",
+   "dssp_present": true
+  },
+  "15691": {
+   "status": "ok",
+   "n_rows": 138,
+   "graph_pdb_id": "2k29",
+   "dssp_present": true
+  },
+  "15692": {
+   "status": "ok",
+   "n_rows": 679,
+   "graph_pdb_id": "2bvb",
+   "dssp_present": true
+  },
+  "15743": {
+   "status": "ok",
+   "n_rows": 517,
+   "graph_pdb_id": "2kp5",
+   "dssp_present": true
+  },
+  "15756": {
+   "status": "ok",
+   "n_rows": 313,
+   "graph_pdb_id": "2cg6",
+   "dssp_present": true
+  },
+  "15762": {
+   "status": "ok",
+   "n_rows": 595,
+   "graph_pdb_id": "2k3i",
+   "dssp_present": true
+  },
+  "15788": {
+   "status": "ok",
+   "n_rows": 1126,
+   "graph_pdb_id": "2qdx",
+   "dssp_present": true
+  },
+  "15804": {
+   "status": "ok",
+   "n_rows": 772,
+   "graph_pdb_id": "2k4m",
+   "dssp_present": true
+  },
+  "15812": {
+   "status": "ok",
+   "n_rows": 458,
+   "graph_pdb_id": "2k4y",
+   "dssp_present": true
+  },
+  "15851": {
+   "status": "ok",
+   "n_rows": 788,
+   "graph_pdb_id": "2k60",
+   "dssp_present": true
+  },
+  "15924": {
+   "status": "ok",
+   "n_rows": 854,
+   "graph_pdb_id": "2k7p",
+   "dssp_present": true
+  },
+  "15938": {
+   "status": "ok",
+   "n_rows": 314,
+   "graph_pdb_id": "2k85",
+   "dssp_present": true
+  },
+  "15944": {
+   "status": "ok",
+   "n_rows": 504,
+   "graph_pdb_id": "2k8f",
+   "dssp_present": true
+  },
+  "15948": {
+   "status": "ok",
+   "n_rows": 385,
+   "graph_pdb_id": "2kiz",
+   "dssp_present": true
+  },
+  "15950": {
+   "status": "ok",
+   "n_rows": 933,
+   "graph_pdb_id": "2k8i",
+   "dssp_present": true
+  },
+  "15965": {
+   "status": "ok",
+   "n_rows": 181,
+   "graph_pdb_id": "1ihq",
+   "dssp_present": true
+  },
+  "15983": {
+   "status": "ok",
+   "n_rows": 125,
+   "graph_pdb_id": "2k9e",
+   "dssp_present": true
+  },
+  "16010": {
+   "status": "ok",
+   "n_rows": 690,
+   "graph_pdb_id": "2aas",
+   "dssp_present": true
+  },
+  "16015": {
+   "status": "ok",
+   "n_rows": 436,
+   "graph_pdb_id": "2ka6",
+   "dssp_present": true
+  },
+  "16020": {
+   "status": "ok",
+   "n_rows": 43,
+   "graph_pdb_id": "2kad",
+   "dssp_present": true
+  },
+  "16025": {
+   "status": "ok",
+   "n_rows": 111,
+   "graph_pdb_id": "2kak",
+   "dssp_present": true
+  },
+  "16030": {
+   "status": "ok",
+   "n_rows": 551,
+   "graph_pdb_id": "2kat",
+   "dssp_present": true
+  },
+  "16038": {
+   "status": "ok",
+   "n_rows": 797,
+   "graph_pdb_id": "2kb3",
+   "dssp_present": true
+  },
+  "16039": {
+   "status": "ok",
+   "n_rows": 351,
+   "graph_pdb_id": "2kb4",
+   "dssp_present": true
+  },
+  "16040": {
+   "status": "ok",
+   "n_rows": 270,
+   "graph_pdb_id": "2kb6",
+   "dssp_present": true
+  },
+  "16050": {
+   "status": "ok",
+   "n_rows": 544,
+   "graph_pdb_id": "1zfs",
+   "dssp_present": true
+  },
+  "16061": {
+   "status": "ok",
+   "n_rows": 895,
+   "graph_pdb_id": "2kc5",
+   "dssp_present": true
+  },
+  "16062": {
+   "status": "ok",
+   "n_rows": 184,
+   "graph_pdb_id": "2kc6",
+   "dssp_present": true
+  },
+  "16083": {
+   "status": "ok",
+   "n_rows": 580,
+   "graph_pdb_id": "2kck",
+   "dssp_present": true
+  },
+  "16100": {
+   "status": "ok",
+   "n_rows": 608,
+   "graph_pdb_id": "2kcz",
+   "dssp_present": true
+  },
+  "16101": {
+   "status": "ok",
+   "n_rows": 431,
+   "graph_pdb_id": "2kd0",
+   "dssp_present": true
+  },
+  "16102": {
+   "status": "ok",
+   "n_rows": 637,
+   "graph_pdb_id": "2kd1",
+   "dssp_present": true
+  },
+  "16116": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "2kdl",
+   "dssp_present": true
+  },
+  "16117": {
+   "status": "ok",
+   "n_rows": 328,
+   "graph_pdb_id": "2kdm",
+   "dssp_present": true
+  },
+  "16135": {
+   "status": "ok",
+   "n_rows": 591,
+   "graph_pdb_id": "2kmt",
+   "dssp_present": true
+  },
+  "16156": {
+   "status": "ok",
+   "n_rows": 271,
+   "graph_pdb_id": "2kes",
+   "dssp_present": true
+  },
+  "16179": {
+   "status": "ok",
+   "n_rows": 460,
+   "graph_pdb_id": "2kff",
+   "dssp_present": true
+  },
+  "16180": {
+   "status": "ok",
+   "n_rows": 460,
+   "graph_pdb_id": "2kfg",
+   "dssp_present": true
+  },
+  "16181": {
+   "status": "ok",
+   "n_rows": 460,
+   "graph_pdb_id": "2kfh",
+   "dssp_present": true
+  },
+  "16237": {
+   "status": "ok",
+   "n_rows": 657,
+   "graph_pdb_id": "2kgs",
+   "dssp_present": true
+  },
+  "16240": {
+   "status": "ok",
+   "n_rows": 868,
+   "graph_pdb_id": "2kfw",
+   "dssp_present": true
+  },
+  "16273": {
+   "status": "ok",
+   "n_rows": 904,
+   "graph_pdb_id": "2kig",
+   "dssp_present": true
+  },
+  "16293": {
+   "status": "ok",
+   "n_rows": 265,
+   "graph_pdb_id": "2kis",
+   "dssp_present": true
+  },
+  "16312": {
+   "status": "ok",
+   "n_rows": 551,
+   "graph_pdb_id": "2kj5",
+   "dssp_present": true
+  },
+  "16315": {
+   "status": "ok",
+   "n_rows": 639,
+   "graph_pdb_id": "2kj8",
+   "dssp_present": true
+  },
+  "16318": {
+   "status": "ok",
+   "n_rows": 420,
+   "graph_pdb_id": "2kje",
+   "dssp_present": true
+  },
+  "16321": {
+   "status": "ok",
+   "n_rows": 702,
+   "graph_pdb_id": "2kjh",
+   "dssp_present": true
+  },
+  "16370": {
+   "status": "ok",
+   "n_rows": 603,
+   "graph_pdb_id": "2kkq",
+   "dssp_present": true
+  },
+  "16376": {
+   "status": "ok",
+   "n_rows": 752,
+   "graph_pdb_id": "2kkz",
+   "dssp_present": true
+  },
+  "16404": {
+   "status": "ok",
+   "n_rows": 919,
+   "graph_pdb_id": "2kly",
+   "dssp_present": true
+  },
+  "16411": {
+   "status": "ok",
+   "n_rows": 781,
+   "graph_pdb_id": "2km4",
+   "dssp_present": true
+  },
+  "16425": {
+   "status": "ok",
+   "n_rows": 450,
+   "graph_pdb_id": "2km8",
+   "dssp_present": true
+  },
+  "16449": {
+   "status": "ok",
+   "n_rows": 307,
+   "graph_pdb_id": "1z00",
+   "dssp_present": true
+  },
+  "16485": {
+   "status": "ok",
+   "n_rows": 473,
+   "graph_pdb_id": "2jtg",
+   "dssp_present": true
+  },
+  "16515": {
+   "status": "ok",
+   "n_rows": 581,
+   "graph_pdb_id": "2koj",
+   "dssp_present": true
+  },
+  "16520": {
+   "status": "ok",
+   "n_rows": 514,
+   "graph_pdb_id": "2kom",
+   "dssp_present": true
+  },
+  "16523": {
+   "status": "ok",
+   "n_rows": 1096,
+   "graph_pdb_id": "1col",
+   "dssp_present": true
+  },
+  "16592": {
+   "status": "ok",
+   "n_rows": 200,
+   "graph_pdb_id": "2kq8",
+   "dssp_present": true
+  },
+  "16603": {
+   "status": "ok",
+   "n_rows": 640,
+   "graph_pdb_id": "2kqk",
+   "dssp_present": true
+  },
+  "16606": {
+   "status": "ok",
+   "n_rows": 616,
+   "graph_pdb_id": "2kqm",
+   "dssp_present": true
+  },
+  "16607": {
+   "status": "ok",
+   "n_rows": 611,
+   "graph_pdb_id": "2kqn",
+   "dssp_present": true
+  },
+  "16617": {
+   "status": "ok",
+   "n_rows": 624,
+   "graph_pdb_id": "2kqy",
+   "dssp_present": true
+  },
+  "16620": {
+   "status": "ok",
+   "n_rows": 339,
+   "graph_pdb_id": "2kr1",
+   "dssp_present": true
+  },
+  "16622": {
+   "status": "ok",
+   "n_rows": 399,
+   "graph_pdb_id": "2rmo",
+   "dssp_present": true
+  },
+  "16636": {
+   "status": "ok",
+   "n_rows": 397,
+   "graph_pdb_id": "2krf",
+   "dssp_present": true
+  },
+  "16641": {
+   "status": "ok",
+   "n_rows": 266,
+   "graph_pdb_id": "2j6k",
+   "dssp_present": true
+  },
+  "16646": {
+   "status": "ok",
+   "n_rows": 1002,
+   "graph_pdb_id": "2krr",
+   "dssp_present": true
+  },
+  "16649": {
+   "status": "ok",
+   "n_rows": 314,
+   "graph_pdb_id": "2kru",
+   "dssp_present": true
+  },
+  "16652": {
+   "status": "ok",
+   "n_rows": 441,
+   "graph_pdb_id": "2krx",
+   "dssp_present": true
+  },
+  "16653": {
+   "status": "ok",
+   "n_rows": 583,
+   "graph_pdb_id": "2l97",
+   "dssp_present": true
+  },
+  "16662": {
+   "status": "ok",
+   "n_rows": 528,
+   "graph_pdb_id": "2ksh",
+   "dssp_present": true
+  },
+  "16671": {
+   "status": "ok",
+   "n_rows": 463,
+   "graph_pdb_id": "2ksp",
+   "dssp_present": true
+  },
+  "16747": {
+   "status": "ok",
+   "n_rows": 201,
+   "graph_pdb_id": "2kuy",
+   "dssp_present": true
+  },
+  "16775": {
+   "status": "ok",
+   "n_rows": 294,
+   "graph_pdb_id": "2kve",
+   "dssp_present": true
+  },
+  "16776": {
+   "status": "ok",
+   "n_rows": 294,
+   "graph_pdb_id": "2kvd",
+   "dssp_present": true
+  },
+  "16782": {
+   "status": "ok",
+   "n_rows": 659,
+   "graph_pdb_id": "2kvo",
+   "dssp_present": true
+  },
+  "16813": {
+   "status": "ok",
+   "n_rows": 363,
+   "graph_pdb_id": "2knb",
+   "dssp_present": true
+  },
+  "16833": {
+   "status": "ok",
+   "n_rows": 889,
+   "graph_pdb_id": "2loy",
+   "dssp_present": true
+  },
+  "16853": {
+   "status": "ok",
+   "n_rows": 392,
+   "graph_pdb_id": "2klu",
+   "dssp_present": true
+  },
+  "16897": {
+   "status": "ok",
+   "n_rows": 553,
+   "graph_pdb_id": "2kx2",
+   "dssp_present": true
+  },
+  "16913": {
+   "status": "ok",
+   "n_rows": 430,
+   "graph_pdb_id": "2kxg",
+   "dssp_present": true
+  },
+  "16920": {
+   "status": "ok",
+   "n_rows": 395,
+   "graph_pdb_id": "2kxn",
+   "dssp_present": true
+  },
+  "16936": {
+   "status": "ok",
+   "n_rows": 373,
+   "graph_pdb_id": "2ky8",
+   "dssp_present": true
+  },
+  "17009": {
+   "status": "ok",
+   "n_rows": 300,
+   "graph_pdb_id": "3fmy",
+   "dssp_present": true
+  },
+  "17025": {
+   "status": "ok",
+   "n_rows": 409,
+   "graph_pdb_id": "2l01",
+   "dssp_present": true
+  },
+  "17030": {
+   "status": "ok",
+   "n_rows": 477,
+   "graph_pdb_id": "2l05",
+   "dssp_present": true
+  },
+  "17033": {
+   "status": "ok",
+   "n_rows": 360,
+   "graph_pdb_id": "2l08",
+   "dssp_present": true
+  },
+  "17035": {
+   "status": "ok",
+   "n_rows": 314,
+   "graph_pdb_id": "2l09",
+   "dssp_present": true
+  },
+  "17044": {
+   "status": "ok",
+   "n_rows": 612,
+   "graph_pdb_id": "2km4",
+   "dssp_present": true
+  },
+  "17071": {
+   "status": "ok",
+   "n_rows": 299,
+   "graph_pdb_id": "2l11",
+   "dssp_present": true
+  },
+  "17089": {
+   "status": "ok",
+   "n_rows": 346,
+   "graph_pdb_id": "1tuc",
+   "dssp_present": true
+  },
+  "17196": {
+   "status": "ok",
+   "n_rows": 403,
+   "graph_pdb_id": "2l3m",
+   "dssp_present": true
+  },
+  "17246": {
+   "status": "ok",
+   "n_rows": 923,
+   "graph_pdb_id": "2l4o",
+   "dssp_present": true
+  },
+  "17260": {
+   "status": "ok",
+   "n_rows": 1303,
+   "graph_pdb_id": "2len",
+   "dssp_present": true
+  },
+  "17265": {
+   "status": "ok",
+   "n_rows": 371,
+   "graph_pdb_id": "1m3v",
+   "dssp_present": true
+  },
+  "17266": {
+   "status": "ok",
+   "n_rows": 442,
+   "graph_pdb_id": "2l55",
+   "dssp_present": true
+  },
+  "17282": {
+   "status": "ok",
+   "n_rows": 553,
+   "graph_pdb_id": "2kqk",
+   "dssp_present": true
+  },
+  "17288": {
+   "status": "ok",
+   "n_rows": 675,
+   "graph_pdb_id": "2mf2",
+   "dssp_present": true
+  },
+  "17304": {
+   "status": "ok",
+   "n_rows": 618,
+   "graph_pdb_id": "2l69",
+   "dssp_present": true
+  },
+  "17307": {
+   "status": "ok",
+   "n_rows": 516,
+   "graph_pdb_id": "2l6e",
+   "dssp_present": true
+  },
+  "17389": {
+   "status": "ok",
+   "n_rows": 751,
+   "graph_pdb_id": "2l81",
+   "dssp_present": true
+  },
+  "17419": {
+   "status": "ok",
+   "n_rows": 226,
+   "graph_pdb_id": "2l8n",
+   "dssp_present": true
+  },
+  "17425": {
+   "status": "ok",
+   "n_rows": 324,
+   "graph_pdb_id": "2l8t",
+   "dssp_present": true
+  },
+  "17432": {
+   "status": "ok",
+   "n_rows": 962,
+   "graph_pdb_id": "2l90",
+   "dssp_present": true
+  },
+  "17448": {
+   "status": "ok",
+   "n_rows": 607,
+   "graph_pdb_id": "2l9d",
+   "dssp_present": true
+  },
+  "17489": {
+   "status": "ok",
+   "n_rows": 217,
+   "graph_pdb_id": "2l9v",
+   "dssp_present": true
+  },
+  "17494": {
+   "status": "ok",
+   "n_rows": 90,
+   "graph_pdb_id": "2l9z",
+   "dssp_present": true
+  },
+  "17543": {
+   "status": "ok",
+   "n_rows": 104,
+   "graph_pdb_id": "2lb1",
+   "dssp_present": true
+  },
+  "17557": {
+   "status": "ok",
+   "n_rows": 231,
+   "graph_pdb_id": "2lbf",
+   "dssp_present": true
+  },
+  "17561": {
+   "status": "ok",
+   "n_rows": 224,
+   "graph_pdb_id": "2lbh",
+   "dssp_present": true
+  },
+  "17571": {
+   "status": "ok",
+   "n_rows": 349,
+   "graph_pdb_id": "2lbn",
+   "dssp_present": true
+  },
+  "17575": {
+   "status": "ok",
+   "n_rows": 572,
+   "graph_pdb_id": "2lbt",
+   "dssp_present": true
+  },
+  "17586": {
+   "status": "ok",
+   "n_rows": 566,
+   "graph_pdb_id": "2lc1",
+   "dssp_present": true
+  },
+  "17588": {
+   "status": "ok",
+   "n_rows": 596,
+   "graph_pdb_id": "2lc2",
+   "dssp_present": true
+  },
+  "17595": {
+   "status": "ok",
+   "n_rows": 914,
+   "graph_pdb_id": "2lcq",
+   "dssp_present": true
+  },
+  "17596": {
+   "status": "ok",
+   "n_rows": 652,
+   "graph_pdb_id": "2lsh",
+   "dssp_present": true
+  },
+  "17599": {
+   "status": "ok",
+   "n_rows": 707,
+   "graph_pdb_id": "2lc6",
+   "dssp_present": true
+  },
+  "17600": {
+   "status": "ok",
+   "n_rows": 568,
+   "graph_pdb_id": "2lc7",
+   "dssp_present": true
+  },
+  "17609": {
+   "status": "ok",
+   "n_rows": 339,
+   "graph_pdb_id": "2lce",
+   "dssp_present": true
+  },
+  "17610": {
+   "status": "ok",
+   "n_rows": 963,
+   "graph_pdb_id": "2lcf",
+   "dssp_present": true
+  },
+  "17633": {
+   "status": "ok",
+   "n_rows": 1234,
+   "graph_pdb_id": "2lcu",
+   "dssp_present": true
+  },
+  "17634": {
+   "status": "ok",
+   "n_rows": 226,
+   "graph_pdb_id": "2l8n",
+   "dssp_present": true
+  },
+  "17636": {
+   "status": "ok",
+   "n_rows": 563,
+   "graph_pdb_id": "2lv3",
+   "dssp_present": true
+  },
+  "17647": {
+   "status": "ok",
+   "n_rows": 719,
+   "graph_pdb_id": "3d2c",
+   "dssp_present": true
+  },
+  "17705": {
+   "status": "ok",
+   "n_rows": 409,
+   "graph_pdb_id": "2lea",
+   "dssp_present": true
+  },
+  "17738": {
+   "status": "ok",
+   "n_rows": 467,
+   "graph_pdb_id": "2jyl",
+   "dssp_present": true
+  },
+  "17749": {
+   "status": "ok",
+   "n_rows": 552,
+   "graph_pdb_id": "2lfd",
+   "dssp_present": true
+  },
+  "17762": {
+   "status": "ok",
+   "n_rows": 591,
+   "graph_pdb_id": "2lfj",
+   "dssp_present": true
+  },
+  "17767": {
+   "status": "ok",
+   "n_rows": 695,
+   "graph_pdb_id": "2jn3",
+   "dssp_present": true
+  },
+  "17799": {
+   "status": "ok",
+   "n_rows": 439,
+   "graph_pdb_id": "2lg7",
+   "dssp_present": true
+  },
+  "17806": {
+   "status": "ok",
+   "n_rows": 727,
+   "graph_pdb_id": "2lge",
+   "dssp_present": true
+  },
+  "17822": {
+   "status": "ok",
+   "n_rows": 685,
+   "graph_pdb_id": "2lgt",
+   "dssp_present": true
+  },
+  "17825": {
+   "status": "ok",
+   "n_rows": 328,
+   "graph_pdb_id": "2lgw",
+   "dssp_present": true
+  },
+  "17827": {
+   "status": "ok",
+   "n_rows": 509,
+   "graph_pdb_id": "2lgx",
+   "dssp_present": true
+  },
+  "17835": {
+   "status": "ok",
+   "n_rows": 444,
+   "graph_pdb_id": "2lh9",
+   "dssp_present": true
+  },
+  "17839": {
+   "status": "ok",
+   "n_rows": 326,
+   "graph_pdb_id": "2lhc",
+   "dssp_present": true
+  },
+  "17840": {
+   "status": "ok",
+   "n_rows": 328,
+   "graph_pdb_id": "2lhd",
+   "dssp_present": true
+  },
+  "17841": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "2lhe",
+   "dssp_present": true
+  },
+  "17843": {
+   "status": "ok",
+   "n_rows": 230,
+   "graph_pdb_id": "2lhg",
+   "dssp_present": true
+  },
+  "17857": {
+   "status": "ok",
+   "n_rows": 531,
+   "graph_pdb_id": "2l0p",
+   "dssp_present": true
+  },
+  "17867": {
+   "status": "ok",
+   "n_rows": 198,
+   "graph_pdb_id": "2lhu",
+   "dssp_present": true
+  },
+  "17875": {
+   "status": "ok",
+   "n_rows": 38,
+   "graph_pdb_id": "2li2",
+   "dssp_present": true
+  },
+  "17928": {
+   "status": "ok",
+   "n_rows": 75,
+   "graph_pdb_id": "2ljb",
+   "dssp_present": true
+  },
+  "17990": {
+   "status": "ok",
+   "n_rows": 45,
+   "graph_pdb_id": "2lkj",
+   "dssp_present": true
+  },
+  "17995": {
+   "status": "ok",
+   "n_rows": 474,
+   "graph_pdb_id": "2lki",
+   "dssp_present": true
+  },
+  "18005": {
+   "status": "ok",
+   "n_rows": 302,
+   "graph_pdb_id": "4a4e",
+   "dssp_present": true
+  },
+  "18010": {
+   "status": "ok",
+   "n_rows": 276,
+   "graph_pdb_id": "1uzc",
+   "dssp_present": true
+  },
+  "18012": {
+   "status": "ok",
+   "n_rows": 615,
+   "graph_pdb_id": "2lkt",
+   "dssp_present": true
+  },
+  "18017": {
+   "status": "ok",
+   "n_rows": 502,
+   "graph_pdb_id": "2lkz",
+   "dssp_present": true
+  },
+  "18029": {
+   "status": "ok",
+   "n_rows": 592,
+   "graph_pdb_id": "3o55",
+   "dssp_present": true
+  },
+  "18046": {
+   "status": "ok",
+   "n_rows": 602,
+   "graph_pdb_id": "2llf",
+   "dssp_present": true
+  },
+  "18087": {
+   "status": "ok",
+   "n_rows": 505,
+   "graph_pdb_id": "2lls",
+   "dssp_present": true
+  },
+  "18088": {
+   "status": "ok",
+   "n_rows": 443,
+   "graph_pdb_id": "2llt",
+   "dssp_present": true
+  },
+  "18090": {
+   "status": "ok",
+   "n_rows": 400,
+   "graph_pdb_id": "2llv",
+   "dssp_present": true
+  },
+  "18092": {
+   "status": "ok",
+   "n_rows": 804,
+   "graph_pdb_id": "1dt9",
+   "dssp_present": true
+  },
+  "18097": {
+   "status": "ok",
+   "n_rows": 664,
+   "graph_pdb_id": "2lm3",
+   "dssp_present": true
+  },
+  "18134": {
+   "status": "ok",
+   "n_rows": 358,
+   "graph_pdb_id": "2lmr",
+   "dssp_present": true
+  },
+  "18178": {
+   "status": "ok",
+   "n_rows": 654,
+   "graph_pdb_id": "2lns",
+   "dssp_present": true
+  },
+  "18179": {
+   "status": "ok",
+   "n_rows": 615,
+   "graph_pdb_id": "2lnt",
+   "dssp_present": true
+  },
+  "18191": {
+   "status": "ok",
+   "n_rows": 219,
+   "graph_pdb_id": "2lo2",
+   "dssp_present": true
+  },
+  "18201": {
+   "status": "ok",
+   "n_rows": 593,
+   "graph_pdb_id": "2m5j",
+   "dssp_present": true
+  },
+  "18202": {
+   "status": "ok",
+   "n_rows": 673,
+   "graph_pdb_id": "2ob0",
+   "dssp_present": true
+  },
+  "18203": {
+   "status": "ok",
+   "n_rows": 110,
+   "graph_pdb_id": "2lo9",
+   "dssp_present": true
+  },
+  "18219": {
+   "status": "ok",
+   "n_rows": 527,
+   "graph_pdb_id": "2loo",
+   "dssp_present": true
+  },
+  "18221": {
+   "status": "ok",
+   "n_rows": 539,
+   "graph_pdb_id": "2loq",
+   "dssp_present": true
+  },
+  "18231": {
+   "status": "ok",
+   "n_rows": 505,
+   "graph_pdb_id": "2lp3",
+   "dssp_present": true
+  },
+  "18281": {
+   "status": "ok",
+   "n_rows": 827,
+   "graph_pdb_id": "2lpx",
+   "dssp_present": true
+  },
+  "18292": {
+   "status": "ok",
+   "n_rows": 632,
+   "graph_pdb_id": "2lq5",
+   "dssp_present": true
+  },
+  "18296": {
+   "status": "ok",
+   "n_rows": 433,
+   "graph_pdb_id": "2lq6",
+   "dssp_present": true
+  },
+  "18299": {
+   "status": "ok",
+   "n_rows": 388,
+   "graph_pdb_id": "2lq9",
+   "dssp_present": true
+  },
+  "18321": {
+   "status": "ok",
+   "n_rows": 1326,
+   "graph_pdb_id": "2lqn",
+   "dssp_present": true
+  },
+  "18333": {
+   "status": "ok",
+   "n_rows": 1090,
+   "graph_pdb_id": "2lqw",
+   "dssp_present": true
+  },
+  "18349": {
+   "status": "ok",
+   "n_rows": 406,
+   "graph_pdb_id": "2lr6",
+   "dssp_present": true
+  },
+  "18360": {
+   "status": "ok",
+   "n_rows": 394,
+   "graph_pdb_id": "2kqk",
+   "dssp_present": true
+  },
+  "18361": {
+   "status": "ok",
+   "n_rows": 422,
+   "graph_pdb_id": "2kqk",
+   "dssp_present": true
+  },
+  "18362": {
+   "status": "ok",
+   "n_rows": 427,
+   "graph_pdb_id": "2kqk",
+   "dssp_present": true
+  },
+  "18364": {
+   "status": "ok",
+   "n_rows": 586,
+   "graph_pdb_id": "2lrg",
+   "dssp_present": true
+  },
+  "18399": {
+   "status": "ok",
+   "n_rows": 372,
+   "graph_pdb_id": "2lrw",
+   "dssp_present": true
+  },
+  "18404": {
+   "status": "ok",
+   "n_rows": 710,
+   "graph_pdb_id": "2ls0",
+   "dssp_present": true
+  },
+  "18437": {
+   "status": "ok",
+   "n_rows": 292,
+   "graph_pdb_id": "2lsm",
+   "dssp_present": true
+  },
+  "18461": {
+   "status": "ok",
+   "n_rows": 474,
+   "graph_pdb_id": "2lcf",
+   "dssp_present": true
+  },
+  "18464": {
+   "status": "ok",
+   "n_rows": 760,
+   "graph_pdb_id": "2lt9",
+   "dssp_present": true
+  },
+  "18465": {
+   "status": "ok",
+   "n_rows": 594,
+   "graph_pdb_id": "2lta",
+   "dssp_present": true
+  },
+  "18468": {
+   "status": "ok",
+   "n_rows": 458,
+   "graph_pdb_id": "2lte",
+   "dssp_present": true
+  },
+  "18485": {
+   "status": "ok",
+   "n_rows": 625,
+   "graph_pdb_id": "2ltk",
+   "dssp_present": true
+  },
+  "18519": {
+   "status": "ok",
+   "n_rows": 63,
+   "graph_pdb_id": "2luf",
+   "dssp_present": true
+  },
+  "18526": {
+   "status": "ok",
+   "n_rows": 830,
+   "graph_pdb_id": "2lul",
+   "dssp_present": true
+  },
+  "18541": {
+   "status": "ok",
+   "n_rows": 507,
+   "graph_pdb_id": "2luu",
+   "dssp_present": true
+  },
+  "18547": {
+   "status": "ok",
+   "n_rows": 1013,
+   "graph_pdb_id": "2luz",
+   "dssp_present": true
+  },
+  "18548": {
+   "status": "ok",
+   "n_rows": 772,
+   "graph_pdb_id": "2m5h",
+   "dssp_present": true
+  },
+  "18555": {
+   "status": "ok",
+   "n_rows": 587,
+   "graph_pdb_id": "2lv5",
+   "dssp_present": true
+  },
+  "18569": {
+   "status": "ok",
+   "n_rows": 548,
+   "graph_pdb_id": "1egx",
+   "dssp_present": true
+  },
+  "18579": {
+   "status": "ok",
+   "n_rows": 666,
+   "graph_pdb_id": "2lvm",
+   "dssp_present": true
+  },
+  "18606": {
+   "status": "ok",
+   "n_rows": 365,
+   "graph_pdb_id": "2lw5",
+   "dssp_present": true
+  },
+  "18706": {
+   "status": "ok",
+   "n_rows": 143,
+   "graph_pdb_id": "2ly0",
+   "dssp_present": true
+  },
+  "18713": {
+   "status": "ok",
+   "n_rows": 670,
+   "graph_pdb_id": "2ly8",
+   "dssp_present": true
+  },
+  "18749": {
+   "status": "ok",
+   "n_rows": 349,
+   "graph_pdb_id": "2lze",
+   "dssp_present": true
+  },
+  "18770": {
+   "status": "ok",
+   "n_rows": 226,
+   "graph_pdb_id": "2lzr",
+   "dssp_present": true
+  },
+  "18782": {
+   "status": "ok",
+   "n_rows": 289,
+   "graph_pdb_id": "2ymj",
+   "dssp_present": true
+  },
+  "18804": {
+   "status": "ok",
+   "n_rows": 244,
+   "graph_pdb_id": "2m0b",
+   "dssp_present": true
+  },
+  "18811": {
+   "status": "ok",
+   "n_rows": 510,
+   "graph_pdb_id": "2m0m",
+   "dssp_present": true
+  },
+  "18812": {
+   "status": "ok",
+   "n_rows": 534,
+   "graph_pdb_id": "2m0n",
+   "dssp_present": true
+  },
+  "18824": {
+   "status": "ok",
+   "n_rows": 620,
+   "graph_pdb_id": "2m0t",
+   "dssp_present": true
+  },
+  "18825": {
+   "status": "ok",
+   "n_rows": 626,
+   "graph_pdb_id": "2m0u",
+   "dssp_present": true
+  },
+  "18850": {
+   "status": "ok",
+   "n_rows": 564,
+   "graph_pdb_id": "2m19",
+   "dssp_present": true
+  },
+  "18856": {
+   "status": "ok",
+   "n_rows": 651,
+   "graph_pdb_id": "2m1c",
+   "dssp_present": true
+  },
+  "18888": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "2m20",
+   "dssp_present": true
+  },
+  "18908": {
+   "status": "ok",
+   "n_rows": 665,
+   "graph_pdb_id": "2m2d",
+   "dssp_present": true
+  },
+  "18912": {
+   "status": "ok",
+   "n_rows": 163,
+   "graph_pdb_id": "2m2f",
+   "dssp_present": true
+  },
+  "18917": {
+   "status": "ok",
+   "n_rows": 373,
+   "graph_pdb_id": "2m2j",
+   "dssp_present": true
+  },
+  "18934": {
+   "status": "ok",
+   "n_rows": 989,
+   "graph_pdb_id": "2m2t",
+   "dssp_present": true
+  },
+  "18953": {
+   "status": "ok",
+   "n_rows": 960,
+   "graph_pdb_id": "2m3c",
+   "dssp_present": true
+  },
+  "18972": {
+   "status": "ok",
+   "n_rows": 55,
+   "graph_pdb_id": "3zkt",
+   "dssp_present": true
+  },
+  "18980": {
+   "status": "ok",
+   "n_rows": 256,
+   "graph_pdb_id": "1a1t",
+   "dssp_present": true
+  },
+  "19045": {
+   "status": "ok",
+   "n_rows": 764,
+   "graph_pdb_id": "2imt",
+   "dssp_present": true
+  },
+  "19084": {
+   "status": "ok",
+   "n_rows": 375,
+   "graph_pdb_id": "2mmh",
+   "dssp_present": true
+  },
+  "19086": {
+   "status": "ok",
+   "n_rows": 317,
+   "graph_pdb_id": "4beh",
+   "dssp_present": true
+  },
+  "19134": {
+   "status": "ok",
+   "n_rows": 665,
+   "graph_pdb_id": "1ns5",
+   "dssp_present": true
+  },
+  "19148": {
+   "status": "ok",
+   "n_rows": 267,
+   "graph_pdb_id": "2m6o",
+   "dssp_present": true
+  },
+  "19178": {
+   "status": "ok",
+   "n_rows": 414,
+   "graph_pdb_id": "2m7a",
+   "dssp_present": true
+  },
+  "19187": {
+   "status": "ok",
+   "n_rows": 499,
+   "graph_pdb_id": "2ma3",
+   "dssp_present": true
+  },
+  "19193": {
+   "status": "ok",
+   "n_rows": 359,
+   "graph_pdb_id": "2m7k",
+   "dssp_present": true
+  },
+  "19194": {
+   "status": "ok",
+   "n_rows": 421,
+   "graph_pdb_id": "1ya7",
+   "dssp_present": true
+  },
+  "19196": {
+   "status": "ok",
+   "n_rows": 359,
+   "graph_pdb_id": "2m7m",
+   "dssp_present": true
+  },
+  "19197": {
+   "status": "ok",
+   "n_rows": 391,
+   "graph_pdb_id": "2m7n",
+   "dssp_present": true
+  },
+  "19261": {
+   "status": "ok",
+   "n_rows": 863,
+   "graph_pdb_id": "2m8l",
+   "dssp_present": true
+  },
+  "19264": {
+   "status": "ok",
+   "n_rows": 996,
+   "graph_pdb_id": "2m8l",
+   "dssp_present": true
+  },
+  "19288": {
+   "status": "ok",
+   "n_rows": 507,
+   "graph_pdb_id": "2m9a",
+   "dssp_present": true
+  },
+  "19298": {
+   "status": "ok",
+   "n_rows": 511,
+   "graph_pdb_id": "2m9k",
+   "dssp_present": true
+  },
+  "19472": {
+   "status": "ok",
+   "n_rows": 313,
+   "graph_pdb_id": "2md7",
+   "dssp_present": true
+  },
+  "19525": {
+   "status": "ok",
+   "n_rows": 486,
+   "graph_pdb_id": "4c7q",
+   "dssp_present": true
+  },
+  "19544": {
+   "status": "ok",
+   "n_rows": 276,
+   "graph_pdb_id": "2mfc",
+   "dssp_present": true
+  },
+  "19577": {
+   "status": "ok",
+   "n_rows": 61,
+   "graph_pdb_id": "2mfx",
+   "dssp_present": true
+  },
+  "19585": {
+   "status": "ok",
+   "n_rows": 370,
+   "graph_pdb_id": "2mg4",
+   "dssp_present": true
+  },
+  "19587": {
+   "status": "ok",
+   "n_rows": 59,
+   "graph_pdb_id": "2mg6",
+   "dssp_present": true
+  },
+  "19610": {
+   "status": "ok",
+   "n_rows": 218,
+   "graph_pdb_id": "2mh0",
+   "dssp_present": true
+  },
+  "19614": {
+   "status": "ok",
+   "n_rows": 405,
+   "graph_pdb_id": "2mh3",
+   "dssp_present": true
+  },
+  "19643": {
+   "status": "ok",
+   "n_rows": 442,
+   "graph_pdb_id": "2mho",
+   "dssp_present": true
+  },
+  "19657": {
+   "status": "ok",
+   "n_rows": 313,
+   "graph_pdb_id": "2mhv",
+   "dssp_present": true
+  },
+  "19673": {
+   "status": "ok",
+   "n_rows": 226,
+   "graph_pdb_id": "2mic",
+   "dssp_present": true
+  },
+  "19681": {
+   "status": "ok",
+   "n_rows": 997,
+   "graph_pdb_id": "2mii",
+   "dssp_present": true
+  },
+  "19682": {
+   "status": "ok",
+   "n_rows": 517,
+   "graph_pdb_id": "2miq",
+   "dssp_present": true
+  },
+  "19683": {
+   "status": "ok",
+   "n_rows": 168,
+   "graph_pdb_id": "2mij",
+   "dssp_present": true
+  },
+  "19735": {
+   "status": "ok",
+   "n_rows": 1042,
+   "graph_pdb_id": "2mjn",
+   "dssp_present": true
+  },
+  "19741": {
+   "status": "ok",
+   "n_rows": 196,
+   "graph_pdb_id": "2mjo",
+   "dssp_present": true
+  },
+  "19779": {
+   "status": "ok",
+   "n_rows": 402,
+   "graph_pdb_id": "4cpg",
+   "dssp_present": true
+  },
+  "19787": {
+   "status": "ok",
+   "n_rows": 684,
+   "graph_pdb_id": "3o5p",
+   "dssp_present": true
+  },
+  "19803": {
+   "status": "ok",
+   "n_rows": 1152,
+   "graph_pdb_id": "1j7n",
+   "dssp_present": true
+  },
+  "19821": {
+   "status": "ok",
+   "n_rows": 305,
+   "graph_pdb_id": "2mlg",
+   "dssp_present": true
+  },
+  "19835": {
+   "status": "ok",
+   "n_rows": 453,
+   "graph_pdb_id": "2mlx",
+   "dssp_present": true
+  },
+  "19836": {
+   "status": "ok",
+   "n_rows": 449,
+   "graph_pdb_id": "2mlx",
+   "dssp_present": true
+  },
+  "19837": {
+   "status": "ok",
+   "n_rows": 434,
+   "graph_pdb_id": "2mlx",
+   "dssp_present": true
+  },
+  "19840": {
+   "status": "ok",
+   "n_rows": 290,
+   "graph_pdb_id": "2mm0",
+   "dssp_present": true
+  },
+  "19841": {
+   "status": "ok",
+   "n_rows": 303,
+   "graph_pdb_id": "2mm2",
+   "dssp_present": true
+  },
+  "19857": {
+   "status": "ok",
+   "n_rows": 253,
+   "graph_pdb_id": "2mmk",
+   "dssp_present": true
+  },
+  "19858": {
+   "status": "ok",
+   "n_rows": 256,
+   "graph_pdb_id": "2mml",
+   "dssp_present": true
+  },
+  "19869": {
+   "status": "ok",
+   "n_rows": 379,
+   "graph_pdb_id": "2mmv",
+   "dssp_present": true
+  },
+  "19881": {
+   "status": "ok",
+   "n_rows": 269,
+   "graph_pdb_id": "2mn7",
+   "dssp_present": true
+  },
+  "19891": {
+   "status": "ok",
+   "n_rows": 685,
+   "graph_pdb_id": "2mng",
+   "dssp_present": true
+  },
+  "19940": {
+   "status": "ok",
+   "n_rows": 736,
+   "graph_pdb_id": "1g90",
+   "dssp_present": true
+  },
+  "19945": {
+   "status": "ok",
+   "n_rows": 1006,
+   "graph_pdb_id": "2mok",
+   "dssp_present": true
+  },
+  "19955": {
+   "status": "ok",
+   "n_rows": 791,
+   "graph_pdb_id": "2mox",
+   "dssp_present": true
+  },
+  "19959": {
+   "status": "ok",
+   "n_rows": 234,
+   "graph_pdb_id": "4cyk",
+   "dssp_present": true
+  },
+  "19960": {
+   "status": "ok",
+   "n_rows": 360,
+   "graph_pdb_id": "2mp1",
+   "dssp_present": true
+  },
+  "19977": {
+   "status": "ok",
+   "n_rows": 750,
+   "graph_pdb_id": "2mpf",
+   "dssp_present": true
+  },
+  "19989": {
+   "status": "ok",
+   "n_rows": 310,
+   "graph_pdb_id": "1eot",
+   "dssp_present": true
+  },
+  "25016": {
+   "status": "ok",
+   "n_rows": 652,
+   "graph_pdb_id": "2mq6",
+   "dssp_present": true
+  },
+  "25020": {
+   "status": "ok",
+   "n_rows": 652,
+   "graph_pdb_id": "2mq9",
+   "dssp_present": true
+  },
+  "25026": {
+   "status": "ok",
+   "n_rows": 719,
+   "graph_pdb_id": "2mqb",
+   "dssp_present": true
+  },
+  "25040": {
+   "status": "ok",
+   "n_rows": 918,
+   "graph_pdb_id": "2mqn",
+   "dssp_present": true
+  },
+  "25043": {
+   "status": "ok",
+   "n_rows": 940,
+   "graph_pdb_id": "2mqq",
+   "dssp_present": true
+  },
+  "25048": {
+   "status": "ok",
+   "n_rows": 775,
+   "graph_pdb_id": "2mqs",
+   "dssp_present": true
+  },
+  "25067": {
+   "status": "ok",
+   "n_rows": 611,
+   "graph_pdb_id": "2mra",
+   "dssp_present": true
+  },
+  "25078": {
+   "status": "ok",
+   "n_rows": 203,
+   "graph_pdb_id": "4qqb",
+   "dssp_present": true
+  },
+  "25080": {
+   "status": "ok",
+   "n_rows": 423,
+   "graph_pdb_id": "4uam",
+   "dssp_present": true
+  },
+  "25086": {
+   "status": "ok",
+   "n_rows": 251,
+   "graph_pdb_id": "1mvf",
+   "dssp_present": true
+  },
+  "25093": {
+   "status": "ok",
+   "n_rows": 240,
+   "graph_pdb_id": "1mvf",
+   "dssp_present": true
+  },
+  "25102": {
+   "status": "ok",
+   "n_rows": 129,
+   "graph_pdb_id": "2ms3",
+   "dssp_present": true
+  },
+  "25113": {
+   "status": "ok",
+   "n_rows": 406,
+   "graph_pdb_id": "2lhr",
+   "dssp_present": true
+  },
+  "25195": {
+   "status": "ok",
+   "n_rows": 667,
+   "graph_pdb_id": "2mu0",
+   "dssp_present": true
+  },
+  "25210": {
+   "status": "ok",
+   "n_rows": 687,
+   "graph_pdb_id": "4uzm",
+   "dssp_present": true
+  },
+  "25213": {
+   "status": "ok",
+   "n_rows": 288,
+   "graph_pdb_id": "4uzw",
+   "dssp_present": true
+  },
+  "25214": {
+   "status": "ok",
+   "n_rows": 392,
+   "graph_pdb_id": "4uzx",
+   "dssp_present": true
+  },
+  "25217": {
+   "status": "ok",
+   "n_rows": 606,
+   "graph_pdb_id": "2muk",
+   "dssp_present": true
+  },
+  "25223": {
+   "status": "ok",
+   "n_rows": 268,
+   "graph_pdb_id": "2mun",
+   "dssp_present": true
+  },
+  "25232": {
+   "status": "ok",
+   "n_rows": 503,
+   "graph_pdb_id": "2mut",
+   "dssp_present": true
+  },
+  "25237": {
+   "status": "ok",
+   "n_rows": 1670,
+   "graph_pdb_id": "2mv0",
+   "dssp_present": true
+  },
+  "25248": {
+   "status": "ok",
+   "n_rows": 240,
+   "graph_pdb_id": "2kiz",
+   "dssp_present": true
+  },
+  "25249": {
+   "status": "ok",
+   "n_rows": 229,
+   "graph_pdb_id": "2kiz",
+   "dssp_present": true
+  },
+  "25265": {
+   "status": "ok",
+   "n_rows": 520,
+   "graph_pdb_id": "2mvf",
+   "dssp_present": true
+  },
+  "25268": {
+   "status": "ok",
+   "n_rows": 116,
+   "graph_pdb_id": "2mvh",
+   "dssp_present": true
+  },
+  "25269": {
+   "status": "ok",
+   "n_rows": 195,
+   "graph_pdb_id": "2mvi",
+   "dssp_present": true
+  },
+  "25270": {
+   "status": "ok",
+   "n_rows": 120,
+   "graph_pdb_id": "2mvj",
+   "dssp_present": true
+  },
+  "25342": {
+   "status": "ok",
+   "n_rows": 823,
+   "graph_pdb_id": "3edo",
+   "dssp_present": true
+  },
+  "25347": {
+   "status": "ok",
+   "n_rows": 658,
+   "graph_pdb_id": "2mwo",
+   "dssp_present": true
+  },
+  "25348": {
+   "status": "ok",
+   "n_rows": 658,
+   "graph_pdb_id": "2mwp",
+   "dssp_present": true
+  },
+  "25350": {
+   "status": "ok",
+   "n_rows": 734,
+   "graph_pdb_id": "1vyk",
+   "dssp_present": true
+  },
+  "25351": {
+   "status": "ok",
+   "n_rows": 394,
+   "graph_pdb_id": "2kiz",
+   "dssp_present": true
+  },
+  "25484": {
+   "status": "ok",
+   "n_rows": 475,
+   "graph_pdb_id": "2k8f",
+   "dssp_present": true
+  },
+  "25510": {
+   "status": "ok",
+   "n_rows": 545,
+   "graph_pdb_id": "2n00",
+   "dssp_present": true
+  },
+  "25543": {
+   "status": "ok",
+   "n_rows": 406,
+   "graph_pdb_id": "2n11",
+   "dssp_present": true
+  },
+  "25634": {
+   "status": "ok",
+   "n_rows": 289,
+   "graph_pdb_id": "2n35",
+   "dssp_present": true
+  },
+  "25645": {
+   "status": "ok",
+   "n_rows": 320,
+   "graph_pdb_id": "2n3j",
+   "dssp_present": true
+  },
+  "25702": {
+   "status": "ok",
+   "n_rows": 573,
+   "graph_pdb_id": "2n5a",
+   "dssp_present": true
+  },
+  "25710": {
+   "status": "ok",
+   "n_rows": 662,
+   "graph_pdb_id": "2n5e",
+   "dssp_present": true
+  },
+  "25712": {
+   "status": "ok",
+   "n_rows": 1106,
+   "graph_pdb_id": "2n5f",
+   "dssp_present": true
+  },
+  "25729": {
+   "status": "ok",
+   "n_rows": 300,
+   "graph_pdb_id": "2n5s",
+   "dssp_present": true
+  },
+  "25788": {
+   "status": "ok",
+   "n_rows": 138,
+   "graph_pdb_id": "2n70",
+   "dssp_present": true
+  },
+  "25793": {
+   "status": "ok",
+   "n_rows": 416,
+   "graph_pdb_id": "2n74",
+   "dssp_present": true
+  },
+  "25817": {
+   "status": "ok",
+   "n_rows": 258,
+   "graph_pdb_id": "2n7q",
+   "dssp_present": true
+  },
+  "25830": {
+   "status": "ok",
+   "n_rows": 534,
+   "graph_pdb_id": "2n81",
+   "dssp_present": true
+  },
+  "25848": {
+   "status": "ok",
+   "n_rows": 392,
+   "graph_pdb_id": "2n8f",
+   "dssp_present": true
+  },
+  "25881": {
+   "status": "ok",
+   "n_rows": 255,
+   "graph_pdb_id": "2n95",
+   "dssp_present": true
+  },
+  "25944": {
+   "status": "ok",
+   "n_rows": 576,
+   "graph_pdb_id": "2nar",
+   "dssp_present": true
+  },
+  "25953": {
+   "status": "ok",
+   "n_rows": 378,
+   "graph_pdb_id": "2nax",
+   "dssp_present": true
+  },
+  "25957": {
+   "status": "ok",
+   "n_rows": 248,
+   "graph_pdb_id": "2mhv",
+   "dssp_present": true
+  },
+  "25966": {
+   "status": "ok",
+   "n_rows": 152,
+   "graph_pdb_id": "2nb8",
+   "dssp_present": true
+  },
+  "25983": {
+   "status": "ok",
+   "n_rows": 499,
+   "graph_pdb_id": "2nbm",
+   "dssp_present": true
+  },
+  "26312": {
+   "status": "ok",
+   "n_rows": 466,
+   "graph_pdb_id": "1wxs",
+   "dssp_present": true
+  },
+  "26517": {
+   "status": "ok",
+   "n_rows": 490,
+   "graph_pdb_id": "5agq",
+   "dssp_present": true
+  },
+  "26564": {
+   "status": "ok",
+   "n_rows": 1013,
+   "graph_pdb_id": "1k1s",
+   "dssp_present": true
+  },
+  "26649": {
+   "status": "ok",
+   "n_rows": 410,
+   "graph_pdb_id": "2n78",
+   "dssp_present": true
+  },
+  "26763": {
+   "status": "ok",
+   "n_rows": 980,
+   "graph_pdb_id": "2mou",
+   "dssp_present": true
+  },
+  "26879": {
+   "status": "ok",
+   "n_rows": 179,
+   "graph_pdb_id": "2q1e",
+   "dssp_present": true
+  },
+  "26986": {
+   "status": "ok",
+   "n_rows": 576,
+   "graph_pdb_id": "2i9h",
+   "dssp_present": true
+  },
+  "27046": {
+   "status": "ok",
+   "n_rows": 396,
+   "graph_pdb_id": "2n3j",
+   "dssp_present": true
+  },
+  "27145": {
+   "status": "ok",
+   "n_rows": 185,
+   "graph_pdb_id": "1e0b",
+   "dssp_present": true
+  },
+  "27303": {
+   "status": "ok",
+   "n_rows": 89,
+   "graph_pdb_id": "5oap",
+   "dssp_present": true
+  },
+  "27314": {
+   "status": "ok",
+   "n_rows": 1273,
+   "graph_pdb_id": "1ece",
+   "dssp_present": true
+  },
+  "27395": {
+   "status": "ok",
+   "n_rows": 586,
+   "graph_pdb_id": "7hsc",
+   "dssp_present": true
+  },
+  "27411": {
+   "status": "ok",
+   "n_rows": 1181,
+   "graph_pdb_id": "3zud",
+   "dssp_present": true
+  },
+  "27469": {
+   "status": "ok",
+   "n_rows": 1689,
+   "graph_pdb_id": "3p62",
+   "dssp_present": true
+  },
+  "27612": {
+   "status": "ok",
+   "n_rows": 724,
+   "graph_pdb_id": "5iq5",
+   "dssp_present": true
+  },
+  "27797": {
+   "status": "ok",
+   "n_rows": 288,
+   "graph_pdb_id": "6flt",
+   "dssp_present": true
+  },
+  "27798": {
+   "status": "ok",
+   "n_rows": 664,
+   "graph_pdb_id": "1zdn",
+   "dssp_present": true
+  },
+  "27840": {
+   "status": "ok",
+   "n_rows": 1172,
+   "graph_pdb_id": "1ftj",
+   "dssp_present": true
+  },
+  "27841": {
+   "status": "ok",
+   "n_rows": 1186,
+   "graph_pdb_id": "3b6q",
+   "dssp_present": true
+  },
+  "27842": {
+   "status": "ok",
+   "n_rows": 921,
+   "graph_pdb_id": "3b6w",
+   "dssp_present": true
+  },
+  "27900": {
+   "status": "ok",
+   "n_rows": 786,
+   "graph_pdb_id": "1xq8",
+   "dssp_present": true
+  },
+  "28034": {
+   "status": "ok",
+   "n_rows": 303,
+   "graph_pdb_id": "2n3j",
+   "dssp_present": true
+  },
+  "28092": {
+   "status": "ok",
+   "n_rows": 530,
+   "graph_pdb_id": "6frr",
+   "dssp_present": true
+  },
+  "30003": {
+   "status": "ok",
+   "n_rows": 545,
+   "graph_pdb_id": "5hp0",
+   "dssp_present": true
+  },
+  "30004": {
+   "status": "ok",
+   "n_rows": 702,
+   "graph_pdb_id": "5hpd",
+   "dssp_present": true
+  },
+  "30007": {
+   "status": "ok",
+   "n_rows": 503,
+   "graph_pdb_id": "5hvc",
+   "dssp_present": true
+  },
+  "30008": {
+   "status": "ok",
+   "n_rows": 206,
+   "graph_pdb_id": "5i1r",
+   "dssp_present": true
+  },
+  "30020": {
+   "status": "ok",
+   "n_rows": 642,
+   "graph_pdb_id": "5iaz",
+   "dssp_present": true
+  },
+  "30037": {
+   "status": "ok",
+   "n_rows": 108,
+   "graph_pdb_id": "6ht4",
+   "dssp_present": true
+  },
+  "30047": {
+   "status": "ok",
+   "n_rows": 447,
+   "graph_pdb_id": "5j17",
+   "dssp_present": true
+  },
+  "30061": {
+   "status": "ok",
+   "n_rows": 141,
+   "graph_pdb_id": "5j6z",
+   "dssp_present": true
+  },
+  "30071": {
+   "status": "ok",
+   "n_rows": 473,
+   "graph_pdb_id": "5joj",
+   "dssp_present": true
+  },
+  "30072": {
+   "status": "ok",
+   "n_rows": 398,
+   "graph_pdb_id": "5jol",
+   "dssp_present": true
+  },
+  "30075": {
+   "status": "ok",
+   "n_rows": 224,
+   "graph_pdb_id": "5jpx",
+   "dssp_present": true
+  },
+  "30119": {
+   "status": "ok",
+   "n_rows": 71,
+   "graph_pdb_id": "5kj3",
+   "dssp_present": true
+  },
+  "30120": {
+   "status": "ok",
+   "n_rows": 76,
+   "graph_pdb_id": "5kjg",
+   "dssp_present": true
+  },
+  "30128": {
+   "status": "ok",
+   "n_rows": 536,
+   "graph_pdb_id": "5kpe",
+   "dssp_present": true
+  },
+  "30130": {
+   "status": "ok",
+   "n_rows": 639,
+   "graph_pdb_id": "5kqb",
+   "dssp_present": true
+  },
+  "30139": {
+   "status": "ok",
+   "n_rows": 831,
+   "graph_pdb_id": "5kvp",
+   "dssp_present": true
+  },
+  "30140": {
+   "status": "ok",
+   "n_rows": 112,
+   "graph_pdb_id": "5kwo",
+   "dssp_present": true
+  },
+  "30155": {
+   "status": "ok",
+   "n_rows": 561,
+   "graph_pdb_id": "5szw",
+   "dssp_present": true
+  },
+  "30197": {
+   "status": "ok",
+   "n_rows": 426,
+   "graph_pdb_id": "5tr5",
+   "dssp_present": true
+  },
+  "30200": {
+   "status": "ok",
+   "n_rows": 469,
+   "graph_pdb_id": "5ttt",
+   "dssp_present": true
+  },
+  "30204": {
+   "status": "ok",
+   "n_rows": 160,
+   "graph_pdb_id": "5tx8",
+   "dssp_present": true
+  },
+  "30210": {
+   "status": "ok",
+   "n_rows": 415,
+   "graph_pdb_id": "5u9b",
+   "dssp_present": true
+  },
+  "30233": {
+   "status": "ok",
+   "n_rows": 84,
+   "graph_pdb_id": "5ujh",
+   "dssp_present": true
+  },
+  "30235": {
+   "status": "ok",
+   "n_rows": 134,
+   "graph_pdb_id": "5ujq",
+   "dssp_present": true
+  },
+  "30239": {
+   "status": "ok",
+   "n_rows": 291,
+   "graph_pdb_id": "5unk",
+   "dssp_present": true
+  },
+  "30242": {
+   "status": "ok",
+   "n_rows": 154,
+   "graph_pdb_id": "5up5",
+   "dssp_present": true
+  },
+  "30246": {
+   "status": "ok",
+   "n_rows": 673,
+   "graph_pdb_id": "5utg",
+   "dssp_present": true
+  },
+  "30267": {
+   "status": "ok",
+   "n_rows": 79,
+   "graph_pdb_id": "5v2g",
+   "dssp_present": true
+  },
+  "30293": {
+   "status": "ok",
+   "n_rows": 420,
+   "graph_pdb_id": "5vso",
+   "dssp_present": true
+  },
+  "30327": {
+   "status": "ok",
+   "n_rows": 643,
+   "graph_pdb_id": "5woz",
+   "dssp_present": true
+  },
+  "30350": {
+   "status": "ok",
+   "n_rows": 42,
+   "graph_pdb_id": "6b9k",
+   "dssp_present": true
+  },
+  "30352": {
+   "status": "ok",
+   "n_rows": 417,
+   "graph_pdb_id": "6ba3",
+   "dssp_present": true
+  },
+  "30394": {
+   "status": "ok",
+   "n_rows": 615,
+   "graph_pdb_id": "6c2u",
+   "dssp_present": true
+  },
+  "30396": {
+   "status": "ok",
+   "n_rows": 57,
+   "graph_pdb_id": "6c41",
+   "dssp_present": true
+  },
+  "30450": {
+   "status": "ok",
+   "n_rows": 438,
+   "graph_pdb_id": "6czt",
+   "dssp_present": true
+  },
+  "30457": {
+   "status": "ok",
+   "n_rows": 436,
+   "graph_pdb_id": "6d6x",
+   "dssp_present": true
+  },
+  "30495": {
+   "status": "ok",
+   "n_rows": 348,
+   "graph_pdb_id": "6e5c",
+   "dssp_present": true
+  },
+  "30528": {
+   "status": "ok",
+   "n_rows": 531,
+   "graph_pdb_id": "6mun",
+   "dssp_present": true
+  },
+  "30538": {
+   "status": "ok",
+   "n_rows": 204,
+   "graph_pdb_id": "6mzt",
+   "dssp_present": true
+  },
+  "30555": {
+   "status": "ok",
+   "n_rows": 132,
+   "graph_pdb_id": "6nk9",
+   "dssp_present": true
+  },
+  "30580": {
+   "status": "ok",
+   "n_rows": 220,
+   "graph_pdb_id": "6o3s",
+   "dssp_present": true
+  },
+  "30585": {
+   "status": "ok",
+   "n_rows": 297,
+   "graph_pdb_id": "6o7g",
+   "dssp_present": true
+  },
+  "30658": {
+   "status": "ok",
+   "n_rows": 369,
+   "graph_pdb_id": "6u4m",
+   "dssp_present": true
+  },
+  "30659": {
+   "status": "ok",
+   "n_rows": 418,
+   "graph_pdb_id": "6u4n",
+   "dssp_present": true
+  },
+  "30680": {
+   "status": "ok",
+   "n_rows": 247,
+   "graph_pdb_id": "6urs",
+   "dssp_present": true
+  },
+  "30702": {
+   "status": "ok",
+   "n_rows": 62,
+   "graph_pdb_id": "6ve9",
+   "dssp_present": true
+  },
+  "30705": {
+   "status": "ok",
+   "n_rows": 424,
+   "graph_pdb_id": "6vfo",
+   "dssp_present": true
+  },
+  "30744": {
+   "status": "ok",
+   "n_rows": 60,
+   "graph_pdb_id": "6wpb",
+   "dssp_present": true
+  },
+  "30769": {
+   "status": "ok",
+   "n_rows": 816,
+   "graph_pdb_id": "6xqj",
+   "dssp_present": true
+  },
+  "30775": {
+   "status": "ok",
+   "n_rows": 59,
+   "graph_pdb_id": "7jgx",
+   "dssp_present": true
+  },
+  "30779": {
+   "status": "ok",
+   "n_rows": 597,
+   "graph_pdb_id": "7ji1",
+   "dssp_present": true
+  },
+  "30784": {
+   "status": "ok",
+   "n_rows": 196,
+   "graph_pdb_id": "7jnn",
+   "dssp_present": true
+  },
+  "30825": {
+   "status": "ok",
+   "n_rows": 1087,
+   "graph_pdb_id": "7kyz",
+   "dssp_present": true
+  },
+  "30834": {
+   "status": "ok",
+   "n_rows": 155,
+   "graph_pdb_id": "7l83",
+   "dssp_present": true
+  },
+  "30850": {
+   "status": "ok",
+   "n_rows": 447,
+   "graph_pdb_id": "7lie",
+   "dssp_present": true
+  },
+  "30857": {
+   "status": "ok",
+   "n_rows": 254,
+   "graph_pdb_id": "7lp4",
+   "dssp_present": true
+  },
+  "30858": {
+   "status": "ok",
+   "n_rows": 350,
+   "graph_pdb_id": "7lp5",
+   "dssp_present": true
+  },
+  "30869": {
+   "status": "ok",
+   "n_rows": 197,
+   "graph_pdb_id": "7lve",
+   "dssp_present": true
+  },
+  "30875": {
+   "status": "ok",
+   "n_rows": 247,
+   "graph_pdb_id": "7lxk",
+   "dssp_present": true
+  },
+  "30876": {
+   "status": "ok",
+   "n_rows": 165,
+   "graph_pdb_id": "7lzl",
+   "dssp_present": true
+  },
+  "30895": {
+   "status": "ok",
+   "n_rows": 33,
+   "graph_pdb_id": "7m7x",
+   "dssp_present": true
+  },
+  "30913": {
+   "status": "ok",
+   "n_rows": 68,
+   "graph_pdb_id": "7n0t",
+   "dssp_present": true
+  },
+  "30920": {
+   "status": "ok",
+   "n_rows": 58,
+   "graph_pdb_id": "7n24",
+   "dssp_present": true
+  },
+  "30921": {
+   "status": "ok",
+   "n_rows": 63,
+   "graph_pdb_id": "7n25",
+   "dssp_present": true
+  },
+  "30922": {
+   "status": "ok",
+   "n_rows": 68,
+   "graph_pdb_id": "7n26",
+   "dssp_present": true
+  },
+  "30929": {
+   "status": "ok",
+   "n_rows": 484,
+   "graph_pdb_id": "7r7p",
+   "dssp_present": true
+  },
+  "30931": {
+   "status": "ok",
+   "n_rows": 207,
+   "graph_pdb_id": "7r95",
+   "dssp_present": true
+  },
+  "30945": {
+   "status": "ok",
+   "n_rows": 78,
+   "graph_pdb_id": "7s3e",
+   "dssp_present": true
+  },
+  "30957": {
+   "status": "ok",
+   "n_rows": 388,
+   "graph_pdb_id": "7sfq",
+   "dssp_present": true
+  },
+  "30976": {
+   "status": "ok",
+   "n_rows": 38,
+   "graph_pdb_id": "7t7w",
+   "dssp_present": true
+  },
+  "31013": {
+   "status": "ok",
+   "n_rows": 222,
+   "graph_pdb_id": "7uv1",
+   "dssp_present": true
+  },
+  "31015": {
+   "status": "ok",
+   "n_rows": 180,
+   "graph_pdb_id": "7uv3",
+   "dssp_present": true
+  },
+  "31018": {
+   "status": "ok",
+   "n_rows": 328,
+   "graph_pdb_id": "7uwz",
+   "dssp_present": true
+  },
+  "31025": {
+   "status": "ok",
+   "n_rows": 688,
+   "graph_pdb_id": "8cx6",
+   "dssp_present": true
+  },
+  "31028": {
+   "status": "ok",
+   "n_rows": 193,
+   "graph_pdb_id": "8dfz",
+   "dssp_present": true
+  },
+  "31038": {
+   "status": "ok",
+   "n_rows": 192,
+   "graph_pdb_id": "8e1d",
+   "dssp_present": true
+  },
+  "31043": {
+   "status": "ok",
+   "n_rows": 488,
+   "graph_pdb_id": "8enp",
+   "dssp_present": true
+  },
+  "31066": {
+   "status": "ok",
+   "n_rows": 41,
+   "graph_pdb_id": "8flp",
+   "dssp_present": true
+  },
+  "31094": {
+   "status": "ok",
+   "n_rows": 78,
+   "graph_pdb_id": "8t61",
+   "dssp_present": true
+  },
+  "31095": {
+   "status": "ok",
+   "n_rows": 76,
+   "graph_pdb_id": "8t62",
+   "dssp_present": true
+  },
+  "31105": {
+   "status": "ok",
+   "n_rows": 37,
+   "graph_pdb_id": "8u2y",
+   "dssp_present": true
+  },
+  "31112": {
+   "status": "ok",
+   "n_rows": 206,
+   "graph_pdb_id": "8um1",
+   "dssp_present": true
+  },
+  "31121": {
+   "status": "ok",
+   "n_rows": 394,
+   "graph_pdb_id": "8uoz",
+   "dssp_present": true
+  },
+  "31122": {
+   "status": "ok",
+   "n_rows": 1120,
+   "graph_pdb_id": "8urv",
+   "dssp_present": true
+  },
+  "31124": {
+   "status": "ok",
+   "n_rows": 178,
+   "graph_pdb_id": "8uwf",
+   "dssp_present": true
+  },
+  "31125": {
+   "status": "ok",
+   "n_rows": 466,
+   "graph_pdb_id": "8uwu",
+   "dssp_present": true
+  },
+  "31150": {
+   "status": "ok",
+   "n_rows": 211,
+   "graph_pdb_id": "8w2v",
+   "dssp_present": true
+  },
+  "31164": {
+   "status": "ok",
+   "n_rows": 1067,
+   "graph_pdb_id": "9bch",
+   "dssp_present": true
+  },
+  "31192": {
+   "status": "ok",
+   "n_rows": 751,
+   "graph_pdb_id": "9cvd",
+   "dssp_present": true
+  },
+  "31198": {
+   "status": "ok",
+   "n_rows": 118,
+   "graph_pdb_id": "9dcj",
+   "dssp_present": true
+  },
+  "31226": {
+   "status": "ok",
+   "n_rows": 102,
+   "graph_pdb_id": "9mxf",
+   "dssp_present": true
+  },
+  "31227": {
+   "status": "ok",
+   "n_rows": 105,
+   "graph_pdb_id": "9mxg",
+   "dssp_present": true
+  },
+  "34006": {
+   "status": "ok",
+   "n_rows": 164,
+   "graph_pdb_id": "5l82",
+   "dssp_present": true
+  },
+  "34019": {
+   "status": "ok",
+   "n_rows": 44,
+   "graph_pdb_id": "5lfy",
+   "dssp_present": true
+  },
+  "34026": {
+   "status": "ok",
+   "n_rows": 453,
+   "graph_pdb_id": "5lkn",
+   "dssp_present": true
+  },
+  "34031": {
+   "status": "ok",
+   "n_rows": 93,
+   "graph_pdb_id": "5lo2",
+   "dssp_present": true
+  },
+  "34032": {
+   "status": "ok",
+   "n_rows": 84,
+   "graph_pdb_id": "5lo3",
+   "dssp_present": true
+  },
+  "34036": {
+   "status": "ok",
+   "n_rows": 515,
+   "graph_pdb_id": "5lqv",
+   "dssp_present": true
+  },
+  "34041": {
+   "status": "ok",
+   "n_rows": 618,
+   "graph_pdb_id": "5lvf",
+   "dssp_present": true
+  },
+  "34058": {
+   "status": "ok",
+   "n_rows": 647,
+   "graph_pdb_id": "5m9d",
+   "dssp_present": true
+  },
+  "34061": {
+   "status": "ok",
+   "n_rows": 290,
+   "graph_pdb_id": "5m9z",
+   "dssp_present": true
+  },
+  "34102": {
+   "status": "ok",
+   "n_rows": 230,
+   "graph_pdb_id": "5n7y",
+   "dssp_present": true
+  },
+  "34123": {
+   "status": "ok",
+   "n_rows": 239,
+   "graph_pdb_id": "5npa",
+   "dssp_present": true
+  },
+  "34152": {
+   "status": "ok",
+   "n_rows": 74,
+   "graph_pdb_id": "5oap",
+   "dssp_present": true
+  },
+  "34155": {
+   "status": "ok",
+   "n_rows": 776,
+   "graph_pdb_id": "5obn",
+   "dssp_present": true
+  },
+  "34203": {
+   "status": "ok",
+   "n_rows": 40,
+   "graph_pdb_id": "6f27",
+   "dssp_present": true
+  },
+  "34211": {
+   "status": "ok",
+   "n_rows": 308,
+   "graph_pdb_id": "6f55",
+   "dssp_present": true
+  },
+  "34227": {
+   "status": "ok",
+   "n_rows": 485,
+   "graph_pdb_id": "6ffq",
+   "dssp_present": true
+  },
+  "34231": {
+   "status": "ok",
+   "n_rows": 698,
+   "graph_pdb_id": "6fgn",
+   "dssp_present": true
+  },
+  "34233": {
+   "status": "ok",
+   "n_rows": 573,
+   "graph_pdb_id": "6fgs",
+   "dssp_present": true
+  },
+  "34235": {
+   "status": "ok",
+   "n_rows": 559,
+   "graph_pdb_id": "6fip",
+   "dssp_present": true
+  },
+  "34247": {
+   "status": "ok",
+   "n_rows": 754,
+   "graph_pdb_id": "6g03",
+   "dssp_present": true
+  },
+  "34248": {
+   "status": "ok",
+   "n_rows": 752,
+   "graph_pdb_id": "6g04",
+   "dssp_present": true
+  },
+  "34261": {
+   "status": "ok",
+   "n_rows": 610,
+   "graph_pdb_id": "6gd5",
+   "dssp_present": true
+  },
+  "34300": {
+   "status": "ok",
+   "n_rows": 969,
+   "graph_pdb_id": "6f2x",
+   "dssp_present": true
+  },
+  "34301": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "6h0q",
+   "dssp_present": true
+  },
+  "34326": {
+   "status": "ok",
+   "n_rows": 1432,
+   "graph_pdb_id": "6i3r",
+   "dssp_present": true
+  },
+  "34330": {
+   "status": "ok",
+   "n_rows": 517,
+   "graph_pdb_id": "6i9h",
+   "dssp_present": true
+  },
+  "34344": {
+   "status": "ok",
+   "n_rows": 563,
+   "graph_pdb_id": "6qbi",
+   "dssp_present": true
+  },
+  "34348": {
+   "status": "ok",
+   "n_rows": 179,
+   "graph_pdb_id": "6qes",
+   "dssp_present": true
+  },
+  "34349": {
+   "status": "ok",
+   "n_rows": 195,
+   "graph_pdb_id": "6qet",
+   "dssp_present": true
+  },
+  "34350": {
+   "status": "ok",
+   "n_rows": 195,
+   "graph_pdb_id": "6qeu",
+   "dssp_present": true
+  },
+  "34355": {
+   "status": "ok",
+   "n_rows": 294,
+   "graph_pdb_id": "6qk5",
+   "dssp_present": true
+  },
+  "34399": {
+   "status": "ok",
+   "n_rows": 626,
+   "graph_pdb_id": "6rpv",
+   "dssp_present": true
+  },
+  "34419": {
+   "status": "ok",
+   "n_rows": 322,
+   "graph_pdb_id": "6sai",
+   "dssp_present": true
+  },
+  "34446": {
+   "status": "ok",
+   "n_rows": 252,
+   "graph_pdb_id": "6tdd",
+   "dssp_present": true
+  },
+  "34447": {
+   "status": "ok",
+   "n_rows": 353,
+   "graph_pdb_id": "6tdm",
+   "dssp_present": true
+  },
+  "34448": {
+   "status": "ok",
+   "n_rows": 438,
+   "graph_pdb_id": "6tdn",
+   "dssp_present": true
+  },
+  "34450": {
+   "status": "ok",
+   "n_rows": 331,
+   "graph_pdb_id": "6tf4",
+   "dssp_present": true
+  },
+  "34462": {
+   "status": "ok",
+   "n_rows": 426,
+   "graph_pdb_id": "6to6",
+   "dssp_present": true
+  },
+  "34465": {
+   "status": "ok",
+   "n_rows": 345,
+   "graph_pdb_id": "6tph",
+   "dssp_present": true
+  },
+  "34477": {
+   "status": "ok",
+   "n_rows": 422,
+   "graph_pdb_id": "6txt",
+   "dssp_present": true
+  },
+  "34493": {
+   "status": "ok",
+   "n_rows": 776,
+   "graph_pdb_id": "6y6m",
+   "dssp_present": true
+  },
+  "34495": {
+   "status": "ok",
+   "n_rows": 392,
+   "graph_pdb_id": "6y8w",
+   "dssp_present": true
+  },
+  "34500": {
+   "status": "ok",
+   "n_rows": 343,
+   "graph_pdb_id": "6ydh",
+   "dssp_present": true
+  },
+  "34512": {
+   "status": "ok",
+   "n_rows": 184,
+   "graph_pdb_id": "6yjl",
+   "dssp_present": true
+  },
+  "34535": {
+   "status": "ok",
+   "n_rows": 460,
+   "graph_pdb_id": "6zuy",
+   "dssp_present": true
+  },
+  "34541": {
+   "status": "ok",
+   "n_rows": 595,
+   "graph_pdb_id": "6zv4",
+   "dssp_present": true
+  },
+  "34550": {
+   "status": "ok",
+   "n_rows": 718,
+   "graph_pdb_id": "7a0i",
+   "dssp_present": true
+  },
+  "34552": {
+   "status": "ok",
+   "n_rows": 992,
+   "graph_pdb_id": "7a2d",
+   "dssp_present": true
+  },
+  "34576": {
+   "status": "ok",
+   "n_rows": 177,
+   "graph_pdb_id": "7b2f",
+   "dssp_present": true
+  },
+  "34584": {
+   "status": "ok",
+   "n_rows": 1144,
+   "graph_pdb_id": "7bbb",
+   "dssp_present": true
+  },
+  "34699": {
+   "status": "ok",
+   "n_rows": 657,
+   "graph_pdb_id": "7qs6",
+   "dssp_present": true
+  },
+  "34703": {
+   "status": "ok",
+   "n_rows": 98,
+   "graph_pdb_id": "7qxj",
+   "dssp_present": true
+  },
+  "34704": {
+   "status": "ok",
+   "n_rows": 577,
+   "graph_pdb_id": "7qyi",
+   "dssp_present": true
+  },
+  "34706": {
+   "status": "ok",
+   "n_rows": 105,
+   "graph_pdb_id": "7qzw",
+   "dssp_present": true
+  },
+  "34716": {
+   "status": "ok",
+   "n_rows": 735,
+   "graph_pdb_id": "7zax",
+   "dssp_present": true
+  },
+  "34720": {
+   "status": "ok",
+   "n_rows": 651,
+   "graph_pdb_id": "7zed",
+   "dssp_present": true
+  },
+  "34729": {
+   "status": "ok",
+   "n_rows": 340,
+   "graph_pdb_id": "7zjy",
+   "dssp_present": true
+  },
+  "34736": {
+   "status": "ok",
+   "n_rows": 357,
+   "graph_pdb_id": "8a4f",
+   "dssp_present": true
+  },
+  "34767": {
+   "status": "ok",
+   "n_rows": 344,
+   "graph_pdb_id": "8bgk",
+   "dssp_present": true
+  },
+  "34773": {
+   "status": "ok",
+   "n_rows": 748,
+   "graph_pdb_id": "8bss",
+   "dssp_present": true
+  },
+  "34776": {
+   "status": "ok",
+   "n_rows": 242,
+   "graph_pdb_id": "8bwb",
+   "dssp_present": true
+  },
+  "34787": {
+   "status": "ok",
+   "n_rows": 557,
+   "graph_pdb_id": "8ch7",
+   "dssp_present": true
+  },
+  "34800": {
+   "status": "ok",
+   "n_rows": 112,
+   "graph_pdb_id": "8ojr",
+   "dssp_present": true
+  },
+  "34801": {
+   "status": "ok",
+   "n_rows": 55,
+   "graph_pdb_id": "8ol8",
+   "dssp_present": true
+  },
+  "34812": {
+   "status": "ok",
+   "n_rows": 185,
+   "graph_pdb_id": "8ovl",
+   "dssp_present": true
+  },
+  "34844": {
+   "status": "ok",
+   "n_rows": 320,
+   "graph_pdb_id": "8q5b",
+   "dssp_present": true
+  },
+  "34872": {
+   "status": "ok",
+   "n_rows": 403,
+   "graph_pdb_id": "8qwq",
+   "dssp_present": true
+  },
+  "34874": {
+   "status": "ok",
+   "n_rows": 342,
+   "graph_pdb_id": "8r1x",
+   "dssp_present": true
+  },
+  "34890": {
+   "status": "ok",
+   "n_rows": 434,
+   "graph_pdb_id": "8rlz",
+   "dssp_present": true
+  },
+  "34892": {
+   "status": "ok",
+   "n_rows": 165,
+   "graph_pdb_id": "8rpq",
+   "dssp_present": true
+  },
+  "34910": {
+   "status": "ok",
+   "n_rows": 520,
+   "graph_pdb_id": "9ep9",
+   "dssp_present": true
+  },
+  "34963": {
+   "status": "ok",
+   "n_rows": 198,
+   "graph_pdb_id": "9gwd",
+   "dssp_present": true
+  },
+  "34980": {
+   "status": "ok",
+   "n_rows": 477,
+   "graph_pdb_id": "9ibi",
+   "dssp_present": true
+  },
+  "34983": {
+   "status": "ok",
+   "n_rows": 83,
+   "graph_pdb_id": "9q8t",
+   "dssp_present": true
+  },
+  "34984": {
+   "status": "ok",
+   "n_rows": 386,
+   "graph_pdb_id": "9qal",
+   "dssp_present": true
+  },
+  "34998": {
+   "status": "ok",
+   "n_rows": 300,
+   "graph_pdb_id": "9rhk",
+   "dssp_present": true
+  },
+  "36012": {
+   "status": "ok",
+   "n_rows": 372,
+   "graph_pdb_id": "5go0",
+   "dssp_present": true
+  },
+  "36077": {
+   "status": "ok",
+   "n_rows": 1051,
+   "graph_pdb_id": "5xi9",
+   "dssp_present": true
+  },
+  "36078": {
+   "status": "ok",
+   "n_rows": 1020,
+   "graph_pdb_id": "5xir",
+   "dssp_present": true
+  },
+  "36096": {
+   "status": "ok",
+   "n_rows": 516,
+   "graph_pdb_id": "5xqm",
+   "dssp_present": true
+  },
+  "36161": {
+   "status": "ok",
+   "n_rows": 974,
+   "graph_pdb_id": "5z8i",
+   "dssp_present": true
+  },
+  "36172": {
+   "status": "ok",
+   "n_rows": 158,
+   "graph_pdb_id": "5zgg",
+   "dssp_present": true
+  },
+  "36186": {
+   "status": "ok",
+   "n_rows": 472,
+   "graph_pdb_id": "5zux",
+   "dssp_present": true
+  },
+  "36187": {
+   "status": "ok",
+   "n_rows": 554,
+   "graph_pdb_id": "5zuz",
+   "dssp_present": true
+  },
+  "36204": {
+   "status": "ok",
+   "n_rows": 416,
+   "graph_pdb_id": "6acv",
+   "dssp_present": true
+  },
+  "36243": {
+   "status": "ok",
+   "n_rows": 68,
+   "graph_pdb_id": "6jpd",
+   "dssp_present": true
+  },
+  "36330": {
+   "status": "ok",
+   "n_rows": 596,
+   "graph_pdb_id": "7bpp",
+   "dssp_present": true
+  },
+  "36338": {
+   "status": "ok",
+   "n_rows": 709,
+   "graph_pdb_id": "7bqr",
+   "dssp_present": true
+  },
+  "36341": {
+   "status": "ok",
+   "n_rows": 378,
+   "graph_pdb_id": "7but",
+   "dssp_present": true
+  },
+  "36404": {
+   "status": "ok",
+   "n_rows": 158,
+   "graph_pdb_id": "7dta",
+   "dssp_present": true
+  },
+  "36409": {
+   "status": "ok",
+   "n_rows": 442,
+   "graph_pdb_id": "7e42",
+   "dssp_present": true
+  },
+  "36418": {
+   "status": "ok",
+   "n_rows": 325,
+   "graph_pdb_id": "7elk",
+   "dssp_present": true
+  },
+  "36426": {
+   "status": "ok",
+   "n_rows": 660,
+   "graph_pdb_id": "7f7n",
+   "dssp_present": true
+  },
+  "36483": {
+   "status": "ok",
+   "n_rows": 704,
+   "graph_pdb_id": "7xga",
+   "dssp_present": true
+  },
+  "36548": {
+   "status": "ok",
+   "n_rows": 390,
+   "graph_pdb_id": "8iex",
+   "dssp_present": true
+  },
+  "36696": {
+   "status": "ok",
+   "n_rows": 519,
+   "graph_pdb_id": "9jo6",
+   "dssp_present": true
+  },
+  "50110": {
+   "status": "ok",
+   "n_rows": 391,
+   "graph_pdb_id": "1zwz",
+   "dssp_present": true
+  },
+  "50273": {
+   "status": "ok",
+   "n_rows": 426,
+   "graph_pdb_id": "6uio",
+   "dssp_present": true
+  },
+  "50328": {
+   "status": "ok",
+   "n_rows": 453,
+   "graph_pdb_id": "6qbi",
+   "dssp_present": true
+  },
+  "50360": {
+   "status": "ok",
+   "n_rows": 573,
+   "graph_pdb_id": "6qbi",
+   "dssp_present": true
+  },
+  "50712": {
+   "status": "ok",
+   "n_rows": 676,
+   "graph_pdb_id": "6rwg",
+   "dssp_present": true
+  },
+  "50985": {
+   "status": "ok",
+   "n_rows": 328,
+   "graph_pdb_id": "2kiz",
+   "dssp_present": true
+  },
+  "51048": {
+   "status": "ok",
+   "n_rows": 207,
+   "graph_pdb_id": "7r95",
+   "dssp_present": true
+  },
+  "51121": {
+   "status": "ok",
+   "n_rows": 635,
+   "graph_pdb_id": "1xq8",
+   "dssp_present": true
+  },
+  "51187": {
+   "status": "ok",
+   "n_rows": 441,
+   "graph_pdb_id": "4rwu",
+   "dssp_present": true
+  },
+  "51565": {
+   "status": "ok",
+   "n_rows": 94,
+   "graph_pdb_id": "8dwk",
+   "dssp_present": true
+  },
+  "51566": {
+   "status": "ok",
+   "n_rows": 95,
+   "graph_pdb_id": "8dwk",
+   "dssp_present": true
+  },
+  "52158": {
+   "status": "ok",
+   "n_rows": 955,
+   "graph_pdb_id": "1r44",
+   "dssp_present": true
+  },
+  "52173": {
+   "status": "ok",
+   "n_rows": 451,
+   "graph_pdb_id": "5szw",
+   "dssp_present": true
+  },
+  "52223": {
+   "status": "ok",
+   "n_rows": 238,
+   "graph_pdb_id": "2f2w",
+   "dssp_present": true
+  },
+  "52447": {
+   "status": "ok",
+   "n_rows": 690,
+   "graph_pdb_id": "2zib",
+   "dssp_present": true
+  },
+  "52455": {
+   "status": "ok",
+   "n_rows": 309,
+   "graph_pdb_id": "2k85",
+   "dssp_present": true
+  },
+  "52456": {
+   "status": "ok",
+   "n_rows": 302,
+   "graph_pdb_id": "2k85",
+   "dssp_present": true
+  },
+  "52646": {
+   "status": "ok",
+   "n_rows": 434,
+   "graph_pdb_id": "8rlz",
+   "dssp_present": true
+  },
+  "52647": {
+   "status": "ok",
+   "n_rows": 308,
+   "graph_pdb_id": "8rlz",
+   "dssp_present": true
+  },
+  "53285": {
+   "status": "ok",
+   "n_rows": 287,
+   "graph_pdb_id": "2a36",
+   "dssp_present": true
+  },
+  "53615": {
+   "status": "ok",
+   "n_rows": 460,
+   "graph_pdb_id": "7zoi",
+   "dssp_present": true
+  }
+ },
+ "summary": {
+  "n_entries": 735,
+  "n_error": 0,
+  "seconds": 2651.6
+ }
+}

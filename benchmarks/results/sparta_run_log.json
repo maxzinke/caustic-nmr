@@ -1,0 +1,4427 @@
+{
+ "entries": {
+  "4223": {
+   "status": "ok",
+   "n_rows": 386,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4223.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "4285": {
+   "status": "ok",
+   "n_rows": 550,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4285.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "4498": {
+   "status": "ok",
+   "n_rows": 176,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4498.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "4510": {
+   "status": "ok",
+   "n_rows": 343,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4510.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "4589": {
+   "status": "ok",
+   "n_rows": 540,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4589.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "4706": {
+   "status": "ok",
+   "n_rows": 869,
+   "seconds": 5.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\4706.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5309": {
+   "status": "ok",
+   "n_rows": 706,
+   "seconds": 12.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5309.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5326": {
+   "status": "ok",
+   "n_rows": 455,
+   "seconds": 4.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5326.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5340": {
+   "status": "ok",
+   "n_rows": 1156,
+   "seconds": 4.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5340.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5459": {
+   "status": "ok",
+   "n_rows": 318,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5459.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5567": {
+   "status": "ok",
+   "n_rows": 693,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5567.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5719": {
+   "status": "ok",
+   "n_rows": 606,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5719.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5748": {
+   "status": "ok",
+   "n_rows": 697,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5748.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5768": {
+   "status": "ok",
+   "n_rows": 443,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5768.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5867": {
+   "status": "ok",
+   "n_rows": 389,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5867.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5868": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5868.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5923": {
+   "status": "ok",
+   "n_rows": 346,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5923.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "5925": {
+   "status": "ok",
+   "n_rows": 347,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\5925.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6260": {
+   "status": "ok",
+   "n_rows": 123,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6260.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6549": {
+   "status": "ok",
+   "n_rows": 1586,
+   "seconds": 7.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6549.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6580": {
+   "status": "ok",
+   "n_rows": 886,
+   "seconds": 3.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6580.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6690": {
+   "status": "ok",
+   "n_rows": 193,
+   "seconds": 0.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6690.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6718": {
+   "status": "ok",
+   "n_rows": 393,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6718.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6755": {
+   "status": "ok",
+   "n_rows": 716,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6755.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6850": {
+   "status": "ok",
+   "n_rows": 345,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6850.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6863": {
+   "status": "ok",
+   "n_rows": 186,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6863.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6969": {
+   "status": "ok",
+   "n_rows": 321,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6969.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "6997": {
+   "status": "ok",
+   "n_rows": 693,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\6997.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7008": {
+   "status": "ok",
+   "n_rows": 915,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7008.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7033": {
+   "status": "ok",
+   "n_rows": 479,
+   "seconds": 4.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7033.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7067": {
+   "status": "ok",
+   "n_rows": 352,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7067.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7069": {
+   "status": "ok",
+   "n_rows": 453,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7069.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7114": {
+   "status": "ok",
+   "n_rows": 2146,
+   "seconds": 11.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7114.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7120": {
+   "status": "ok",
+   "n_rows": 446,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7120.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7124": {
+   "status": "ok",
+   "n_rows": 277,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7124.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7128": {
+   "status": "ok",
+   "n_rows": 1159,
+   "seconds": 3.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7128.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7129": {
+   "status": "ok",
+   "n_rows": 363,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7129.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7185": {
+   "status": "ok",
+   "n_rows": 456,
+   "seconds": 4.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7185.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7205": {
+   "status": "ok",
+   "n_rows": 253,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7205.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7225": {
+   "status": "ok",
+   "n_rows": 247,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7225.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7270": {
+   "status": "ok",
+   "n_rows": 965,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7270.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7272": {
+   "status": "ok",
+   "n_rows": 817,
+   "seconds": 4.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7272.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7274": {
+   "status": "ok",
+   "n_rows": 757,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7274.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7323": {
+   "status": "ok",
+   "n_rows": 495,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7323.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7339": {
+   "status": "ok",
+   "n_rows": 913,
+   "seconds": 5.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7339.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7360": {
+   "status": "ok",
+   "n_rows": 1055,
+   "seconds": 20.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7360.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "7401": {
+   "status": "ok",
+   "n_rows": 308,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\7401.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10002": {
+   "status": "ok",
+   "n_rows": 321,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10002.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10019": {
+   "status": "ok",
+   "n_rows": 479,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10019.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10025": {
+   "status": "ok",
+   "n_rows": 597,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10025.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10026": {
+   "status": "ok",
+   "n_rows": 737,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10026.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10043": {
+   "status": "ok",
+   "n_rows": 582,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10043.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10048": {
+   "status": "ok",
+   "n_rows": 359,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10048.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10057": {
+   "status": "ok",
+   "n_rows": 753,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10057.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10076": {
+   "status": "ok",
+   "n_rows": 738,
+   "seconds": 4.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10076.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10101": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 3.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10101.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10115": {
+   "status": "ok",
+   "n_rows": 749,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10115.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10119": {
+   "status": "ok",
+   "n_rows": 516,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10119.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10136": {
+   "status": "ok",
+   "n_rows": 528,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10136.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10142": {
+   "status": "ok",
+   "n_rows": 606,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10142.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10149": {
+   "status": "ok",
+   "n_rows": 701,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10149.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10163": {
+   "status": "ok",
+   "n_rows": 580,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10163.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10241": {
+   "status": "ok",
+   "n_rows": 454,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10241.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10251": {
+   "status": "ok",
+   "n_rows": 746,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10251.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10256": {
+   "status": "ok",
+   "n_rows": 619,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10256.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10263": {
+   "status": "ok",
+   "n_rows": 610,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10263.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10269": {
+   "status": "ok",
+   "n_rows": 373,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10269.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10286": {
+   "status": "ok",
+   "n_rows": 466,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10286.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10288": {
+   "status": "ok",
+   "n_rows": 592,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10288.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10308": {
+   "status": "ok",
+   "n_rows": 240,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10308.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10321": {
+   "status": "ok",
+   "n_rows": 729,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10321.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "10324": {
+   "status": "ok",
+   "n_rows": 578,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\10324.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11011": {
+   "status": "ok",
+   "n_rows": 443,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11011.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11024": {
+   "status": "ok",
+   "n_rows": 398,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11024.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11026": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11026.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11043": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11043.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11054": {
+   "status": "ok",
+   "n_rows": 179,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11054.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11061": {
+   "status": "ok",
+   "n_rows": 1121,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11061.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11067": {
+   "status": "ok",
+   "n_rows": 990,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11067.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11078": {
+   "status": "ok",
+   "n_rows": 825,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11078.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11087": {
+   "status": "ok",
+   "n_rows": 795,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11087.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11092": {
+   "status": "ok",
+   "n_rows": 579,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11092.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11097": {
+   "status": "ok",
+   "n_rows": 712,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11097.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11099": {
+   "status": "ok",
+   "n_rows": 662,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11099.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11102": {
+   "status": "ok",
+   "n_rows": 813,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11102.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11103": {
+   "status": "ok",
+   "n_rows": 604,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11103.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11110": {
+   "status": "ok",
+   "n_rows": 591,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11110.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11122": {
+   "status": "ok",
+   "n_rows": 853,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11122.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11131": {
+   "status": "ok",
+   "n_rows": 484,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11131.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11132": {
+   "status": "ok",
+   "n_rows": 531,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11132.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11136": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11136.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11152": {
+   "status": "ok",
+   "n_rows": 674,
+   "seconds": 11.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11152.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11154": {
+   "status": "ok",
+   "n_rows": 400,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11154.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11160": {
+   "status": "ok",
+   "n_rows": 525,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11160.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11178": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11178.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11180": {
+   "status": "ok",
+   "n_rows": 548,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11180.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11189": {
+   "status": "ok",
+   "n_rows": 633,
+   "seconds": 3.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11189.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11199": {
+   "status": "ok",
+   "n_rows": 590,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11199.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11204": {
+   "status": "ok",
+   "n_rows": 655,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11204.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11219": {
+   "status": "ok",
+   "n_rows": 388,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11219.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11225": {
+   "status": "ok",
+   "n_rows": 413,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11225.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11240": {
+   "status": "ok",
+   "n_rows": 399,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11240.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11244": {
+   "status": "ok",
+   "n_rows": 355,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11244.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11246": {
+   "status": "ok",
+   "n_rows": 686,
+   "seconds": 4.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11246.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11250": {
+   "status": "ok",
+   "n_rows": 433,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11250.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11273": {
+   "status": "ok",
+   "n_rows": 355,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11273.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11286": {
+   "status": "ok",
+   "n_rows": 581,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11286.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11290": {
+   "status": "ok",
+   "n_rows": 621,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11290.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11314": {
+   "status": "ok",
+   "n_rows": 439,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11314.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11321": {
+   "status": "ok",
+   "n_rows": 499,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11321.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11326": {
+   "status": "ok",
+   "n_rows": 404,
+   "seconds": 4.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11326.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11332": {
+   "status": "ok",
+   "n_rows": 415,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11332.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11338": {
+   "status": "ok",
+   "n_rows": 749,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11338.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11345": {
+   "status": "ok",
+   "n_rows": 512,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11345.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11346": {
+   "status": "ok",
+   "n_rows": 285,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11346.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11351": {
+   "status": "ok",
+   "n_rows": 976,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11351.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11355": {
+   "status": "ok",
+   "n_rows": 435,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11355.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11357": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11357.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11370": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11370.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11371": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11371.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11372": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11372.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11373": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 3.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11373.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11376": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 3.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11376.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11380": {
+   "status": "ok",
+   "n_rows": 304,
+   "seconds": 0.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11380.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11409": {
+   "status": "ok",
+   "n_rows": 574,
+   "seconds": 0.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11409.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11422": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11422.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11452": {
+   "status": "ok",
+   "n_rows": 258,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11452.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11496": {
+   "status": "ok",
+   "n_rows": 437,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11496.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11501": {
+   "status": "ok",
+   "n_rows": 581,
+   "seconds": 9.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11501.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11502": {
+   "status": "ok",
+   "n_rows": 567,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11502.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11527": {
+   "status": "ok",
+   "n_rows": 542,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11527.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11575": {
+   "status": "ok",
+   "n_rows": 738,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11575.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11581": {
+   "status": "ok",
+   "n_rows": 101,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11581.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11590": {
+   "status": "ok",
+   "n_rows": 742,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11590.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11592": {
+   "status": "ok",
+   "n_rows": 769,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11592.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11597": {
+   "status": "ok",
+   "n_rows": 603,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11597.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "11601": {
+   "status": "ok",
+   "n_rows": 606,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\11601.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15013": {
+   "status": "ok",
+   "n_rows": 332,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15013.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15020": {
+   "status": "ok",
+   "n_rows": 970,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15020.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15039": {
+   "status": "ok",
+   "n_rows": 650,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15039.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15045": {
+   "status": "ok",
+   "n_rows": 899,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15045.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15055": {
+   "status": "ok",
+   "n_rows": 594,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15055.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15074": {
+   "status": "ok",
+   "n_rows": 455,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15074.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15084": {
+   "status": "ok",
+   "n_rows": 733,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15084.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15106": {
+   "status": "ok",
+   "n_rows": 309,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15106.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15109": {
+   "status": "ok",
+   "n_rows": 446,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15109.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15111": {
+   "status": "ok",
+   "n_rows": 259,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15111.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15117": {
+   "status": "ok",
+   "n_rows": 428,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15117.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15128": {
+   "status": "ok",
+   "n_rows": 797,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15128.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15137": {
+   "status": "ok",
+   "n_rows": 418,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15137.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15150": {
+   "status": "ok",
+   "n_rows": 487,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15150.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15152": {
+   "status": "ok",
+   "n_rows": 521,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15152.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15160": {
+   "status": "ok",
+   "n_rows": 194,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15160.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15243": {
+   "status": "ok",
+   "n_rows": 1016,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15243.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15247": {
+   "status": "ok",
+   "n_rows": 901,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15247.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15248": {
+   "status": "ok",
+   "n_rows": 1510,
+   "seconds": 4.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15248.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15279": {
+   "status": "ok",
+   "n_rows": 791,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15279.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15296": {
+   "status": "ok",
+   "n_rows": 550,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15296.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15312": {
+   "status": "ok",
+   "n_rows": 870,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15312.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15324": {
+   "status": "ok",
+   "n_rows": 390,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15324.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15334": {
+   "status": "ok",
+   "n_rows": 707,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15334.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15347": {
+   "status": "ok",
+   "n_rows": 464,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15347.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15348": {
+   "status": "ok",
+   "n_rows": 683,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15348.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15356": {
+   "status": "ok",
+   "n_rows": 935,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15356.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15361": {
+   "status": "ok",
+   "n_rows": 918,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15361.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15370": {
+   "status": "ok",
+   "n_rows": 554,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15370.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15371": {
+   "status": "ok",
+   "n_rows": 517,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15371.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15393": {
+   "status": "ok",
+   "n_rows": 1128,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15393.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15438": {
+   "status": "ok",
+   "n_rows": 442,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15438.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15440": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15440.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15476": {
+   "status": "ok",
+   "n_rows": 247,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15476.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15509": {
+   "status": "ok",
+   "n_rows": 368,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15509.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15512": {
+   "status": "ok",
+   "n_rows": 623,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15512.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15535": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15535.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15537": {
+   "status": "ok",
+   "n_rows": 332,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15537.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15541": {
+   "status": "ok",
+   "n_rows": 1014,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15541.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15585": {
+   "status": "ok",
+   "n_rows": 466,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15585.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15599": {
+   "status": "ok",
+   "n_rows": 726,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15599.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15614": {
+   "status": "ok",
+   "n_rows": 469,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15614.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15644": {
+   "status": "ok",
+   "n_rows": 633,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15644.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15645": {
+   "status": "ok",
+   "n_rows": 537,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15645.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15651": {
+   "status": "ok",
+   "n_rows": 1204,
+   "seconds": 3.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15651.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15660": {
+   "status": "ok",
+   "n_rows": 557,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15660.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15673": {
+   "status": "ok",
+   "n_rows": 578,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15673.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15685": {
+   "status": "ok",
+   "n_rows": 798,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15685.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15690": {
+   "status": "ok",
+   "n_rows": 458,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15690.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15691": {
+   "status": "ok",
+   "n_rows": 291,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15691.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15692": {
+   "status": "ok",
+   "n_rows": 798,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15692.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15743": {
+   "status": "ok",
+   "n_rows": 533,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15743.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15756": {
+   "status": "ok",
+   "n_rows": 518,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15756.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15762": {
+   "status": "ok",
+   "n_rows": 647,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15762.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15788": {
+   "status": "ok",
+   "n_rows": 1484,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15788.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15804": {
+   "status": "ok",
+   "n_rows": 888,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15804.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15812": {
+   "status": "ok",
+   "n_rows": 499,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15812.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15851": {
+   "status": "ok",
+   "n_rows": 873,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15851.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15924": {
+   "status": "ok",
+   "n_rows": 1060,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15924.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15938": {
+   "status": "ok",
+   "n_rows": 384,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15938.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15944": {
+   "status": "ok",
+   "n_rows": 523,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15944.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15948": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15948.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15950": {
+   "status": "ok",
+   "n_rows": 998,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15950.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15965": {
+   "status": "ok",
+   "n_rows": 222,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15965.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "15983": {
+   "status": "ok",
+   "n_rows": 186,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\15983.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16010": {
+   "status": "ok",
+   "n_rows": 730,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16010.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16015": {
+   "status": "ok",
+   "n_rows": 536,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16015.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16020": {
+   "status": "ok",
+   "n_rows": 144,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16020.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16025": {
+   "status": "ok",
+   "n_rows": 299,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16025.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16030": {
+   "status": "ok",
+   "n_rows": 675,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16030.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16038": {
+   "status": "ok",
+   "n_rows": 806,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16038.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16039": {
+   "status": "ok",
+   "n_rows": 824,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16039.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16040": {
+   "status": "ok",
+   "n_rows": 604,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16040.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16050": {
+   "status": "ok",
+   "n_rows": 550,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16050.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16061": {
+   "status": "ok",
+   "n_rows": 933,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16061.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16062": {
+   "status": "ok",
+   "n_rows": 300,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16062.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16083": {
+   "status": "ok",
+   "n_rows": 661,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16083.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16100": {
+   "status": "ok",
+   "n_rows": 890,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16100.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16101": {
+   "status": "ok",
+   "n_rows": 491,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16101.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16102": {
+   "status": "ok",
+   "n_rows": 693,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16102.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16116": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16116.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16117": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16117.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16135": {
+   "status": "ok",
+   "n_rows": 611,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16135.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16156": {
+   "status": "ok",
+   "n_rows": 283,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16156.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16179": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16179.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16180": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16180.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16181": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16181.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16237": {
+   "status": "ok",
+   "n_rows": 756,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16237.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16240": {
+   "status": "ok",
+   "n_rows": 1134,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16240.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16273": {
+   "status": "ok",
+   "n_rows": 936,
+   "seconds": 3.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16273.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16293": {
+   "status": "ok",
+   "n_rows": 416,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16293.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16312": {
+   "status": "ok",
+   "n_rows": 675,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16312.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16315": {
+   "status": "ok",
+   "n_rows": 690,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16315.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16318": {
+   "status": "ok",
+   "n_rows": 536,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16318.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16321": {
+   "status": "ok",
+   "n_rows": 859,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16321.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16370": {
+   "status": "ok",
+   "n_rows": 674,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16370.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16376": {
+   "status": "ok",
+   "n_rows": 776,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16376.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16404": {
+   "status": "ok",
+   "n_rows": 947,
+   "seconds": 4.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16404.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16411": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16411.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16425": {
+   "status": "ok",
+   "n_rows": 484,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16425.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16449": {
+   "status": "ok",
+   "n_rows": 488,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16449.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16485": {
+   "status": "ok",
+   "n_rows": 504,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16485.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16515": {
+   "status": "ok",
+   "n_rows": 644,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16515.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16520": {
+   "status": "ok",
+   "n_rows": 586,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16520.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16523": {
+   "status": "ok",
+   "n_rows": 1157,
+   "seconds": 3.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16523.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16592": {
+   "status": "ok",
+   "n_rows": 406,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16592.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16603": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16603.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16606": {
+   "status": "ok",
+   "n_rows": 625,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16606.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16607": {
+   "status": "ok",
+   "n_rows": 625,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16607.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16617": {
+   "status": "ok",
+   "n_rows": 636,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16617.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16620": {
+   "status": "ok",
+   "n_rows": 373,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16620.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16622": {
+   "status": "ok",
+   "n_rows": 409,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16622.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16636": {
+   "status": "ok",
+   "n_rows": 406,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16636.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16641": {
+   "status": "ok",
+   "n_rows": 332,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16641.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16646": {
+   "status": "ok",
+   "n_rows": 1016,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16646.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16649": {
+   "status": "ok",
+   "n_rows": 366,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16649.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16652": {
+   "status": "ok",
+   "n_rows": 548,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16652.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16653": {
+   "status": "ok",
+   "n_rows": 743,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16653.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16662": {
+   "status": "ok",
+   "n_rows": 646,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16662.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16671": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16671.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16747": {
+   "status": "ok",
+   "n_rows": 248,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16747.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16775": {
+   "status": "ok",
+   "n_rows": 380,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16775.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16776": {
+   "status": "ok",
+   "n_rows": 938,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16776.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16782": {
+   "status": "ok",
+   "n_rows": 699,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16782.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16813": {
+   "status": "ok",
+   "n_rows": 444,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16813.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16833": {
+   "status": "ok",
+   "n_rows": 1078,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16833.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16853": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16853.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16897": {
+   "status": "ok",
+   "n_rows": 566,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16897.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16913": {
+   "status": "ok",
+   "n_rows": 548,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16913.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16920": {
+   "status": "ok",
+   "n_rows": 552,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16920.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "16936": {
+   "status": "ok",
+   "n_rows": 400,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\16936.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17009": {
+   "status": "ok",
+   "n_rows": 365,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17009.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17025": {
+   "status": "ok",
+   "n_rows": 452,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17025.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17030": {
+   "status": "ok",
+   "n_rows": 492,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17030.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17033": {
+   "status": "ok",
+   "n_rows": 559,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17033.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17035": {
+   "status": "ok",
+   "n_rows": 364,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17035.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17044": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17044.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17071": {
+   "status": "ok",
+   "n_rows": 314,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17071.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17089": {
+   "status": "ok",
+   "n_rows": 332,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17089.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17196": {
+   "status": "ok",
+   "n_rows": 418,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17196.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17246": {
+   "status": "ok",
+   "n_rows": 1018,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17246.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17260": {
+   "status": "ok",
+   "n_rows": 1350,
+   "seconds": 4.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17260.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17265": {
+   "status": "ok",
+   "n_rows": 706,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17265.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17266": {
+   "status": "ok",
+   "n_rows": 464,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17266.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17282": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17282.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17288": {
+   "status": "ok",
+   "n_rows": 771,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17288.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17304": {
+   "status": "ok",
+   "n_rows": 793,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17304.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17307": {
+   "status": "ok",
+   "n_rows": 541,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17307.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17389": {
+   "status": "ok",
+   "n_rows": 1035,
+   "seconds": 4.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17389.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17419": {
+   "status": "ok",
+   "n_rows": 274,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17419.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17425": {
+   "status": "ok",
+   "n_rows": 421,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17425.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17432": {
+   "status": "ok",
+   "n_rows": 1223,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17432.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17448": {
+   "status": "ok",
+   "n_rows": 626,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17448.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17489": {
+   "status": "ok",
+   "n_rows": 287,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17489.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17494": {
+   "status": "ok",
+   "n_rows": 219,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17494.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17543": {
+   "status": "ok",
+   "n_rows": 196,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17543.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17557": {
+   "status": "ok",
+   "n_rows": 405,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17557.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17561": {
+   "status": "ok",
+   "n_rows": 517,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17561.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17571": {
+   "status": "ok",
+   "n_rows": 517,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17571.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17575": {
+   "status": "ok",
+   "n_rows": 746,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17575.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17586": {
+   "status": "ok",
+   "n_rows": 580,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17586.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17588": {
+   "status": "ok",
+   "n_rows": 634,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17588.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17595": {
+   "status": "ok",
+   "n_rows": 939,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17595.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17596": {
+   "status": "ok",
+   "n_rows": 684,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17596.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17599": {
+   "status": "ok",
+   "n_rows": 740,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17599.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17600": {
+   "status": "ok",
+   "n_rows": 579,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17600.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17609": {
+   "status": "ok",
+   "n_rows": 369,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17609.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17610": {
+   "status": "ok",
+   "n_rows": 976,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17610.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17633": {
+   "status": "ok",
+   "n_rows": 1320,
+   "seconds": 4.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17633.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17634": {
+   "status": "ok",
+   "n_rows": 274,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17634.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17636": {
+   "status": "ok",
+   "n_rows": 599,
+   "seconds": 4.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17636.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17647": {
+   "status": "ok",
+   "n_rows": 1038,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17647.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17705": {
+   "status": "ok",
+   "n_rows": 581,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17705.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17738": {
+   "status": "ok",
+   "n_rows": 484,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17738.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17749": {
+   "status": "ok",
+   "n_rows": 681,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17749.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17762": {
+   "status": "ok",
+   "n_rows": 725,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17762.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17767": {
+   "status": "ok",
+   "n_rows": 733,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17767.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17799": {
+   "status": "ok",
+   "n_rows": 750,
+   "seconds": 3.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17799.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17806": {
+   "status": "ok",
+   "n_rows": 750,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17806.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17822": {
+   "status": "ok",
+   "n_rows": 840,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17822.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17825": {
+   "status": "ok",
+   "n_rows": 416,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17825.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17827": {
+   "status": "ok",
+   "n_rows": 550,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17827.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17835": {
+   "status": "ok",
+   "n_rows": 439,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17835.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17839": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17839.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17840": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17840.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17841": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17841.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17843": {
+   "status": "ok",
+   "n_rows": 331,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17843.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17857": {
+   "status": "ok",
+   "n_rows": 549,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17857.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17867": {
+   "status": "ok",
+   "n_rows": 201,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17867.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17875": {
+   "status": "ok",
+   "n_rows": 37,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17875.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17928": {
+   "status": "ok",
+   "n_rows": 172,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17928.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17990": {
+   "status": "ok",
+   "n_rows": 113,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17990.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "17995": {
+   "status": "ok",
+   "n_rows": 489,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\17995.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18005": {
+   "status": "ok",
+   "n_rows": 373,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18005.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18010": {
+   "status": "ok",
+   "n_rows": 405,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18010.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18012": {
+   "status": "ok",
+   "n_rows": 721,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18012.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18017": {
+   "status": "ok",
+   "n_rows": 555,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18017.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18029": {
+   "status": "ok",
+   "n_rows": 667,
+   "seconds": 27.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18029.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18046": {
+   "status": "ok",
+   "n_rows": 623,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18046.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18087": {
+   "status": "ok",
+   "n_rows": 549,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18087.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18088": {
+   "status": "ok",
+   "n_rows": 531,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18088.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18090": {
+   "status": "ok",
+   "n_rows": 407,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18090.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18092": {
+   "status": "ok",
+   "n_rows": 2310,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18092.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18097": {
+   "status": "ok",
+   "n_rows": 1189,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18097.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18134": {
+   "status": "ok",
+   "n_rows": 471,
+   "seconds": 4.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18134.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18178": {
+   "status": "ok",
+   "n_rows": 817,
+   "seconds": 3.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18178.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18179": {
+   "status": "ok",
+   "n_rows": 817,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18179.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18191": {
+   "status": "ok",
+   "n_rows": 222,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18191.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18201": {
+   "status": "ok",
+   "n_rows": 618,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18201.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18202": {
+   "status": "ok",
+   "n_rows": 868,
+   "seconds": 4.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18202.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18203": {
+   "status": "ok",
+   "n_rows": 137,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18203.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18219": {
+   "status": "ok",
+   "n_rows": 574,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18219.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18221": {
+   "status": "ok",
+   "n_rows": 598,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18221.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18231": {
+   "status": "ok",
+   "n_rows": 549,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18231.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18281": {
+   "status": "ok",
+   "n_rows": 923,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18281.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18292": {
+   "status": "ok",
+   "n_rows": 655,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18292.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18296": {
+   "status": "ok",
+   "n_rows": 454,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18296.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18299": {
+   "status": "ok",
+   "n_rows": 395,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18299.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18321": {
+   "status": "ok",
+   "n_rows": 1734,
+   "seconds": 14.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18321.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18333": {
+   "status": "ok",
+   "n_rows": 1716,
+   "seconds": 6.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18333.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18349": {
+   "status": "ok",
+   "n_rows": 518,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18349.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18360": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18360.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18361": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 5.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18361.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18362": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18362.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18364": {
+   "status": "ok",
+   "n_rows": 737,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18364.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18399": {
+   "status": "ok",
+   "n_rows": 457,
+   "seconds": 4.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18399.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18404": {
+   "status": "ok",
+   "n_rows": 741,
+   "seconds": 4.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18404.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18437": {
+   "status": "ok",
+   "n_rows": 356,
+   "seconds": 9.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18437.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18461": {
+   "status": "ok",
+   "n_rows": 976,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18461.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18464": {
+   "status": "ok",
+   "n_rows": 864,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18464.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18465": {
+   "status": "ok",
+   "n_rows": 651,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18465.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18468": {
+   "status": "ok",
+   "n_rows": 604,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18468.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18485": {
+   "status": "ok",
+   "n_rows": 640,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18485.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18519": {
+   "status": "ok",
+   "n_rows": 106,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18519.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18526": {
+   "status": "ok",
+   "n_rows": 961,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18526.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18541": {
+   "status": "ok",
+   "n_rows": 731,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18541.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18547": {
+   "status": "ok",
+   "n_rows": 1046,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18547.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18548": {
+   "status": "ok",
+   "n_rows": 813,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18548.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18555": {
+   "status": "ok",
+   "n_rows": 631,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18555.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18569": {
+   "status": "ok",
+   "n_rows": 668,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18569.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18579": {
+   "status": "ok",
+   "n_rows": 704,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18579.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18606": {
+   "status": "ok",
+   "n_rows": 454,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18606.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18706": {
+   "status": "ok",
+   "n_rows": 180,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18706.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18713": {
+   "status": "ok",
+   "n_rows": 712,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18713.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18749": {
+   "status": "ok",
+   "n_rows": 499,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18749.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18770": {
+   "status": "ok",
+   "n_rows": 274,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18770.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18782": {
+   "status": "ok",
+   "n_rows": 287,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18782.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18804": {
+   "status": "ok",
+   "n_rows": 249,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18804.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18811": {
+   "status": "ok",
+   "n_rows": 626,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18811.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18812": {
+   "status": "ok",
+   "n_rows": 645,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18812.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18824": {
+   "status": "ok",
+   "n_rows": 672,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18824.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18825": {
+   "status": "ok",
+   "n_rows": 672,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18825.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18850": {
+   "status": "ok",
+   "n_rows": 613,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18850.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18856": {
+   "status": "ok",
+   "n_rows": 666,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18856.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18888": {
+   "status": "ok",
+   "n_rows": 346,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18888.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18908": {
+   "status": "ok",
+   "n_rows": 684,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18908.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18912": {
+   "status": "ok",
+   "n_rows": 361,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18912.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18917": {
+   "status": "ok",
+   "n_rows": 414,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18917.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18934": {
+   "status": "ok",
+   "n_rows": 1021,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18934.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18953": {
+   "status": "ok",
+   "n_rows": 1015,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18953.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18972": {
+   "status": "ok",
+   "n_rows": 81,
+   "seconds": 1.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18972.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "18980": {
+   "status": "ok",
+   "n_rows": 319,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\18980.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19045": {
+   "status": "ok",
+   "n_rows": 952,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19045.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19084": {
+   "status": "ok",
+   "n_rows": 414,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19084.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19086": {
+   "status": "ok",
+   "n_rows": 671,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19086.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19134": {
+   "status": "ok",
+   "n_rows": 824,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19134.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19148": {
+   "status": "ok",
+   "n_rows": 273,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19148.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19178": {
+   "status": "ok",
+   "n_rows": 506,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19178.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19187": {
+   "status": "ok",
+   "n_rows": 511,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19187.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19193": {
+   "status": "ok",
+   "n_rows": 388,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19193.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19194": {
+   "status": "ok",
+   "n_rows": 1330,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19194.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19196": {
+   "status": "ok",
+   "n_rows": 388,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19196.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19197": {
+   "status": "ok",
+   "n_rows": 398,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19197.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19261": {
+   "status": "ok",
+   "n_rows": 1276,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19261.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19264": {
+   "status": "ok",
+   "n_rows": 1276,
+   "seconds": 3.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19264.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19288": {
+   "status": "ok",
+   "n_rows": 524,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19288.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19298": {
+   "status": "ok",
+   "n_rows": 537,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19298.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19472": {
+   "status": "ok",
+   "n_rows": 323,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19472.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19525": {
+   "status": "ok",
+   "n_rows": 502,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19525.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19544": {
+   "status": "ok",
+   "n_rows": 341,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19544.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19577": {
+   "status": "ok",
+   "n_rows": 58,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19577.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19585": {
+   "status": "ok",
+   "n_rows": 385,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19585.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19587": {
+   "status": "ok",
+   "n_rows": 64,
+   "seconds": 11.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19587.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19610": {
+   "status": "ok",
+   "n_rows": 534,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19610.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19614": {
+   "status": "ok",
+   "n_rows": 413,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19614.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19643": {
+   "status": "ok",
+   "n_rows": 570,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19643.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19657": {
+   "status": "ok",
+   "n_rows": 323,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19657.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19673": {
+   "status": "ok",
+   "n_rows": 239,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19673.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19681": {
+   "status": "ok",
+   "n_rows": 1124,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19681.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19682": {
+   "status": "ok",
+   "n_rows": 534,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19682.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19683": {
+   "status": "ok",
+   "n_rows": 211,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19683.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19735": {
+   "status": "ok",
+   "n_rows": 1079,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19735.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19741": {
+   "status": "ok",
+   "n_rows": 239,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19741.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19779": {
+   "status": "ok",
+   "n_rows": 403,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19779.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19787": {
+   "status": "ok",
+   "n_rows": 738,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19787.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19803": {
+   "status": "ok",
+   "n_rows": 4270,
+   "seconds": 20.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19803.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19821": {
+   "status": "ok",
+   "n_rows": 456,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19821.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19835": {
+   "status": "ok",
+   "n_rows": 2533,
+   "seconds": 6.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19835.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19836": {
+   "status": "ok",
+   "n_rows": 2533,
+   "seconds": 8.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19836.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19837": {
+   "status": "ok",
+   "n_rows": 2533,
+   "seconds": 8.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19837.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19840": {
+   "status": "ok",
+   "n_rows": 371,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19840.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19841": {
+   "status": "ok",
+   "n_rows": 375,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19841.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19857": {
+   "status": "ok",
+   "n_rows": 380,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19857.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19858": {
+   "status": "ok",
+   "n_rows": 396,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19858.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19869": {
+   "status": "ok",
+   "n_rows": 502,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19869.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19881": {
+   "status": "ok",
+   "n_rows": 276,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19881.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19891": {
+   "status": "ok",
+   "n_rows": 767,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19891.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19940": {
+   "status": "ok",
+   "n_rows": 1010,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19940.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19945": {
+   "status": "ok",
+   "n_rows": 1028,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19945.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19955": {
+   "status": "ok",
+   "n_rows": 824,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19955.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19959": {
+   "status": "ok",
+   "n_rows": 235,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19959.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19960": {
+   "status": "ok",
+   "n_rows": 443,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19960.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19977": {
+   "status": "ok",
+   "n_rows": 814,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19977.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "19989": {
+   "status": "ok",
+   "n_rows": 423,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\19989.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25016": {
+   "status": "ok",
+   "n_rows": 828,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25016.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25020": {
+   "status": "ok",
+   "n_rows": 828,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25020.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25026": {
+   "status": "ok",
+   "n_rows": 893,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25026.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25040": {
+   "status": "ok",
+   "n_rows": 1255,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25040.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25043": {
+   "status": "ok",
+   "n_rows": 1249,
+   "seconds": 10.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25043.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25048": {
+   "status": "ok",
+   "n_rows": 1128,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25048.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25067": {
+   "status": "ok",
+   "n_rows": 693,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25067.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25078": {
+   "status": "ok",
+   "n_rows": 985,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25078.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25080": {
+   "status": "ok",
+   "n_rows": 1275,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25080.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25086": {
+   "status": "ok",
+   "n_rows": 700,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25086.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25093": {
+   "status": "ok",
+   "n_rows": 700,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25093.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25102": {
+   "status": "ok",
+   "n_rows": 321,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25102.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25113": {
+   "status": "ok",
+   "n_rows": 459,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25113.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25195": {
+   "status": "ok",
+   "n_rows": 783,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25195.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25210": {
+   "status": "ok",
+   "n_rows": 691,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25210.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25213": {
+   "status": "ok",
+   "n_rows": 292,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25213.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25214": {
+   "status": "ok",
+   "n_rows": 393,
+   "seconds": 3.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25214.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25217": {
+   "status": "ok",
+   "n_rows": 654,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25217.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25223": {
+   "status": "ok",
+   "n_rows": 271,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25223.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25232": {
+   "status": "ok",
+   "n_rows": 560,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25232.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25237": {
+   "status": "ok",
+   "n_rows": 2146,
+   "seconds": 7.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25237.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25248": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 3.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25248.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25249": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25249.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25265": {
+   "status": "ok",
+   "n_rows": 542,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25265.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25268": {
+   "status": "ok",
+   "n_rows": 148,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25268.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25269": {
+   "status": "ok",
+   "n_rows": 245,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25269.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25270": {
+   "status": "ok",
+   "n_rows": 150,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25270.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25342": {
+   "status": "ok",
+   "n_rows": 819,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25342.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25347": {
+   "status": "ok",
+   "n_rows": 704,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25347.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25348": {
+   "status": "ok",
+   "n_rows": 704,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25348.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25350": {
+   "status": "ok",
+   "n_rows": 734,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25350.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25351": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25351.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25484": {
+   "status": "ok",
+   "n_rows": 523,
+   "seconds": 4.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25484.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25510": {
+   "status": "ok",
+   "n_rows": 565,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25510.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25543": {
+   "status": "ok",
+   "n_rows": 431,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25543.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25634": {
+   "status": "ok",
+   "n_rows": 306,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25634.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25645": {
+   "status": "ok",
+   "n_rows": 565,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25645.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25702": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25702.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25710": {
+   "status": "ok",
+   "n_rows": 971,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25710.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25712": {
+   "status": "ok",
+   "n_rows": 1221,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25712.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25729": {
+   "status": "ok",
+   "n_rows": 312,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25729.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25788": {
+   "status": "ok",
+   "n_rows": 251,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25788.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25793": {
+   "status": "ok",
+   "n_rows": 428,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25793.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25817": {
+   "status": "ok",
+   "n_rows": 266,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25817.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25830": {
+   "status": "ok",
+   "n_rows": 542,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25830.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25848": {
+   "status": "ok",
+   "n_rows": 442,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25848.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25881": {
+   "status": "ok",
+   "n_rows": 282,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25881.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25944": {
+   "status": "ok",
+   "n_rows": 603,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25944.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25953": {
+   "status": "ok",
+   "n_rows": 443,
+   "seconds": 1.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25953.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25957": {
+   "status": "ok",
+   "n_rows": 323,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25957.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25966": {
+   "status": "ok",
+   "n_rows": 157,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25966.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "25983": {
+   "status": "ok",
+   "n_rows": 647,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\25983.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26312": {
+   "status": "ok",
+   "n_rows": 502,
+   "seconds": 10.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26312.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26517": {
+   "status": "ok",
+   "n_rows": 627,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26517.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26564": {
+   "status": "ok",
+   "n_rows": 1983,
+   "seconds": 5.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26564.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26649": {
+   "status": "ok",
+   "n_rows": 420,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26649.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26763": {
+   "status": "ok",
+   "n_rows": 1281,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26763.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26879": {
+   "status": "ok",
+   "n_rows": 631,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26879.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "26986": {
+   "status": "ok",
+   "n_rows": 601,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\26986.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27046": {
+   "status": "ok",
+   "n_rows": 565,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27046.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27145": {
+   "status": "ok",
+   "n_rows": 357,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27145.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27303": {
+   "status": "ok",
+   "n_rows": 104,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27303.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27314": {
+   "status": "ok",
+   "n_rows": 2070,
+   "seconds": 9.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27314.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27395": {
+   "status": "ok",
+   "n_rows": 921,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27395.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27411": {
+   "status": "ok",
+   "n_rows": 1292,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27411.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27469": {
+   "status": "ok",
+   "n_rows": 2107,
+   "seconds": 8.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27469.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27612": {
+   "status": "ok",
+   "n_rows": 933,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27612.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27797": {
+   "status": "ok",
+   "n_rows": 336,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27797.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27798": {
+   "status": "ok",
+   "n_rows": 865,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27798.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27840": {
+   "status": "ok",
+   "n_rows": 1508,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27840.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27841": {
+   "status": "ok",
+   "n_rows": 1497,
+   "seconds": 5.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27841.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27842": {
+   "status": "ok",
+   "n_rows": 1497,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27842.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "27900": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\27900.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "28034": {
+   "status": "ok",
+   "n_rows": 565,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\28034.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "28092": {
+   "status": "ok",
+   "n_rows": 536,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\28092.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30003": {
+   "status": "ok",
+   "n_rows": 684,
+   "seconds": 3.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30003.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30004": {
+   "status": "ok",
+   "n_rows": 885,
+   "seconds": 4.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30004.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30007": {
+   "status": "ok",
+   "n_rows": 548,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30007.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30008": {
+   "status": "ok",
+   "n_rows": 319,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30008.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30020": {
+   "status": "ok",
+   "n_rows": 681,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30020.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30037": {
+   "status": "ok",
+   "n_rows": 106,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30037.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30047": {
+   "status": "ok",
+   "n_rows": 460,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30047.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30061": {
+   "status": "ok",
+   "n_rows": 511,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30061.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30071": {
+   "status": "ok",
+   "n_rows": 568,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30071.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30072": {
+   "status": "ok",
+   "n_rows": 478,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30072.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30075": {
+   "status": "ok",
+   "n_rows": 261,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30075.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30119": {
+   "status": "ok",
+   "n_rows": 125,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30119.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30120": {
+   "status": "ok",
+   "n_rows": 126,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30120.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30128": {
+   "status": "ok",
+   "n_rows": 704,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30128.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30130": {
+   "status": "ok",
+   "n_rows": 834,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30130.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30139": {
+   "status": "ok",
+   "n_rows": 906,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30139.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30140": {
+   "status": "error",
+   "error": "FileNotFoundError: prepared PDB missing: C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30140.pdb",
+   "seconds": 0.0
+  },
+  "30155": {
+   "status": "ok",
+   "n_rows": 590,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30155.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30197": {
+   "status": "ok",
+   "n_rows": 426,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30197.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30200": {
+   "status": "ok",
+   "n_rows": 645,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30200.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30204": {
+   "status": "ok",
+   "n_rows": 163,
+   "seconds": 9.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30204.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30210": {
+   "status": "ok",
+   "n_rows": 533,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30210.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30233": {
+   "status": "ok",
+   "n_rows": 125,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30233.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30235": {
+   "status": "ok",
+   "n_rows": 167,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30235.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30239": {
+   "status": "ok",
+   "n_rows": 363,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30239.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30242": {
+   "status": "ok",
+   "n_rows": 236,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30242.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30246": {
+   "status": "ok",
+   "n_rows": 782,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30246.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30267": {
+   "status": "ok",
+   "n_rows": 115,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30267.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30293": {
+   "status": "ok",
+   "n_rows": 435,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30293.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30327": {
+   "status": "ok",
+   "n_rows": 785,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30327.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30350": {
+   "status": "ok",
+   "n_rows": 53,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30350.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30352": {
+   "status": "ok",
+   "n_rows": 428,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30352.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30394": {
+   "status": "ok",
+   "n_rows": 673,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30394.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30396": {
+   "status": "ok",
+   "n_rows": 132,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30396.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30450": {
+   "status": "ok",
+   "n_rows": 463,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30450.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30457": {
+   "status": "ok",
+   "n_rows": 464,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30457.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30495": {
+   "status": "ok",
+   "n_rows": 446,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30495.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30528": {
+   "status": "ok",
+   "n_rows": 648,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30528.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30538": {
+   "status": "ok",
+   "n_rows": 212,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30538.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30555": {
+   "status": "ok",
+   "n_rows": 183,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30555.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30580": {
+   "status": "ok",
+   "n_rows": 274,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30580.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30585": {
+   "status": "ok",
+   "n_rows": 349,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30585.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30658": {
+   "status": "ok",
+   "n_rows": 377,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30658.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30659": {
+   "status": "ok",
+   "n_rows": 550,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30659.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30680": {
+   "status": "ok",
+   "n_rows": 333,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30680.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30702": {
+   "status": "ok",
+   "n_rows": 72,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30702.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30705": {
+   "status": "ok",
+   "n_rows": 443,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30705.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30744": {
+   "status": "ok",
+   "n_rows": 79,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30744.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30769": {
+   "status": "ok",
+   "n_rows": 985,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30769.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30775": {
+   "status": "ok",
+   "n_rows": 74,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30775.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30779": {
+   "status": "ok",
+   "n_rows": 695,
+   "seconds": 3.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30779.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30784": {
+   "status": "ok",
+   "n_rows": 269,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30784.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30825": {
+   "status": "ok",
+   "n_rows": 1105,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30825.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30834": {
+   "status": "ok",
+   "n_rows": 215,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30834.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30850": {
+   "status": "ok",
+   "n_rows": 453,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30850.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30857": {
+   "status": "ok",
+   "n_rows": 265,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30857.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30858": {
+   "status": "ok",
+   "n_rows": 361,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30858.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30869": {
+   "status": "ok",
+   "n_rows": 255,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30869.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30875": {
+   "status": "ok",
+   "n_rows": 338,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30875.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30876": {
+   "status": "ok",
+   "n_rows": 211,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30876.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30895": {
+   "status": "ok",
+   "n_rows": 39,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30895.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30913": {
+   "status": "ok",
+   "n_rows": 88,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30913.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30920": {
+   "status": "ok",
+   "n_rows": 76,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30920.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30921": {
+   "status": "ok",
+   "n_rows": 76,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30921.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30922": {
+   "status": "ok",
+   "n_rows": 88,
+   "seconds": 1.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30922.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30929": {
+   "status": "ok",
+   "n_rows": 588,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30929.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30931": {
+   "status": "ok",
+   "n_rows": 317,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30931.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30945": {
+   "status": "ok",
+   "n_rows": 97,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30945.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30957": {
+   "status": "ok",
+   "n_rows": 591,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30957.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "30976": {
+   "status": "ok",
+   "n_rows": 63,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30976.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31013": {
+   "status": "ok",
+   "n_rows": 328,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31013.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31015": {
+   "status": "ok",
+   "n_rows": 280,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31015.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31018": {
+   "status": "ok",
+   "n_rows": 364,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31018.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31025": {
+   "status": "ok",
+   "n_rows": 1397,
+   "seconds": 3.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31025.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31028": {
+   "status": "ok",
+   "n_rows": 231,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31028.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31038": {
+   "status": "ok",
+   "n_rows": 534,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31038.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31043": {
+   "status": "ok",
+   "n_rows": 507,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31043.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31066": {
+   "status": "ok",
+   "n_rows": 71,
+   "seconds": 10.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31066.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31094": {
+   "status": "ok",
+   "n_rows": 92,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31094.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31095": {
+   "status": "ok",
+   "n_rows": 90,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31095.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31105": {
+   "status": "ok",
+   "n_rows": 349,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31105.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31112": {
+   "status": "ok",
+   "n_rows": 247,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31112.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31121": {
+   "status": "ok",
+   "n_rows": 635,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31121.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31122": {
+   "status": "ok",
+   "n_rows": 1135,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31122.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31124": {
+   "status": "ok",
+   "n_rows": 226,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31124.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31125": {
+   "status": "ok",
+   "n_rows": 635,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31125.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31150": {
+   "status": "ok",
+   "n_rows": 212,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31150.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31164": {
+   "status": "ok",
+   "n_rows": 1150,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31164.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31192": {
+   "status": "ok",
+   "n_rows": 1274,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31192.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31198": {
+   "status": "ok",
+   "n_rows": 222,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31198.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31226": {
+   "status": "ok",
+   "n_rows": 133,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31226.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "31227": {
+   "status": "ok",
+   "n_rows": 134,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\31227.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34006": {
+   "status": "ok",
+   "n_rows": 211,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34006.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34019": {
+   "status": "ok",
+   "n_rows": 56,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34019.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34026": {
+   "status": "ok",
+   "n_rows": 596,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34026.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34031": {
+   "status": "ok",
+   "n_rows": 192,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34031.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34032": {
+   "status": "ok",
+   "n_rows": 150,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34032.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34036": {
+   "status": "ok",
+   "n_rows": 532,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34036.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34041": {
+   "status": "ok",
+   "n_rows": 839,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34041.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34058": {
+   "status": "ok",
+   "n_rows": 815,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34058.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34061": {
+   "status": "ok",
+   "n_rows": 325,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34061.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34102": {
+   "status": "ok",
+   "n_rows": 288,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34102.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34123": {
+   "status": "ok",
+   "n_rows": 387,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34123.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34152": {
+   "status": "ok",
+   "n_rows": 104,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34152.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34155": {
+   "status": "ok",
+   "n_rows": 790,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34155.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34203": {
+   "status": "ok",
+   "n_rows": 44,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34203.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34211": {
+   "status": "ok",
+   "n_rows": 387,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34211.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34227": {
+   "status": "ok",
+   "n_rows": 500,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34227.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34231": {
+   "status": "ok",
+   "n_rows": 718,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34231.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34233": {
+   "status": "ok",
+   "n_rows": 748,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34233.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34235": {
+   "status": "ok",
+   "n_rows": 573,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34235.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34247": {
+   "status": "ok",
+   "n_rows": 922,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34247.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34248": {
+   "status": "ok",
+   "n_rows": 922,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34248.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34261": {
+   "status": "ok",
+   "n_rows": 678,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34261.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34300": {
+   "status": "ok",
+   "n_rows": 1252,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34300.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34301": {
+   "status": "ok",
+   "n_rows": 590,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34301.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34326": {
+   "status": "ok",
+   "n_rows": 1503,
+   "seconds": 3.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34326.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34330": {
+   "status": "ok",
+   "n_rows": 527,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34330.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34344": {
+   "status": "ok",
+   "n_rows": 594,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34344.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34348": {
+   "status": "ok",
+   "n_rows": 228,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34348.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34349": {
+   "status": "ok",
+   "n_rows": 242,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34349.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34350": {
+   "status": "ok",
+   "n_rows": 473,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34350.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34355": {
+   "status": "ok",
+   "n_rows": 384,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34355.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34399": {
+   "status": "ok",
+   "n_rows": 692,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34399.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34419": {
+   "status": "ok",
+   "n_rows": 539,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34419.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34446": {
+   "status": "ok",
+   "n_rows": 259,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34446.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34447": {
+   "status": "ok",
+   "n_rows": 368,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34447.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34448": {
+   "status": "ok",
+   "n_rows": 498,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34448.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34450": {
+   "status": "ok",
+   "n_rows": 329,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34450.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34462": {
+   "status": "ok",
+   "n_rows": 433,
+   "seconds": 10.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34462.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34465": {
+   "status": "ok",
+   "n_rows": 701,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34465.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34477": {
+   "status": "ok",
+   "n_rows": 425,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34477.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34493": {
+   "status": "ok",
+   "n_rows": 962,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34493.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34495": {
+   "status": "ok",
+   "n_rows": 403,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34495.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34500": {
+   "status": "ok",
+   "n_rows": 356,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34500.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34512": {
+   "status": "ok",
+   "n_rows": 191,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34512.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34535": {
+   "status": "ok",
+   "n_rows": 477,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34535.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34541": {
+   "status": "ok",
+   "n_rows": 680,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34541.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34550": {
+   "status": "ok",
+   "n_rows": 791,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34550.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34552": {
+   "status": "ok",
+   "n_rows": 1043,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34552.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34576": {
+   "status": "ok",
+   "n_rows": 181,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34576.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34584": {
+   "status": "ok",
+   "n_rows": 1462,
+   "seconds": 3.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34584.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34699": {
+   "status": "ok",
+   "n_rows": 684,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34699.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34703": {
+   "status": "ok",
+   "n_rows": 163,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34703.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34704": {
+   "status": "ok",
+   "n_rows": 733,
+   "seconds": 3.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34704.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34706": {
+   "status": "ok",
+   "n_rows": 131,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34706.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34716": {
+   "status": "ok",
+   "n_rows": 773,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34716.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34720": {
+   "status": "ok",
+   "n_rows": 684,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34720.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34729": {
+   "status": "ok",
+   "n_rows": 347,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34729.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34736": {
+   "status": "ok",
+   "n_rows": 766,
+   "seconds": 4.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34736.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34767": {
+   "status": "ok",
+   "n_rows": 478,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34767.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34773": {
+   "status": "ok",
+   "n_rows": 767,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34773.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34776": {
+   "status": "ok",
+   "n_rows": 317,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34776.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34787": {
+   "status": "ok",
+   "n_rows": 766,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34787.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34800": {
+   "status": "ok",
+   "n_rows": 144,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34800.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34801": {
+   "status": "ok",
+   "n_rows": 63,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34801.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34812": {
+   "status": "ok",
+   "n_rows": 192,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34812.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34844": {
+   "status": "ok",
+   "n_rows": 326,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34844.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34872": {
+   "status": "ok",
+   "n_rows": 607,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34872.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34874": {
+   "status": "ok",
+   "n_rows": 425,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34874.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34890": {
+   "status": "ok",
+   "n_rows": 445,
+   "seconds": 2.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34890.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34892": {
+   "status": "ok",
+   "n_rows": 205,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34892.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34910": {
+   "status": "ok",
+   "n_rows": 530,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34910.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34963": {
+   "status": "ok",
+   "n_rows": 463,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34963.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34980": {
+   "status": "ok",
+   "n_rows": 594,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34980.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34983": {
+   "status": "ok",
+   "n_rows": 172,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34983.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34984": {
+   "status": "ok",
+   "n_rows": 397,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34984.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "34998": {
+   "status": "ok",
+   "n_rows": 1062,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\34998.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36012": {
+   "status": "ok",
+   "n_rows": 457,
+   "seconds": 1.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36012.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36077": {
+   "status": "ok",
+   "n_rows": 1079,
+   "seconds": 2.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36077.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36078": {
+   "status": "ok",
+   "n_rows": 1079,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36078.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36096": {
+   "status": "ok",
+   "n_rows": 528,
+   "seconds": 3.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36096.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36161": {
+   "status": "ok",
+   "n_rows": 1006,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36161.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36172": {
+   "status": "ok",
+   "n_rows": 197,
+   "seconds": 1.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36172.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36186": {
+   "status": "ok",
+   "n_rows": 535,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36186.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36187": {
+   "status": "ok",
+   "n_rows": 598,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36187.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36204": {
+   "status": "ok",
+   "n_rows": 548,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36204.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36243": {
+   "status": "ok",
+   "n_rows": 118,
+   "seconds": 10.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36243.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36330": {
+   "status": "ok",
+   "n_rows": 639,
+   "seconds": 2.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36330.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36338": {
+   "status": "ok",
+   "n_rows": 806,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36338.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36341": {
+   "status": "ok",
+   "n_rows": 834,
+   "seconds": 2.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36341.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36404": {
+   "status": "ok",
+   "n_rows": 193,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36404.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36409": {
+   "status": "ok",
+   "n_rows": 448,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36409.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36418": {
+   "status": "ok",
+   "n_rows": 367,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36418.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36426": {
+   "status": "ok",
+   "n_rows": 738,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36426.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36483": {
+   "status": "ok",
+   "n_rows": 721,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36483.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36548": {
+   "status": "ok",
+   "n_rows": 504,
+   "seconds": 2.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36548.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "36696": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 3.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\36696.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50110": {
+   "status": "ok",
+   "n_rows": 727,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50110.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50273": {
+   "status": "ok",
+   "n_rows": 658,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50273.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50328": {
+   "status": "ok",
+   "n_rows": 594,
+   "seconds": 1.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50328.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50360": {
+   "status": "ok",
+   "n_rows": 594,
+   "seconds": 2.9,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50360.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50712": {
+   "status": "ok",
+   "n_rows": 910,
+   "seconds": 4.3,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50712.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "50985": {
+   "status": "ok",
+   "n_rows": 402,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\50985.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "51048": {
+   "status": "ok",
+   "n_rows": 317,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\51048.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "51121": {
+   "status": "ok",
+   "n_rows": 809,
+   "seconds": 2.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\51121.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "51187": {
+   "status": "ok",
+   "n_rows": 464,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\51187.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "51565": {
+   "status": "ok",
+   "n_rows": 1713,
+   "seconds": 4.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\51565.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "51566": {
+   "status": "ok",
+   "n_rows": 1713,
+   "seconds": 4.8,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\51566.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52158": {
+   "status": "ok",
+   "n_rows": 1179,
+   "seconds": 3.2,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52158.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52173": {
+   "status": "ok",
+   "n_rows": 590,
+   "seconds": 2.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52173.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52223": {
+   "status": "ok",
+   "n_rows": 327,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52223.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52447": {
+   "status": "ok",
+   "n_rows": 756,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52447.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52455": {
+   "status": "ok",
+   "n_rows": 384,
+   "seconds": 1.4,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52455.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52456": {
+   "status": "ok",
+   "n_rows": 384,
+   "seconds": 1.7,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52456.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52646": {
+   "status": "ok",
+   "n_rows": 445,
+   "seconds": 2.1,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52646.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "52647": {
+   "status": "ok",
+   "n_rows": 445,
+   "seconds": 1.6,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\52647.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "53285": {
+   "status": "ok",
+   "n_rows": 347,
+   "seconds": 1.5,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\53285.pdb -spartaDir C:\\tmp\\SPARTA+"
+  },
+  "53615": {
+   "status": "ok",
+   "n_rows": 720,
+   "seconds": 2.0,
+   "cmd": "C:\\tmp\\SPARTA+\\bin\\SPARTA+.static.winxp -in C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\53615.pdb -spartaDir C:\\tmp\\SPARTA+"
+  }
+ },
+ "meta": {
+  "tool": "sparta",
+  "version": "SPARTA+ 2.90 build 2017.143.12.12",
+  "started": "2026-08-30T18:46:28+00:00"
+ },
+ "summary": {
+  "n_entries": 735,
+  "n_ok": 734,
+  "n_error": 1,
+  "errors": {
+   "30140": "FileNotFoundError: prepared PDB missing: C:\\Users\\maxim\\Documents\\coding\\caustic\\benchmarks\\tmp\\pdb_prepared\\30140.pdb"
+  },
+  "total_seconds": 1838.4
+ }
+}

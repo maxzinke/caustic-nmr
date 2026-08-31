@@ -1,0 +1,1486 @@
+{
+ "slices": {
+  "full": {
+   "slice": "full",
+   "n_truth_labels": 350875,
+   "n_proteins": 735,
+   "methods": [
+    "caustic",
+    "sparta",
+    "legolas",
+    "ucbshift",
+    "ucbshift_x",
+    "caustic_fullcal",
+    "caustic_recordgraph"
+   ],
+   "bootstrap_B": 2000,
+   "seed": 42,
+   "coverage": {
+    "caustic": {
+     "n_residues": 350052,
+     "n_proteins": 735,
+     "frac_of_truth": 0.9976544353402209
+    },
+    "sparta": {
+     "n_residues": 348561,
+     "n_proteins": 733,
+     "frac_of_truth": 0.9934050587816173
+    },
+    "legolas": {
+     "n_residues": 349946,
+     "n_proteins": 734,
+     "frac_of_truth": 0.9973523334520841
+    },
+    "ucbshift": {
+     "n_residues": 345766,
+     "n_proteins": 732,
+     "frac_of_truth": 0.9854392589953688
+    },
+    "ucbshift_x": {
+     "n_residues": 345766,
+     "n_proteins": 732,
+     "frac_of_truth": 0.9854392589953688
+    },
+    "caustic_fullcal": {
+     "n_residues": 350052,
+     "n_proteins": 735,
+     "frac_of_truth": 0.9976544353402209
+    },
+    "caustic_recordgraph": {
+     "n_residues": 350052,
+     "n_proteins": 735,
+     "frac_of_truth": 0.9976544353402209
+    }
+   },
+   "unpaired_mae": {
+    "caustic": {
+     "C": 0.8074084979016213,
+     "CA": 0.7630974054730927,
+     "CB": 0.8597614579635171,
+     "H": 0.3090218055467613,
+     "HA": 0.17514924545263277,
+     "N": 1.7171547373097855
+    },
+    "sparta": {
+     "C": 1.0280519135060924,
+     "CA": 0.9725589879466405,
+     "CB": 1.0798605246212762,
+     "H": 0.42582375314300264,
+     "HA": 0.23293162524193703,
+     "N": 2.3203089736014184
+    },
+    "legolas": {
+     "C": 1.12081782275245,
+     "CA": 1.090069641465911,
+     "CB": 1.3102192373382937,
+     "H": 0.5290443768804434,
+     "HA": 0.2503713771790505,
+     "N": 2.734209052237266
+    },
+    "ucbshift": {
+     "C": 0.9273785362694301,
+     "CA": 0.8342037917916679,
+     "CB": 0.9203320670697245,
+     "H": 0.34261682346164923,
+     "HA": 0.1920729243765864,
+     "N": 1.918935289017341
+    },
+    "ucbshift_x": {
+     "C": 0.9749970746977549,
+     "CA": 0.8877188352457241,
+     "CB": 0.9870210783222292,
+     "H": 0.3907310710057278,
+     "HA": 0.2125134273701343,
+     "N": 2.0998384521515736
+    },
+    "caustic_fullcal": {
+     "C": 0.8052852325259368,
+     "CA": 0.7551186793720603,
+     "CB": 0.852813771533871,
+     "H": 0.3082953871968594,
+     "HA": 0.1716574584472964,
+     "N": 1.7163653924882185
+    },
+    "caustic_recordgraph": {
+     "C": 0.821157380541531,
+     "CA": 0.7798064809724513,
+     "CB": 0.8667632229379046,
+     "H": 0.31474348603811814,
+     "HA": 0.17782050570931277,
+     "N": 1.766225145586392
+    }
+   },
+   "paired_vs_caustic": {
+    "sparta": {
+     "H": {
+      "n_residues": 62837,
+      "n_proteins": 724,
+      "mae_caustic": 0.3092477457548896,
+      "mae_sparta": 0.42582575552620267,
+      "delta": -0.11657800977131305,
+      "delta_rel_pct": -27.3769278298479,
+      "delta_ci95": [
+       -0.12056360643905732,
+       -0.1125597778665561
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 52182,
+      "n_proteins": 652,
+      "mae_caustic": 0.17520338239239586,
+      "mae_sparta": 0.2329324288068683,
+      "delta": -0.057729046414472435,
+      "delta_rel_pct": -24.78360214169124,
+      "delta_ci95": [
+       -0.060347594698723285,
+       -0.05521784493046141
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 62617,
+      "n_proteins": 718,
+      "mae_caustic": 1.712550861587109,
+      "mae_sparta": 2.3203089736014184,
+      "delta": -0.6077581120143094,
+      "delta_rel_pct": -26.19298200924468,
+      "delta_ci95": [
+       -0.6371947232493029,
+       -0.5807600844745066
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 65292,
+      "n_proteins": 710,
+      "mae_caustic": 0.7624788105740367,
+      "mae_sparta": 0.9725542945536972,
+      "delta": -0.21007548397966058,
+      "delta_rel_pct": -21.600386236129232,
+      "delta_ci95": [
+       -0.22666209272167104,
+       -0.1932312123535667
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 59005,
+      "n_proteins": 699,
+      "mae_caustic": 0.858909707651894,
+      "mae_sparta": 1.07989794085247,
+      "delta": -0.22098823320057603,
+      "delta_rel_pct": -20.463807258131098,
+      "delta_ci95": [
+       -0.25284769848674477,
+       -0.1960581044908378
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46616,
+      "n_proteins": 504,
+      "mae_caustic": 0.8032077591384933,
+      "mae_sparta": 1.0280519135060924,
+      "delta": -0.22484415436759908,
+      "delta_rel_pct": -21.870894982412445,
+      "delta_ci95": [
+       -0.241863684820992,
+       -0.208289280612931
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "legolas": {
+     "H": {
+      "n_residues": 63149,
+      "n_proteins": 725,
+      "mae_caustic": 0.3090539501813172,
+      "mae_legolas": 0.5290451234382175,
+      "delta": -0.21999117325690032,
+      "delta_rel_pct": -41.5826861472982,
+      "delta_ci95": [
+       -0.22653388993768683,
+       -0.21335564454029746
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 52258,
+      "n_proteins": 652,
+      "mae_caustic": 0.1751611389643691,
+      "mae_legolas": 0.25036620230395346,
+      "delta": -0.07520506333958435,
+      "delta_rel_pct": -30.038025359462353,
+      "delta_ci95": [
+       -0.07794879875473208,
+       -0.07264726541025045
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 63001,
+      "n_proteins": 719,
+      "mae_caustic": 1.7171742813606135,
+      "mae_legolas": 2.734209052237266,
+      "delta": -1.0170347708766525,
+      "delta_rel_pct": -37.19667192398708,
+      "delta_ci95": [
+       -1.0482461160327339,
+       -0.9887765280352361
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 65460,
+      "n_proteins": 711,
+      "mae_caustic": 0.7629319034524901,
+      "mae_legolas": 1.0892909578368468,
+      "delta": -0.32635905438435675,
+      "delta_rel_pct": -29.96068699885771,
+      "delta_ci95": [
+       -0.3464181895961687,
+       -0.30853644491230414
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 59126,
+      "n_proteins": 699,
+      "mae_caustic": 0.8594778388526197,
+      "mae_legolas": 1.3098392636065352,
+      "delta": -0.4503614247539155,
+      "delta_rel_pct": -34.382953486512704,
+      "delta_ci95": [
+       -0.4707720596742068,
+       -0.43138978986902643
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46940,
+      "n_proteins": 506,
+      "mae_caustic": 0.8074064486578612,
+      "mae_legolas": 1.12081782275245,
+      "delta": -0.31341137409458875,
+      "delta_rel_pct": -27.962740039672845,
+      "delta_ci95": [
+       -0.33106242836772454,
+       -0.2969449488030597
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "ucbshift": {
+     "H": {
+      "n_residues": 62501,
+      "n_proteins": 723,
+      "mae_caustic": 0.30913054031135506,
+      "mae_ucbshift": 0.3426206908689461,
+      "delta": -0.033490150557591025,
+      "delta_rel_pct": -9.774701718292068,
+      "delta_ci95": [
+       -0.04383513199257109,
+       -0.02300839210648665
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 51610,
+      "n_proteins": 650,
+      "mae_caustic": 0.17498944196861071,
+      "mae_ucbshift": 0.19207566363107928,
+      "delta": -0.017086221662468565,
+      "delta_rel_pct": -8.8955682044583,
+      "delta_ci95": [
+       -0.021954862679204865,
+       -0.012260465262873818
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 62280,
+      "n_proteins": 717,
+      "mae_caustic": 1.7144209537572253,
+      "mae_ucbshift": 1.918935289017341,
+      "delta": -0.20451433526011575,
+      "delta_rel_pct": -10.657698382567377,
+      "delta_ci95": [
+       -0.25433733876015346,
+       -0.1564175802346776
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 64665,
+      "n_proteins": 709,
+      "mae_caustic": 0.7639142503672773,
+      "mae_ucbshift": 0.8342123420706719,
+      "delta": -0.07029809170339452,
+      "delta_rel_pct": -8.42688224066566,
+      "delta_ci95": [
+       -0.09600016042957285,
+       -0.046355564304178205
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 58378,
+      "n_proteins": 697,
+      "mae_caustic": 0.8607996676830313,
+      "mae_ucbshift": 0.9204381376545959,
+      "delta": -0.059638469971564634,
+      "delta_rel_pct": -6.479356681539916,
+      "delta_ci95": [
+       -0.08119265782322646,
+       -0.03915045689156269
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46320,
+      "n_proteins": 504,
+      "mae_caustic": 0.8082423920552676,
+      "mae_ucbshift": 0.9273785362694301,
+      "delta": -0.11913614421416252,
+      "delta_rel_pct": -12.84654966173921,
+      "delta_ci95": [
+       -0.14591992633339626,
+       -0.09392425177415546
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "ucbshift_x": {
+     "H": {
+      "n_residues": 62501,
+      "n_proteins": 723,
+      "mae_caustic": 0.30913054031135506,
+      "mae_ucbshift_x": 0.3907357082286683,
+      "delta": -0.08160516791731326,
+      "delta_rel_pct": -20.8850039038551,
+      "delta_ci95": [
+       -0.08474679499040373,
+       -0.07826392514075012
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 51610,
+      "n_proteins": 650,
+      "mae_caustic": 0.17498944196861071,
+      "mae_ucbshift_x": 0.21251656268165087,
+      "delta": -0.03752712071304015,
+      "delta_rel_pct": -17.658445176932236,
+      "delta_ci95": [
+       -0.03966296168452031,
+       -0.035416187954349025
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 62280,
+      "n_proteins": 717,
+      "mae_caustic": 1.7144209537572253,
+      "mae_ucbshift_x": 2.0998384521515736,
+      "delta": -0.38541749839434836,
+      "delta_rel_pct": -18.354626185620855,
+      "delta_ci95": [
+       -0.4128607359763906,
+       -0.3559909816807775
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 64665,
+      "n_proteins": 709,
+      "mae_caustic": 0.7639142503672773,
+      "mae_ucbshift_x": 0.8877282130982757,
+      "delta": -0.12381396273099832,
+      "delta_rel_pct": -13.947282614672464,
+      "delta_ci95": [
+       -0.14620336018100719,
+       -0.1053556180823353
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 58378,
+      "n_proteins": 697,
+      "mae_caustic": 0.8607996676830313,
+      "mae_ucbshift_x": 0.9870626811470076,
+      "delta": -0.12626301346397628,
+      "delta_rel_pct": -12.791792849189015,
+      "delta_ci95": [
+       -0.14265859457138738,
+       -0.11181511499001347
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46320,
+      "n_proteins": 504,
+      "mae_caustic": 0.8082423920552676,
+      "mae_ucbshift_x": 0.9749970746977549,
+      "delta": -0.16675468264248727,
+      "delta_rel_pct": -17.103095688177376,
+      "delta_ci95": [
+       -0.18706399308253222,
+       -0.14930401405572946
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "caustic_fullcal": {
+     "H": {
+      "n_residues": 63172,
+      "n_proteins": 726,
+      "mae_caustic": 0.3090218055467613,
+      "mae_caustic_fullcal": 0.3082953871968594,
+      "delta": 0.0007264183499018917,
+      "delta_rel_pct": 0.23562413842995433,
+      "delta_ci95": [
+       0.000534106311915757,
+       0.0009244967731857845
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 52283,
+      "n_proteins": 653,
+      "mae_caustic": 0.17514924545263277,
+      "mae_caustic_fullcal": 0.1716574584472964,
+      "delta": 0.0034917870053363664,
+      "delta_rel_pct": 2.03415979528116,
+      "delta_ci95": [
+       0.002997893075635715,
+       0.0039709273889443055
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 63021,
+      "n_proteins": 720,
+      "mae_caustic": 1.7171547373097855,
+      "mae_caustic_fullcal": 1.7163653924882185,
+      "delta": 0.0007893448215670062,
+      "delta_rel_pct": 0.04598932284591752,
+      "delta_ci95": [
+       -6.397208775391045e-05,
+       0.001601905617060001
+      ],
+      "ci_excludes_zero": false
+     },
+     "CA": {
+      "n_residues": 65484,
+      "n_proteins": 712,
+      "mae_caustic": 0.7630974054730927,
+      "mae_caustic_fullcal": 0.7551186793720603,
+      "delta": 0.00797872610103234,
+      "delta_rel_pct": 1.0566188228408373,
+      "delta_ci95": [
+       0.005873786953051968,
+       0.01016200016399495
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 59151,
+      "n_proteins": 700,
+      "mae_caustic": 0.8597614579635171,
+      "mae_caustic_fullcal": 0.852813771533871,
+      "delta": 0.0069476864296461605,
+      "delta_rel_pct": 0.8146780295480045,
+      "delta_ci95": [
+       0.0058672885071194255,
+       0.007983860868596433
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46941,
+      "n_proteins": 506,
+      "mae_caustic": 0.8074084979016213,
+      "mae_caustic_fullcal": 0.8052852325259368,
+      "delta": 0.0021232653756845243,
+      "delta_rel_pct": 0.26366625015890105,
+      "delta_ci95": [
+       -0.0001295712244586024,
+       0.004385576656691891
+      ],
+      "ci_excludes_zero": false
+     }
+    },
+    "caustic_recordgraph": {
+     "H": {
+      "n_residues": 63172,
+      "n_proteins": 726,
+      "mae_caustic": 0.3090218055467613,
+      "mae_caustic_recordgraph": 0.31474348603811814,
+      "delta": -0.005721680491356851,
+      "delta_rel_pct": -1.8178868650720563,
+      "delta_ci95": [
+       -0.0065766216822657165,
+       -0.004918029685877545
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 52283,
+      "n_proteins": 653,
+      "mae_caustic": 0.17514924545263277,
+      "mae_caustic_recordgraph": 0.17782050570931277,
+      "delta": -0.0026712602566799915,
+      "delta_rel_pct": -1.502222843211773,
+      "delta_ci95": [
+       -0.0032093716027022457,
+       -0.0021303060836640447
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 63021,
+      "n_proteins": 720,
+      "mae_caustic": 1.7171547373097855,
+      "mae_caustic_recordgraph": 1.766225145586392,
+      "delta": -0.04907040827660647,
+      "delta_rel_pct": -2.778264617012626,
+      "delta_ci95": [
+       -0.054772237386682694,
+       -0.04364875385996122
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 65484,
+      "n_proteins": 712,
+      "mae_caustic": 0.7630974054730927,
+      "mae_caustic_recordgraph": 0.7798064809724513,
+      "delta": -0.016709075499358628,
+      "delta_rel_pct": -2.142720778432325,
+      "delta_ci95": [
+       -0.018770735944688758,
+       -0.014327230163111599
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 59151,
+      "n_proteins": 700,
+      "mae_caustic": 0.8597614579635171,
+      "mae_caustic_recordgraph": 0.8667632229379046,
+      "delta": -0.0070017649743875365,
+      "delta_rel_pct": -0.8078059600469627,
+      "delta_ci95": [
+       -0.011218257266340204,
+       -0.0020037360927848097
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 46941,
+      "n_proteins": 506,
+      "mae_caustic": 0.8074084979016213,
+      "mae_caustic_recordgraph": 0.821157380541531,
+      "delta": -0.013748882639909699,
+      "delta_rel_pct": -1.6743297893569056,
+      "delta_ci95": [
+       -0.016064625202513373,
+       -0.011459850396420472
+      ],
+      "ci_excludes_zero": true
+     }
+    }
+   },
+   "all_methods_common": {
+    "methods": [
+     "caustic",
+     "sparta",
+     "legolas",
+     "ucbshift"
+    ],
+    "n_residues": 344487,
+    "n_proteins": 731,
+    "mae": {
+     "C": {
+      "caustic": 0.804078662261157,
+      "sparta": 1.0293750624959241,
+      "legolas": 1.1093652653087842,
+      "ucbshift": 0.9191796100254331
+     },
+     "CA": {
+      "caustic": 0.7636406780974823,
+      "sparta": 0.9748782866178841,
+      "legolas": 1.0909361574476,
+      "ucbshift": 0.834061589978916
+     },
+     "CB": {
+      "caustic": 0.860289260950158,
+      "sparta": 1.0823697308801319,
+      "legolas": 1.3107593917341755,
+      "ucbshift": 0.919702818206783
+     },
+     "H": {
+      "caustic": 0.30933789089505925,
+      "sparta": 0.42640090358055854,
+      "legolas": 0.5247481389777643,
+      "ucbshift": 0.34286295641268877
+     },
+     "HA": {
+      "caustic": 0.17505841563027494,
+      "sparta": 0.2332691255505326,
+      "legolas": 0.25087817465706913,
+      "ucbshift": 0.19208432704060846
+     },
+     "N": {
+      "caustic": 1.7132838329729905,
+      "sparta": 2.321176611055536,
+      "legolas": 2.7268031188486237,
+      "ucbshift": 1.9177830972280485
+     }
+    },
+    "n_per_nucleus": {
+     "C": 46003,
+     "CA": 64504,
+     "CB": 58264,
+     "H": 62197,
+     "HA": 51541,
+     "N": 61978
+    }
+   },
+   "composite_vs_caustic": {
+    "sparta": {
+     "n_proteins": 733,
+     "composite_caustic": 0.7866203672104616,
+     "composite_sparta": 1.0622016481632306,
+     "delta": -0.2755812809527692,
+     "delta_rel_pct": -25.944346954206576,
+     "n_proteins_better": 720,
+     "frac_better": 0.9822646657571623,
+     "sign_test_p": 1.1469012143160546e-193,
+     "delta_ci95": [
+      -0.31834185833908496,
+      -0.24331947769912032
+     ],
+     "ci_excludes_zero": true
+    },
+    "legolas": {
+     "n_proteins": 734,
+     "composite_caustic": 0.7868838600171252,
+     "composite_legolas": 1.2158029130887757,
+     "delta": -0.4289190530716506,
+     "delta_rel_pct": -35.27866634090979,
+     "n_proteins_better": 731,
+     "frac_better": 0.9959128065395095,
+     "sign_test_p": 1.4586602386640722e-213,
+     "delta_ci95": [
+      -0.45044869607466853,
+      -0.41203162501410656
+     ],
+     "ci_excludes_zero": true
+    },
+    "ucbshift": {
+     "n_proteins": 732,
+     "composite_caustic": 0.7871062685318265,
+     "composite_ucbshift": 0.8892250573276436,
+     "delta": -0.10211878879581704,
+     "delta_rel_pct": -11.484020603592864,
+     "n_proteins_better": 615,
+     "frac_better": 0.8401639344262295,
+     "sign_test_p": 2.132054268284687e-82,
+     "delta_ci95": [
+      -0.12661298518520375,
+      -0.08277782029306957
+     ],
+     "ci_excludes_zero": true
+    },
+    "ucbshift_x": {
+     "n_proteins": 732,
+     "composite_caustic": 0.7871062685318265,
+     "composite_ucbshift_x": 0.9496068941648955,
+     "delta": -0.1625006256330689,
+     "delta_rel_pct": -17.112410054265183,
+     "n_proteins_better": 695,
+     "frac_better": 0.9494535519125683,
+     "sign_test_p": 2.612511240489954e-158,
+     "delta_ci95": [
+      -0.18360880401371493,
+      -0.14821765281459023
+     ],
+     "ci_excludes_zero": true
+    },
+    "caustic_fullcal": {
+     "n_proteins": 735,
+     "composite_caustic": 0.7872809385271228,
+     "composite_caustic_fullcal": 0.7829360394978038,
+     "delta": 0.0043448990293189155,
+     "delta_rel_pct": 0.554949422446545,
+     "n_proteins_better": 198,
+     "frac_better": 0.2693877551020408,
+     "sign_test_p": 5.599056118830408e-37,
+     "delta_ci95": [
+      0.0036579341778714973,
+      0.005029204070825862
+     ],
+     "ci_excludes_zero": true
+    },
+    "caustic_recordgraph": {
+     "n_proteins": 735,
+     "composite_caustic": 0.7872809385271228,
+     "composite_caustic_recordgraph": 0.8024165303064723,
+     "delta": -0.015135591779349557,
+     "delta_rel_pct": -1.8862512432998757,
+     "n_proteins_better": 558,
+     "frac_better": 0.7591836734693878,
+     "sign_test_p": 8.97885057699465e-47,
+     "delta_ci95": [
+      -0.017070624808262342,
+      -0.013199795561895695
+     ],
+     "ci_excludes_zero": true
+    }
+   }
+  },
+  "cleaned": {
+   "slice": "cleaned",
+   "n_truth_labels": 282916,
+   "n_proteins": 617,
+   "methods": [
+    "caustic",
+    "sparta",
+    "legolas",
+    "ucbshift",
+    "ucbshift_x",
+    "caustic_fullcal",
+    "caustic_recordgraph"
+   ],
+   "bootstrap_B": 2000,
+   "seed": 42,
+   "coverage": {
+    "caustic": {
+     "n_residues": 282195,
+     "n_proteins": 617,
+     "frac_of_truth": 0.9974515403865458
+    },
+    "sparta": {
+     "n_residues": 281216,
+     "n_proteins": 617,
+     "frac_of_truth": 0.9939911493164049
+    },
+    "legolas": {
+     "n_residues": 282202,
+     "n_proteins": 617,
+     "frac_of_truth": 0.99747628271289
+    },
+    "ucbshift": {
+     "n_residues": 278691,
+     "n_proteins": 615,
+     "frac_of_truth": 0.9850662387422415
+    },
+    "ucbshift_x": {
+     "n_residues": 278691,
+     "n_proteins": 615,
+     "frac_of_truth": 0.9850662387422415
+    },
+    "caustic_fullcal": {
+     "n_residues": 282195,
+     "n_proteins": 617,
+     "frac_of_truth": 0.9974515403865458
+    },
+    "caustic_recordgraph": {
+     "n_residues": 282195,
+     "n_proteins": 617,
+     "frac_of_truth": 0.9974515403865458
+    }
+   },
+   "unpaired_mae": {
+    "caustic": {
+     "C": 0.7247429513351762,
+     "CA": 0.7197182681834684,
+     "CB": 0.7743168237476808,
+     "H": 0.30590251277526564,
+     "HA": 0.1743618647967569,
+     "N": 1.6738268957930273
+    },
+    "sparta": {
+     "C": 0.9466465948539924,
+     "CA": 0.9359709073277167,
+     "CB": 1.039537622682661,
+     "H": 0.42349091882313855,
+     "HA": 0.23289629597121037,
+     "N": 2.2866261226046336
+    },
+    "legolas": {
+     "C": 1.049168936396835,
+     "CA": 1.063785150671669,
+     "CB": 1.250809237504019,
+     "H": 0.52788094739164,
+     "HA": 0.25045820094225923,
+     "N": 2.7038990326618872
+    },
+    "ucbshift": {
+     "C": 0.8470507805679659,
+     "CA": 0.790693904606271,
+     "CB": 0.8501712955292818,
+     "H": 0.34028251416891203,
+     "HA": 0.19278726384726386,
+     "N": 1.879753181809456
+    },
+    "ucbshift_x": {
+     "C": 0.8923634006059673,
+     "CA": 0.8488267367991013,
+     "CB": 0.9270676782890278,
+     "H": 0.3885407470036235,
+     "HA": 0.21259793095793095,
+     "N": 2.0586033325014874
+    },
+    "caustic_fullcal": {
+     "C": 0.7220021809144624,
+     "CA": 0.7131768445681551,
+     "CB": 0.7717013358070501,
+     "H": 0.30519472997316277,
+     "HA": 0.17109823162046675,
+     "N": 1.6738152801487043
+    },
+    "caustic_recordgraph": {
+     "C": 0.7373528567443511,
+     "CA": 0.7374017911170277,
+     "CB": 0.7886718268398268,
+     "H": 0.31166798095658244,
+     "HA": 0.17697827544647748,
+     "N": 1.7201379120670688
+    }
+   },
+   "paired_vs_caustic": {
+    "sparta": {
+     "H": {
+      "n_residues": 54177,
+      "n_proteins": 613,
+      "mae_caustic": 0.30605582073573656,
+      "mae_sparta": 0.4234931982206471,
+      "delta": -0.11743737748491057,
+      "delta_rel_pct": -27.730640770226422,
+      "delta_ci95": [
+       -0.12220715680021464,
+       -0.1130403265421725
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45571,
+      "n_proteins": 558,
+      "mae_caustic": 0.17438721116499525,
+      "mae_sparta": 0.23289721533431348,
+      "delta": -0.05851000416931823,
+      "delta_rel_pct": -25.1226722849948,
+      "delta_ci95": [
+       -0.06125873219076398,
+       -0.05577462768519489
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52445,
+      "n_proteins": 605,
+      "mae_caustic": 1.6702326265611593,
+      "mae_sparta": 2.2866261226046336,
+      "delta": -0.6163934960434743,
+      "delta_rel_pct": -26.956461747290685,
+      "delta_ci95": [
+       -0.6493990438280851,
+       -0.5876009756993748
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 49496,
+      "n_proteins": 595,
+      "mae_caustic": 0.7193587198965572,
+      "mae_sparta": 0.9359639768870212,
+      "delta": -0.21660525699046396,
+      "delta_rel_pct": -23.142477952077215,
+      "delta_ci95": [
+       -0.237511698476641,
+       -0.19852348567478617
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 40339,
+      "n_proteins": 586,
+      "mae_caustic": 0.7734345323384318,
+      "mae_sparta": 1.0395833560574135,
+      "delta": -0.26614882371898163,
+      "delta_rel_pct": -25.601489497517782,
+      "delta_ci95": [
+       -0.30287856183502104,
+       -0.2325933577848662
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 39176,
+      "n_proteins": 443,
+      "mae_caustic": 0.7208139192362673,
+      "mae_sparta": 0.9466465948539924,
+      "delta": -0.22583267561772513,
+      "delta_rel_pct": -23.856070136982513,
+      "delta_ci95": [
+       -0.243170731487192,
+       -0.2089176472745763
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "legolas": {
+     "H": {
+      "n_residues": 54401,
+      "n_proteins": 613,
+      "mae_caustic": 0.305903788533299,
+      "mae_legolas": 0.5278817926141064,
+      "delta": -0.22197800408080737,
+      "delta_rel_pct": -42.05070286314617,
+      "delta_ci95": [
+       -0.2292743840215823,
+       -0.21495532424806166
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45634,
+      "n_proteins": 558,
+      "mae_caustic": 0.17435580488232458,
+      "mae_legolas": 0.25045227681114957,
+      "delta": -0.07609647192882499,
+      "delta_rel_pct": -30.38362154168181,
+      "delta_ci95": [
+       -0.07873916440293907,
+       -0.07333423046481342
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52722,
+      "n_proteins": 605,
+      "mae_caustic": 1.6738268957930273,
+      "mae_legolas": 2.7038990326618872,
+      "delta": -1.03007213686886,
+      "delta_rel_pct": -38.095806257040316,
+      "delta_ci95": [
+       -1.0647888135679917,
+       -0.999272047831052
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 49577,
+      "n_proteins": 595,
+      "mae_caustic": 0.7197012747846783,
+      "mae_legolas": 1.062756469733949,
+      "delta": -0.34305519494927084,
+      "delta_rel_pct": -32.279755966590486,
+      "delta_ci95": [
+       -0.3699919085143691,
+       -0.32300238717906954
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 40424,
+      "n_proteins": 586,
+      "mae_caustic": 0.7743355902434198,
+      "mae_legolas": 1.2502402434197506,
+      "delta": -0.4759046531763308,
+      "delta_rel_pct": -38.06505635065792,
+      "delta_ci95": [
+       -0.500608146777119,
+       -0.45237684177987675
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 39432,
+      "n_proteins": 447,
+      "mae_caustic": 0.7247384155001014,
+      "mae_legolas": 1.049168936396835,
+      "delta": -0.32443052089673363,
+      "delta_rel_pct": -30.92261976521404,
+      "delta_ci95": [
+       -0.3427773840450841,
+       -0.30665254685118776
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "ucbshift": {
+     "H": {
+      "n_residues": 53814,
+      "n_proteins": 611,
+      "mae_caustic": 0.30597275244360206,
+      "mae_ucbshift": 0.34028696250046453,
+      "delta": -0.03431421005686247,
+      "delta_rel_pct": -10.083903833610913,
+      "delta_ci95": [
+       -0.04503588535942729,
+       -0.023297399687116638
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45044,
+      "n_proteins": 556,
+      "mae_caustic": 0.17414162818577392,
+      "mae_ucbshift": 0.1927904182577036,
+      "delta": -0.018648790071929683,
+      "delta_rel_pct": -9.67308969007048,
+      "delta_ci95": [
+       -0.023785539517090996,
+       -0.013426773765410845
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52093,
+      "n_proteins": 603,
+      "mae_caustic": 1.6711724204787592,
+      "mae_ucbshift": 1.879753181809456,
+      "delta": -0.2085807613306967,
+      "delta_rel_pct": -11.096178123231915,
+      "delta_ci95": [
+       -0.2623200605859621,
+       -0.1528033342843759
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 48954,
+      "n_proteins": 593,
+      "mae_caustic": 0.7206026453405238,
+      "mae_ucbshift": 0.7907043101687299,
+      "delta": -0.07010166482820612,
+      "delta_rel_pct": -8.865724383524228,
+      "delta_ci95": [
+       -0.10137710165431782,
+       -0.039598703628817414
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 39828,
+      "n_proteins": 584,
+      "mae_caustic": 0.7751609746911721,
+      "mae_ucbshift": 0.8503109144320578,
+      "delta": -0.07514993974088569,
+      "delta_rel_pct": -8.837936625931711,
+      "delta_ci95": [
+       -0.1044393777208425,
+       -0.04654087380713762
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 38946,
+      "n_proteins": 445,
+      "mae_caustic": 0.724649704719355,
+      "mae_ucbshift": 0.8470507805679659,
+      "delta": -0.12240107584861093,
+      "delta_rel_pct": -14.450264217516965,
+      "delta_ci95": [
+       -0.1504616661379432,
+       -0.09423158593230421
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "ucbshift_x": {
+     "H": {
+      "n_residues": 53814,
+      "n_proteins": 611,
+      "mae_caustic": 0.30597275244360206,
+      "mae_ucbshift_x": 0.3885460920949939,
+      "delta": -0.08257333965139185,
+      "delta_rel_pct": -21.251877533027372,
+      "delta_ci95": [
+       -0.08611055193514701,
+       -0.07893158997090056
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45044,
+      "n_proteins": 556,
+      "mae_caustic": 0.17414162818577392,
+      "mae_ucbshift_x": 0.21260152517538408,
+      "delta": -0.038459896989610165,
+      "delta_rel_pct": -18.090132212307957,
+      "delta_ci95": [
+       -0.04083643663311619,
+       -0.0361015940454276
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52093,
+      "n_proteins": 603,
+      "mae_caustic": 1.6711724204787592,
+      "mae_ucbshift_x": 2.0586033325014874,
+      "delta": -0.38743091202272817,
+      "delta_rel_pct": -18.820085730258004,
+      "delta_ci95": [
+       -0.41964320542411004,
+       -0.35659961329035905
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 48954,
+      "n_proteins": 593,
+      "mae_caustic": 0.7206026453405238,
+      "mae_ucbshift_x": 0.8488383298606856,
+      "delta": -0.12823568452016187,
+      "delta_rel_pct": -15.10719768524218,
+      "delta_ci95": [
+       -0.15621949524207346,
+       -0.1060914803830408
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 39828,
+      "n_proteins": 584,
+      "mae_caustic": 0.7751609746911721,
+      "mae_ucbshift_x": 0.9271151099728834,
+      "delta": -0.1519541352817113,
+      "delta_rel_pct": -16.389996630100843,
+      "delta_ci95": [
+       -0.17392596667197052,
+       -0.13272756802406888
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 38946,
+      "n_proteins": 445,
+      "mae_caustic": 0.724649704719355,
+      "mae_ucbshift_x": 0.8923634006059673,
+      "delta": -0.16771369588661234,
+      "delta_rel_pct": -18.794327039043157,
+      "delta_ci95": [
+       -0.1894698131411416,
+       -0.14743031257741188
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "caustic_fullcal": {
+     "H": {
+      "n_residues": 54402,
+      "n_proteins": 613,
+      "mae_caustic": 0.30590251277526564,
+      "mae_caustic_fullcal": 0.30519472997316277,
+      "delta": 0.0007077828021028743,
+      "delta_rel_pct": 0.23191186891238685,
+      "delta_ci95": [
+       0.0005146007346564873,
+       0.0009003572277004354
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45635,
+      "n_proteins": 558,
+      "mae_caustic": 0.1743618647967569,
+      "mae_caustic_fullcal": 0.17109823162046675,
+      "delta": 0.003263633176290137,
+      "delta_rel_pct": 1.9074616642032796,
+      "delta_ci95": [
+       0.0027707195536034878,
+       0.0037807294461429178
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52722,
+      "n_proteins": 605,
+      "mae_caustic": 1.6738268957930273,
+      "mae_caustic_fullcal": 1.6738152801487043,
+      "delta": 1.1615644323059726e-05,
+      "delta_rel_pct": 0.0006939621391213357,
+      "delta_ci95": [
+       -0.0009187340614441457,
+       0.00091199455913901
+      ],
+      "ci_excludes_zero": false
+     },
+     "CA": {
+      "n_residues": 49578,
+      "n_proteins": 595,
+      "mae_caustic": 0.7197182681834684,
+      "mae_caustic_fullcal": 0.7131768445681551,
+      "delta": 0.006541423615313291,
+      "delta_rel_pct": 0.9172232196173268,
+      "delta_ci95": [
+       0.004792491273788897,
+       0.008316416725497803
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 40425,
+      "n_proteins": 586,
+      "mae_caustic": 0.7743168237476808,
+      "mae_caustic_fullcal": 0.7717013358070501,
+      "delta": 0.002615487940630712,
+      "delta_rel_pct": 0.3389248948099096,
+      "delta_ci95": [
+       0.0018225075528934688,
+       0.0033992173951892814
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 39433,
+      "n_proteins": 447,
+      "mae_caustic": 0.7247429513351762,
+      "mae_caustic_fullcal": 0.7220021809144624,
+      "delta": 0.002740770420713745,
+      "delta_rel_pct": 0.3796069448491668,
+      "delta_ci95": [
+       0.0006684488260511722,
+       0.004831886834609576
+      ],
+      "ci_excludes_zero": true
+     }
+    },
+    "caustic_recordgraph": {
+     "H": {
+      "n_residues": 54402,
+      "n_proteins": 613,
+      "mae_caustic": 0.30590251277526564,
+      "mae_caustic_recordgraph": 0.31166798095658244,
+      "delta": -0.005765468181316791,
+      "delta_rel_pct": -1.8498750380520999,
+      "delta_ci95": [
+       -0.006660714118001371,
+       -0.004852008952204882
+      ],
+      "ci_excludes_zero": true
+     },
+     "HA": {
+      "n_residues": 45635,
+      "n_proteins": 558,
+      "mae_caustic": 0.1743618647967569,
+      "mae_caustic_recordgraph": 0.17697827544647748,
+      "delta": -0.0026164106497205963,
+      "delta_rel_pct": -1.4783795599318417,
+      "delta_ci95": [
+       -0.003244853385723642,
+       -0.0020272969956681534
+      ],
+      "ci_excludes_zero": true
+     },
+     "N": {
+      "n_residues": 52722,
+      "n_proteins": 605,
+      "mae_caustic": 1.6738268957930273,
+      "mae_caustic_recordgraph": 1.7201379120670688,
+      "delta": -0.04631101627404144,
+      "delta_rel_pct": -2.6922850748862373,
+      "delta_ci95": [
+       -0.0517786276146929,
+       -0.04084164574259356
+      ],
+      "ci_excludes_zero": true
+     },
+     "CA": {
+      "n_residues": 49578,
+      "n_proteins": 595,
+      "mae_caustic": 0.7197182681834684,
+      "mae_caustic_recordgraph": 0.7374017911170277,
+      "delta": -0.017683522933559348,
+      "delta_rel_pct": -2.3980851615198917,
+      "delta_ci95": [
+       -0.020222260365014955,
+       -0.01518559083436863
+      ],
+      "ci_excludes_zero": true
+     },
+     "CB": {
+      "n_residues": 40425,
+      "n_proteins": 586,
+      "mae_caustic": 0.7743168237476808,
+      "mae_caustic_recordgraph": 0.7886718268398268,
+      "delta": -0.01435500309214599,
+      "delta_rel_pct": -1.820149091627357,
+      "delta_ci95": [
+       -0.018775872982906967,
+       -0.009583720553051926
+      ],
+      "ci_excludes_zero": true
+     },
+     "C": {
+      "n_residues": 39433,
+      "n_proteins": 447,
+      "mae_caustic": 0.7247429513351762,
+      "mae_caustic_recordgraph": 0.7373528567443511,
+      "delta": -0.012609905409174949,
+      "delta_rel_pct": -1.7101588871373898,
+      "delta_ci95": [
+       -0.015013153975527438,
+       -0.010208875060064746
+      ],
+      "ci_excludes_zero": true
+     }
+    }
+   },
+   "all_methods_common": {
+    "methods": [
+     "caustic",
+     "sparta",
+     "legolas",
+     "ucbshift"
+    ],
+    "n_residues": 277798,
+    "n_proteins": 615,
+    "mae": {
+     "C": {
+      "caustic": 0.7207690476805788,
+      "sparta": 0.9471334539346168,
+      "legolas": 1.03620285825042,
+      "ucbshift": 0.8377778653572813
+     },
+     "CA": {
+      "caustic": 0.720288501984533,
+      "sparta": 0.9380889357175005,
+      "legolas": 1.064895263717828,
+      "ucbshift": 0.7904037378779819
+     },
+     "CB": {
+      "caustic": 0.7743545886792452,
+      "sparta": 1.0425479748427673,
+      "legolas": 1.2511072779874215,
+      "ucbshift": 0.8494036503144655
+     },
+     "H": {
+      "caustic": 0.3061401563491175,
+      "sparta": 0.42407324900182847,
+      "legolas": 0.5237082223217284,
+      "ucbshift": 0.3405798238740252
+     },
+     "HA": {
+      "caustic": 0.17420358540055128,
+      "sparta": 0.23324913310216058,
+      "legolas": 0.25094079976882727,
+      "ucbshift": 0.19277992798079488
+     },
+     "N": {
+      "caustic": 1.6706631521131647,
+      "sparta": 2.287029139123899,
+      "legolas": 2.6962186128081096,
+      "ucbshift": 1.8792669467517198
+     }
+    },
+    "n_per_nucleus": {
+     "C": 38695,
+     "CA": 48878,
+     "CB": 39750,
+     "H": 53598,
+     "HA": 44988,
+     "N": 51889
+    }
+   },
+   "composite_vs_caustic": {
+    "sparta": {
+     "n_proteins": 617,
+     "composite_caustic": 0.7532519888304632,
+     "composite_sparta": 1.0452445462875732,
+     "delta": -0.2919925574571102,
+     "delta_rel_pct": -27.93533422338237,
+     "n_proteins_better": 595,
+     "frac_better": 0.9643435980551054,
+     "sign_test_p": 5.65998749562072e-146,
+     "delta_ci95": [
+      -0.34252781362037366,
+      -0.25417249475616216
+     ],
+     "ci_excludes_zero": true
+    },
+    "legolas": {
+     "n_proteins": 617,
+     "composite_caustic": 0.7532519888304632,
+     "composite_legolas": 1.2164995634869418,
+     "delta": -0.46324757465647853,
+     "delta_rel_pct": -38.08037327433461,
+     "n_proteins_better": 612,
+     "frac_better": 0.9918962722852512,
+     "sign_test_p": 2.718080189003511e-174,
+     "delta_ci95": [
+      -0.49494979321995664,
+      -0.43738577389967637
+     ],
+     "ci_excludes_zero": true
+    },
+    "ucbshift": {
+     "n_proteins": 615,
+     "composite_caustic": 0.7533601028173771,
+     "composite_ucbshift": 0.8623513607815761,
+     "delta": -0.10899125796419915,
+     "delta_rel_pct": -12.63884570964403,
+     "n_proteins_better": 501,
+     "frac_better": 0.8146341463414634,
+     "sign_test_p": 8.872453765050139e-59,
+     "delta_ci95": [
+      -0.13861755092425426,
+      -0.08682883632099722
+     ],
+     "ci_excludes_zero": true
+    },
+    "ucbshift_x": {
+     "n_proteins": 615,
+     "composite_caustic": 0.7533601028173771,
+     "composite_ucbshift_x": 0.9217342782139085,
+     "delta": -0.16837417539653154,
+     "delta_rel_pct": -18.267105756639403,
+     "n_proteins_better": 570,
+     "frac_better": 0.926829268292683,
+     "sign_test_p": 8.09315255954289e-117,
+     "delta_ci95": [
+      -0.1939310009209337,
+      -0.15114369673287986
+     ],
+     "ci_excludes_zero": true
+    },
+    "caustic_fullcal": {
+     "n_proteins": 617,
+     "composite_caustic": 0.7532519888304632,
+     "composite_caustic_fullcal": 0.7502720890474962,
+     "delta": 0.0029798997829670218,
+     "delta_rel_pct": 0.3971758814525723,
+     "n_proteins_better": 193,
+     "frac_better": 0.31280388978930307,
+     "sign_test_p": 7.175740956007612e-21,
+     "delta_ci95": [
+      0.0022276933007802885,
+      0.0036965142140811583
+     ],
+     "ci_excludes_zero": true
+    },
+    "caustic_recordgraph": {
+     "n_proteins": 617,
+     "composite_caustic": 0.7532519888304632,
+     "composite_caustic_recordgraph": 0.76709363322462,
+     "delta": -0.01384164439415678,
+     "delta_rel_pct": -1.8044269688396275,
+     "n_proteins_better": 460,
+     "frac_better": 0.7455429497568882,
+     "sign_test_p": 1.963137267246658e-35,
+     "delta_ci95": [
+      -0.016396677837055618,
+      -0.011376773987699968
+     ],
+     "ci_excludes_zero": true
+    }
+   }
+  }
+ }
+}

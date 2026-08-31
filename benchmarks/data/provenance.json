@@ -1,0 +1,139 @@
+{
+ "sources": {
+  "splits": {
+   "path": "C:\\Users\\maxim\\.crystalline_fid\\shift_predictor_graphs\\splits.connected_components.json",
+   "sha256": "322f3bfb8103a14318e1e4f537bf2b93fc6293a081a5df84cc586ddebdf13d81",
+   "sizes": {
+    "train": 3433,
+    "val": 736,
+    "test": 735
+   }
+  },
+  "crystalline_all.npz": {
+   "path": "C:\\Users\\maxim\\.crystalline_fid\\crystalline_cache\\crystalline_all.npz",
+   "sha256": "7e8d7b17a632ee44f317f793ab9af4a9f5c3f93c6e1b94208a914493bb4233c9",
+   "n_rows": 448819
+  },
+  "blocklist": {
+   "path": "C:\\Users\\maxim\\Documents\\coding\\noft\\results\\caustic_label_blocklists\\label_blocklist_v2_sweep_carbons.json",
+   "sha256": "49a28864be9dcd7fd5da90396c293145ad074dee96635af5e6a866bd1c693bdc",
+   "metadata": {
+    "date": "2026-05-21",
+    "generator": "scripts/phase1_build_blocklist.py",
+    "label_drop_counts_fine": {
+     "C": 20081,
+     "CA": 46803,
+     "CB": 88190,
+     "H": 2434,
+     "HA": 3094,
+     "N": 13206
+    },
+    "label_drop_counts_whole": {
+     "C": 29735,
+     "CA": 51874,
+     "CB": 46149,
+     "H": 48595,
+     "HA": 37321,
+     "N": 48348
+    },
+    "split_stats": {
+     "test": {
+      "n_entries": 735,
+      "n_flagged_combined": 374,
+      "n_flagged_lacs": 92,
+      "n_flagged_tight": 364,
+      "per_nucleus_combined": {
+       "C": 77,
+       "CA": 177,
+       "CB": 253,
+       "H": 24,
+       "HA": 24,
+       "N": 55
+      }
+     },
+     "train": {
+      "n_entries": 3433,
+      "n_flagged_combined": 1760,
+      "n_flagged_lacs": 424,
+      "n_flagged_tight": 1696,
+      "per_nucleus_combined": {
+       "C": 313,
+       "CA": 806,
+       "CB": 1159,
+       "H": 72,
+       "HA": 101,
+       "N": 213
+      }
+     },
+     "val": {
+      "n_entries": 736,
+      "n_flagged_combined": 315,
+      "n_flagged_lacs": 78,
+      "n_flagged_tight": 308,
+      "per_nucleus_combined": {
+       "C": 56,
+       "CA": 150,
+       "CB": 207,
+       "H": 18,
+       "HA": 17,
+       "N": 44
+      }
+     }
+    },
+    "thresholds": {
+     "C": 1.0,
+     "CA": 1.0,
+     "CB": 1.0,
+     "H": 0.35,
+     "HA": 0.35,
+     "N": 2.0
+    },
+    "total_labels_by_split": {
+     "test": {
+      "C": 46942,
+      "CA": 65485,
+      "CB": 59151,
+      "H": 63173,
+      "HA": 52283,
+      "N": 63022
+     },
+     "train": {
+      "C": 217789,
+      "CA": 305806,
+      "CB": 276689,
+      "H": 290515,
+      "HA": 250622,
+      "N": 290620
+     },
+     "val": {
+      "C": 47169,
+      "CA": 62869,
+      "CB": 57267,
+      "H": 60132,
+      "HA": 53119,
+      "N": 59977
+     }
+    },
+    "whole_drop_frac_labels": 0.4,
+    "whole_drop_min_nuclei": 3,
+    "whole_drop_ratio": 2.0
+   }
+  }
+ },
+ "truth_range_dropped": {
+  "CA": 1,
+  "C": 3,
+  "HA": 1
+ },
+ "test_label_drops": 25693,
+ "cleaned_test_ids": 617,
+ "status": {
+  "mapped": 735
+ },
+ "n_truth_rows": 350875,
+ "n_mapped_residues": 67553,
+ "production_graph_pdb_check": {
+  "checked": 735,
+  "mismatch": []
+ }
+}

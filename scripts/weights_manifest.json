@@ -1,0 +1,15 @@
+{
+  "package_version": "0.4.0",
+  "hf_repo": "SiXa18/caustic-weights",
+  "hf_revision": "v0.4.0",
+  "files": {
+    "best_v2_carbons.onnx": {
+      "size": 3045952,
+      "sha256": "ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2"
+    },
+    "sa16_calibrator_v2.json": {
+      "size": 846,
+      "sha256": "32d277df600a8e6b2f84e2f7ccaaaf6d9de1332664df61e51b36f31fdf267bf4"
+    }
+  }
+}

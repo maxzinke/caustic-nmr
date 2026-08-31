@@ -1,0 +1,49 @@
+{
+ "n_refdb_overlap_pdb_ids": 67,
+ "slices": {
+  "non_overlap": {
+   "n_proteins": 661,
+   "n_residues": 310330,
+   "mae_ucbshift": {
+    "C": 0.9512,
+    "CA": 0.8718,
+    "CB": 0.9671,
+    "H": 0.3718,
+    "HA": 0.2056,
+    "N": 2.0213
+   },
+   "mae_caustic": {
+    "C": 0.8102,
+    "CA": 0.7696,
+    "CB": 0.8657,
+    "H": 0.3108,
+    "HA": 0.1747,
+    "N": 1.7182
+   }
+  },
+  "refdb_overlap": {
+   "n_proteins": 71,
+   "n_residues": 35424,
+   "mae_ucbshift": {
+    "C": 0.7409,
+    "CA": 0.4928,
+    "CB": 0.4987,
+    "H": 0.0834,
+    "HA": 0.0732,
+    "N": 1.022
+   },
+   "mae_caustic": {
+    "C": 0.7928,
+    "CA": 0.712,
+    "CB": 0.8165,
+    "H": 0.2939,
+    "HA": 0.1773,
+    "N": 1.6813
+   }
+  }
+ },
+ "y_module_changed_prediction_frac": {
+  "non_overlap": 0.0771,
+  "refdb_overlap": 0.9284
+ }
+}
