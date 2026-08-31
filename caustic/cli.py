@@ -11,7 +11,7 @@ Usage::
     # AlphaFold model with explicit chain
     caustic AF-P12345-F1-model_v4.cif --chain A --format csv
 
-    # NMR ensemble — median aggregation across conformers
+    # NMR ensemble: median aggregation across conformers
     caustic nmr_ensemble.pdb --ensemble median
 
     # Batch: predict all structures in a directory
@@ -153,7 +153,7 @@ def main(argv: list[str] | None = None) -> None:
         help=(
             "Inference backend (default: onnx = ONNX Runtime with the bundled weights; "
             "PyTorch is still required for graph construction in both backends). "
-            "The shipped production model is ONNX-only — 'torch' cannot load it and is "
+            "The shipped production model is ONNX-only: 'torch' cannot load it and is "
             "for architecture-matching .pt checkpoints only (see docs/LIMITATIONS.md)."
         ),
     )
@@ -162,7 +162,7 @@ def main(argv: list[str] | None = None) -> None:
         default=None,
         help=(
             "Path to a .pt checkpoint (torch backend only; must match caustic.model.ShiftPredictor "
-            "— the production checkpoint does not)."
+            "- the production checkpoint does not)."
         ),
     )
     parser.add_argument(

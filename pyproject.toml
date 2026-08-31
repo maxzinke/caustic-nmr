@@ -48,7 +48,7 @@ bmrb = [
 ]
 dev = [
     "pytest>=7",
-    "ruff>=0.5",
+    "ruff>=0.5,<0.17",
     "build>=1.0",
     "twine>=5",
     "onnx>=1.15",
@@ -81,6 +81,7 @@ include = [
     "caustic/data/*.onnx",
     "caustic/data/*.json",
     "tests/**",
+    "examples/**",
     "README.md",
     "CHANGELOG.md",
     "LICENSE",

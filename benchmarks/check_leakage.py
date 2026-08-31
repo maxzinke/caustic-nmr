@@ -18,6 +18,7 @@
 from __future__ import annotations
 
 import csv
+import argparse
 import json
 import os
 import sys
@@ -36,6 +37,14 @@ def ids(name: str) -> set[str]:
 
 
 def main() -> int:
+    # The committed leakage_report.json is the record, produced on a machine that HAS the
+    # competitor reference databases. Running here without them yields a strictly poorer
+    # report, so the file is only rewritten when --write is passed; CI just needs the exit
+    # code and the printed summary.
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--write", action="store_true",
+                    help="overwrite results/leakage_report.json with this run's report")
+    write = ap.parse_args().write
     train, val, test = ids("train"), ids("val"), ids("test")
     report: dict = {"split_sizes": {"train": len(train), "val": len(val), "test": len(test)},
                     "test_in_train": sorted(test & train), "test_in_val": sorted(test & val),
@@ -69,7 +78,8 @@ def main() -> int:
     report["legolas_training_set"] = "not shipped with the weights"
 
     RESULTS.mkdir(exist_ok=True)
-    json.dump(report, open(RESULTS / "leakage_report.json", "w"), indent=1)
+    if write:
+        json.dump(report, open(RESULTS / "leakage_report.json", "w"), indent=1)
     print(json.dumps({k: (v if not isinstance(v, dict) or "ids" not in v else {kk: vv for kk, vv in v.items() if kk != "ids"})
                       for k, v in report.items()}, indent=1))
     leak = report["test_in_train"] or report["test_in_val"] or report["train_in_val"]
