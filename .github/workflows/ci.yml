@@ -1,0 +1,87 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: py${{ matrix.python-version }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install (CPU torch)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ".[dev]"
+      - name: Lint
+        run: ruff check caustic tests scripts benchmarks
+      - name: Test
+        run: pytest -q
+      - name: Build wheel + sdist
+        run: python -m build
+      - name: twine check
+        run: python -m twine check dist/*
+      - name: Wheel contains the bundled artifacts and both licences
+        shell: bash
+        run: |
+          python - <<'EOF'
+          import glob, zipfile
+          whl = glob.glob("dist/*.whl")[0]
+          names = zipfile.ZipFile(whl).namelist()
+          need = ["caustic/data/best_v2_carbons.onnx", "caustic/data/sa16_calibrator_v2.json"]
+          for n in need:
+              assert n in names, f"missing {n} in {whl}"
+          lic = [n for n in names if n.endswith("LICENSE") or n.endswith("LICENSE-WEIGHTS")]
+          assert len(lic) >= 2, lic
+          print("ok:", whl, len(names), "files")
+          EOF
+      - name: Fresh-venv CLI smoke (no repo on sys.path)
+        shell: bash
+        run: |
+          python -m venv /tmp/fresh || python -m venv fresh
+          VENV=$( [ -d /tmp/fresh ] && echo /tmp/fresh || echo fresh )
+          if [ -x "$VENV/bin/python" ]; then PY="$VENV/bin/python"; else PY="$VENV/Scripts/python.exe"; fi
+          "$PY" -m pip install --quiet --upgrade pip
+          "$PY" -m pip install --quiet torch --index-url https://download.pytorch.org/whl/cpu
+          "$PY" -m pip install --quiet dist/*.whl
+          cd "$RUNNER_TEMP"
+          "$PY" -m caustic.cli --version
+          "$PY" -m caustic.cli "$GITHUB_WORKSPACE/examples/1ubq.pdb" --format csv -o smoke.csv
+          head -3 smoke.csv
+
+  benchmark:
+    name: benchmark tables + leakage check
+    runs-on: ubuntu-latest
+    if: ${{ hashFiles('benchmarks/rescore.py') != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -e ".[dev]" pandas
+      - name: Regenerate benchmark tables and compare with the committed ones
+        run: python benchmarks/rescore.py --check
+      - name: Leakage check (test ids absent from every shipped index)
+        run: python benchmarks/check_leakage.py
