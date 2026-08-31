@@ -72,7 +72,6 @@ class EnsembleAggregator(nn.Module):
                 continue
 
             # All conformers must have same number of valid residues
-            n_res = stacked[0].shape[0]
             stack = torch.stack(stacked, dim=0)  # [C, R]
 
             if self.config.aggregation == "median":

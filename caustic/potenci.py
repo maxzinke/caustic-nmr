@@ -688,14 +688,14 @@ def _calc_pkas(seq: str, T: float = 293.15, ionic_strength: float = 0.1) -> dict
     if N == 0:
         return {}
 
-    I = np.diag(np.ones(N))
+    eye = np.diag(np.ones(N))
     sites = "".join(seq[i] for i in pos)
     neg = np.array([i for i in range(len(sites)) if sites[i] in "DEYc"])
     l_arr = np.array([np.abs(pos - pos[i]) for i in range(N)])
     d = _A_PARAM + np.sqrt(l_arr) * _B_PARAM
 
     tmp = _W(d, ionic_strength)
-    tmp[I == 1] = 0
+    tmp[eye == 1] = 0
     ww = _w2logp(tmp, T) / 2
 
     charges_empty = np.zeros(N)
@@ -739,7 +739,7 @@ def _calc_pkas(seq: str, T: float = 293.15, ionic_strength: float = 0.1) -> dict
                 fraction[ileft - 1:iright] = 0
                 charges = charges_empty + fraction
                 ww0 = np.diag(np.dot(ww, charges) * 2)
-                gmatrixfull = ww + ww0 + pHs[p] * I - np.diag(pK0s)
+                gmatrixfull = ww + ww0 + pHs[p] * eye - np.diag(pK0s)
                 gmatrix[p] = gmatrixfull[ileft - 1:iright, ileft - 1:iright]
 
             E_all = np.array([

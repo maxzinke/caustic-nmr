@@ -15,8 +15,6 @@ from caustic.features import (
     NUM_ELEMENT_TYPES,
     NUM_GEO_FEATURES,
     NUM_TARGET_ENV_FEATURES,
-    UNK_AA_IDX,
-    UNK_ELEMENT_IDX,
     rbf_expansion,
     cosine_cutoff,
 )

@@ -5,11 +5,13 @@ import logging
 import re
 import numpy as np
 from pathlib import Path
-from typing import Any
+from typing import TYPE_CHECKING, Any
+
+if TYPE_CHECKING:  # annotations only — torch stays a function-local import at runtime
+    import torch
 
 from caustic.config import GraphConfig
 from caustic.features import (
-    AA_THREE_TO_IDX,
     AROMATIC_RINGS,
     BACKBONE_NUCLEI,
     ELEMENT_TO_IDX,
@@ -17,8 +19,6 @@ from caustic.features import (
     NUM_RESIDUE_CHEM_FEATURES,
     NUM_TARGET_CHEM_FEATURES,
     NUM_TARGET_NC_CHEM_FEATURES,
-    NUM_ATOM_ROLES,
-    NUM_ELEMENT_TYPES,
     RING_ELEMENT_IDX,
     ROLE_LIGAND_HEAVY,
     ROLE_METAL,
@@ -1494,8 +1494,6 @@ def _assign_shifts(
     already passes a validated ``seq_mapping`` for every training entry,
     making the fallback both unnecessary and dangerous.
     """
-    import torch
-
     bmrb_seqids = sorted(shifts.keys())
     if not bmrb_seqids:
         return
@@ -2224,7 +2222,6 @@ def compute_target_chemistry(data: Any) -> "torch.Tensor":
         else np.zeros(n_real, dtype=bool)
     )
 
-    metal_idx = np.where(node_metal)[0]
     hetero_pos, hetero_elem, hetero_role, hetero_is_metal = _hetero_context_arrays(
         data,
         pos_real=pos_real,
