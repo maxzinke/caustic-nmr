@@ -6,6 +6,29 @@ All notable changes to `caustic-nmr` are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.4.1] — 2026-08-31
+
+Documentation and packaging fixes found by verifying the published 0.4.0 artifacts from
+every install path. The model, calibrator and every benchmark number are unchanged.
+
+### Fixed
+- `caustic` exited 0 even when every input failed, so a shell pipeline or CI step could not
+  tell that nothing had been predicted. It now exits 1 if any input fails.
+- `$CAUSTIC_WEIGHTS` was documented as an override but was consulted *after* the bundled
+  model, so it could never take effect. The override is now checked first.
+- The README's first example claimed `caustic 1ubq.pdb` writes NEF to stdout; it writes
+  `1ubq.nef` next to the input.
+- Every link and the benchmark figure in the README were relative, so they were broken on
+  the PyPI project page (PyPI renders the README standalone). They are now absolute.
+- The PyPI page carried no DOI: 0.4.0 was tagged before the Zenodo record existed, and a
+  long description is immutable once uploaded. The DOI badge and citation now ship in the
+  description, and a `DOI` entry was added to the project URLs.
+
+### Changed
+- The sdist now ships `CITATION.cff` and `docs/*.md`, and no longer picks up a stray
+  `benchmarks/README.md` whose links pointed at files it did not contain.
+
+
 ## [0.4.0] — 2026-08-31
 
 Release-readiness version: same model weights and calibrator as 0.3.0

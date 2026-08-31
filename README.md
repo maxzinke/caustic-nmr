@@ -28,7 +28,7 @@ uses it; inference itself runs on ONNX Runtime).
 
 ```bash
 caustic --version                      # package version, model SHA-256, calibrator
-caustic 1ubq.pdb                       # NEF to stdout
+caustic 1ubq.pdb                       # writes 1ubq.nef next to the input
 caustic 1ubq.pdb --format csv -o 1ubq_shifts.csv
 caustic AF-P01112-F1-model_v6.cif      # AlphaFold model: pLDDT read from the B-factor column
 caustic ensemble.pdb --ensemble median # NMR ensemble: median over conformers (default)
@@ -51,7 +51,7 @@ Every output file carries the same provenance stamp in its header:
 # caustic-nmr 0.4.0 model=best_v2_carbons.onnx sha256=ebc7bbc2fc59 calibrator=sa16_v2_carbons_slim date=2026-08-30T16:27:19Z
 ```
 
-Inputs and outputs for ubiquitin and an AlphaFold model are in [`examples/`](examples/).
+Inputs and outputs for ubiquitin and an AlphaFold model are in [`examples/`](https://github.com/maxzinke/caustic-nmr/tree/main/examples/).
 
 ## Accuracy
 
@@ -59,7 +59,7 @@ Measured through this exact package (the released wheel, bundled weights, defaul
 settings) on the 735-protein held-out test split, against SPARTA+ 2.90, LEGOLAS and
 UCBShift2 in **full mode** (transfer module on), paired per residue:
 
-![Per-nucleus MAE, all four methods on the common residue set](benchmarks/results/figures/benchmark_summary.png)
+![Per-nucleus MAE, all four methods on the common residue set](https://raw.githubusercontent.com/maxzinke/caustic-nmr/main/benchmarks/results/figures/benchmark_summary.png)
 
 | Nucleus (n residues) | CAUSTIC | SPARTA+ | LEGOLAS | UCBShift2 |
 |---|---:|---:|---:|---:|
@@ -78,20 +78,20 @@ excludes zero. 67 of 693 test structures are
 in UCBShift2's own reference database (where its transfer module excels); they are
 *included*, so the UCBShift2 comparison is conservative against CAUSTIC. Protocol,
 competitor versions, crash accounting and the fairness slices:
-[docs/BENCHMARKS.md](docs/BENCHMARKS.md); regenerate everything with
+[docs/BENCHMARKS.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/BENCHMARKS.md); regenerate everything with
 `python benchmarks/rescore.py --bootstrap 2000`.
 
 ## Where the details are
 
 | Question | Document |
 |---|---|
-| How does the model work, how was it trained? | [docs/METHOD.md](docs/METHOD.md) |
-| What data, what split, what licences? | [docs/DATA.md](docs/DATA.md) |
-| How were the numbers above measured, against which versions of which tools? | [docs/BENCHMARKS.md](docs/BENCHMARKS.md) |
-| What does it not do? | [docs/LIMITATIONS.md](docs/LIMITATIONS.md) |
-| Regenerate every table from the per-residue results | [benchmarks/README.md](benchmarks/README.md) |
-| One protein end to end | [benchmarks/WALKTHROUGH.md](benchmarks/WALKTHROUGH.md) |
-| What changed between versions | [CHANGELOG.md](CHANGELOG.md) |
+| How does the model work, how was it trained? | [docs/METHOD.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/METHOD.md) |
+| What data, what split, what licences? | [docs/DATA.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/DATA.md) |
+| How were the numbers above measured, against which versions of which tools? | [docs/BENCHMARKS.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/BENCHMARKS.md) |
+| What does it not do? | [docs/LIMITATIONS.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/LIMITATIONS.md) |
+| Regenerate every table from the per-residue results | [benchmarks/README.md](https://github.com/maxzinke/caustic-nmr/blob/main/benchmarks/README.md) |
+| One protein end to end | [benchmarks/WALKTHROUGH.md](https://github.com/maxzinke/caustic-nmr/blob/main/benchmarks/WALKTHROUGH.md) |
+| What changed between versions | [CHANGELOG.md](https://github.com/maxzinke/caustic-nmr/blob/main/CHANGELOG.md) |
 
 ## Output formats
 
@@ -110,22 +110,22 @@ competitor versions, crash accounting and the fairness slices:
   their parent residue; the modification itself is invisible to the model.
 - Temperature is fixed at 298 K at inference; pH is not an input.
 - σ comes from the network's uncertainty head; there is no pLDDT-dependent widening and no
-  post-hoc isotonic calibration. See [LIMITATIONS.md](docs/LIMITATIONS.md) §4–5.
+  post-hoc isotonic calibration. See [LIMITATIONS.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/LIMITATIONS.md) §4–5.
 - The shipped model is ONNX-only; the `--backend torch` path cannot load it
-  ([CHANGELOG](CHANGELOG.md), Known issues).
+  ([CHANGELOG](https://github.com/maxzinke/caustic-nmr/blob/main/CHANGELOG.md), Known issues).
 
 ## Licence
 
-Code: [MIT](LICENSE). Model weights and calibrator (`caustic/data/`):
-[CC BY 4.0](LICENSE-WEIGHTS) — attribution *CAUSTIC model weights, Maximilian Zinke, 2026,
+Code: [MIT](https://github.com/maxzinke/caustic-nmr/blob/main/LICENSE). Model weights and calibrator (`caustic/data/`):
+[CC BY 4.0](https://github.com/maxzinke/caustic-nmr/blob/main/LICENSE-WEIGHTS) — attribution *CAUSTIC model weights, Maximilian Zinke, 2026,
 https://github.com/maxzinke/caustic-nmr*. Training data come from the BMRB and the wwPDB;
-no BMRB records are redistributed ([DATA.md](docs/DATA.md) §6).
+no BMRB records are redistributed ([DATA.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/DATA.md) §6).
 
 ## Citation
 
 Zinke, M. *CAUSTIC: conformation-aware uncertainty and shift prediction from protein
 conformer ensembles*. Zenodo. https://doi.org/10.5281/zenodo.22213167
 
-That is the **concept DOI** — it always resolves to the latest version. To cite this exact
-release instead, use `10.5281/zenodo.22213168` (v0.4.0). Machine-readable metadata is in
-[CITATION.cff](CITATION.cff), which GitHub's "Cite this repository" button renders.
+That is the **concept DOI** — it always resolves to the latest version. Each release also has
+its own version DOI, shown on the Zenodo record. Machine-readable metadata is in
+[CITATION.cff](https://github.com/maxzinke/caustic-nmr/blob/main/CITATION.cff), which GitHub's "Cite this repository" button renders.

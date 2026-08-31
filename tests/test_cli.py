@@ -103,3 +103,31 @@ def test_missing_weights_message_names_all_locations(ubq_pdb, tmp_path):
     assert "CAUSTIC_WEIGHTS" in r.stderr
     assert "github.com/maxzinke/caustic-nmr" in r.stderr
     assert "<HF_HUB_URL>" not in r.stderr
+
+# --- regressions from verifying the published 0.4.0 artifacts -------------------
+
+
+def test_exit_code_is_nonzero_when_an_input_fails(tmp_path):
+    """A shell pipeline must be able to tell that nothing was predicted (0.4.1)."""
+    missing = _run([str(tmp_path / "does_not_exist.pdb")], tmp_path)
+    assert missing.returncode == 1, f"missing input exited {missing.returncode}"
+
+    junk = tmp_path / "junk.pdb"
+    junk.write_text("this is not a structure", encoding="utf-8")
+    assert _run([str(junk)], tmp_path).returncode == 1
+
+
+def test_exit_code_is_nonzero_when_only_some_inputs_fail(ubq_pdb, tmp_path):
+    r = _run([str(tmp_path / "nope.pdb"), str(ubq_pdb)], tmp_path)
+    assert r.returncode == 1, "a batch with one bad input must not report success"
+
+
+def test_caustic_weights_env_var_overrides_the_bundled_model(tmp_path):
+    """$CAUSTIC_WEIGHTS is documented as an override, so it must win (0.4.1)."""
+    from caustic.provenance import bundled_model_path
+
+    override = tmp_path / "override_model.onnx"
+    override.write_bytes(bundled_model_path().read_bytes())
+    r = _run(["--version"], tmp_path, env_extra={"CAUSTIC_WEIGHTS": str(override)})
+    assert r.returncode == 0, r.stderr
+    assert "override_model.onnx" in r.stdout.splitlines()[1], r.stdout

@@ -62,6 +62,7 @@ Homepage = "https://github.com/maxzinke/caustic-nmr"
 Repository = "https://github.com/maxzinke/caustic-nmr"
 Issues = "https://github.com/maxzinke/caustic-nmr/issues"
 Changelog = "https://github.com/maxzinke/caustic-nmr/blob/main/CHANGELOG.md"
+DOI = "https://doi.org/10.5281/zenodo.22213167"
 "Web app" = "https://huggingface.co/spaces/SiXa18/caustic"
 "Model weights" = "https://huggingface.co/SiXa18/caustic-weights"
 
@@ -82,11 +83,13 @@ include = [
     "caustic/data/*.json",
     "tests/**",
     "examples/**",
-    "README.md",
-    "CHANGELOG.md",
-    "LICENSE",
-    "LICENSE-WEIGHTS",
-    "pyproject.toml",
+    "docs/*.md",
+    "/README.md",
+    "/CHANGELOG.md",
+    "/CITATION.cff",
+    "/LICENSE",
+    "/LICENSE-WEIGHTS",
+    "/pyproject.toml",
 ]
 
 [tool.pytest.ini_options]

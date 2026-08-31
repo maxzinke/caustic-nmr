@@ -39,9 +39,9 @@ RELEASES_URL = "https://github.com/maxzinke/caustic-nmr/releases"
 def _find_default_onnx() -> Path | None:
     """Locate the ONNX weights.
 
-    Search order:
-    1. the model bundled inside the package (``caustic/data/best_v2_carbons.onnx``)
-    2. ``$CAUSTIC_WEIGHTS`` environment variable (explicit override)
+    Search order (an explicit override must win, or it is not an override):
+    1. ``$CAUSTIC_WEIGHTS`` environment variable
+    2. the model bundled inside the package (``caustic/data/best_v2_carbons.onnx``)
     3. ``~/.caustic/best.onnx`` (legacy user download)
     """
     import os
@@ -49,8 +49,8 @@ def _find_default_onnx() -> Path | None:
     from .provenance import bundled_model_path
 
     candidates: list[Path | None] = [
-        bundled_model_path(),
         Path(os.environ["CAUSTIC_WEIGHTS"]) if os.environ.get("CAUSTIC_WEIGHTS") else None,
+        bundled_model_path(),
         Path.home() / ".caustic" / "best.onnx",
     ]
     for candidate in candidates:
@@ -111,7 +111,7 @@ def _find_default_checkpoint() -> Path | None:
     return None
 
 
-def main(argv: list[str] | None = None) -> None:
+def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(
         prog="caustic",
         description="Predict NMR backbone chemical shifts from 3D protein structure.",
@@ -237,8 +237,10 @@ def main(argv: list[str] | None = None) -> None:
     # Process each input
     use_ensemble = args.ensemble == "median"
     n_ok = 0
+    n_failed = 0
     for inp in input_paths:
         if not inp.exists():
+            n_failed += 1
             logger.error("File not found: %s", inp)
             continue
 
@@ -283,6 +285,7 @@ def main(argv: list[str] | None = None) -> None:
                 print(f"{inp.name} -> {written.name}  ({n_res} residues, {n_valid})")
 
         except Exception as e:
+            n_failed += 1
             logger.error("Failed on %s: %s", inp.name, e)
             if args.verbose:
                 import traceback
@@ -290,7 +293,9 @@ def main(argv: list[str] | None = None) -> None:
 
     if len(input_paths) > 1:
         print(f"Done: {n_ok}/{len(input_paths)} structures processed.")
+    # A shell pipeline must be able to tell that this failed.
+    return 1 if n_failed else 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())
