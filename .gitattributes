@@ -1,0 +1,3 @@
+# Byte-determinism: no line-ending conversion anywhere. SHA-256-pinned assets
+# (caustic/data/, benchmarks results) must check out identically on every OS.
+* -text
