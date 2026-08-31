@@ -69,7 +69,6 @@ jobs:
   benchmark:
     name: benchmark tables + leakage check
     runs-on: ubuntu-latest
-    if: ${{ hashFiles('benchmarks/rescore.py') != '' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
