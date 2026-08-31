@@ -8,7 +8,7 @@ equivariant graph neural network, trained on 3,433 BMRB-linked experimental stru
 with carbon-aggressive label-noise cleaning; NMR ensembles are predicted as the median
 over conformers.
 
-<!-- DOI badge goes here after the Zenodo release -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22213167.svg)](https://doi.org/10.5281/zenodo.22213167)
 [![CI](https://github.com/maxzinke/caustic-nmr/actions/workflows/ci.yml/badge.svg)](https://github.com/maxzinke/caustic-nmr/actions/workflows/ci.yml)
 [![Web app](https://img.shields.io/badge/web%20app-Hugging%20Face%20Space-blue)](https://huggingface.co/spaces/SiXa18/caustic)
 
@@ -123,5 +123,9 @@ no BMRB records are redistributed ([DATA.md](docs/DATA.md) §6).
 
 ## Citation
 
-See [CITATION.cff](CITATION.cff) (GitHub's "Cite this repository" button renders it).
-<!-- Zenodo concept DOI and preprint go here once minted -->
+Zinke, M. *CAUSTIC: conformation-aware uncertainty and shift prediction from protein
+conformer ensembles*. Zenodo. https://doi.org/10.5281/zenodo.22213167
+
+That is the **concept DOI** — it always resolves to the latest version. To cite this exact
+release instead, use `10.5281/zenodo.22213168` (v0.4.0). Machine-readable metadata is in
+[CITATION.cff](CITATION.cff), which GitHub's "Cite this repository" button renders.

@@ -112,7 +112,10 @@ https://github.com/maxzinke/caustic-nmr*.
 
 ## How to cite
 
-See [CITATION.cff](https://github.com/maxzinke/caustic-nmr/blob/main/CITATION.cff).
+Zinke, M. *CAUSTIC: conformation-aware uncertainty and shift prediction from protein
+conformer ensembles*. Zenodo. https://doi.org/10.5281/zenodo.22213167 (concept DOI, resolves to the
+latest version). Machine-readable metadata:
+[CITATION.cff](https://github.com/maxzinke/caustic-nmr/blob/main/CITATION.cff).
 """
 
 
