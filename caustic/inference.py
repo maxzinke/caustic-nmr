@@ -10,7 +10,13 @@ import numpy as np
 
 from caustic.config import GraphConfig, ModelConfig
 from caustic.features import BACKBONE_NUCLEI
-from caustic.graph import structure_to_graph, compute_residue_geometry, compute_target_environment, count_models
+from caustic.graph import (
+    compute_residue_geometry,
+    compute_target_environment,
+    count_models,
+    structure_to_graph,
+)
+from caustic.provenance import model_provenance
 
 logger = logging.getLogger(__name__)
 
@@ -27,6 +33,8 @@ class ShiftPrediction:
     # Source info
     pdb_path: str = ""
     num_conformers: int = 1
+    # Which package / model / calibrator produced this (see caustic.provenance)
+    provenance: dict[str, Any] = field(default_factory=dict)
 
 
 # 20-letter canonical amino acid order used by the graph builder's
@@ -68,11 +76,20 @@ def predict_shifts(
     max_conformers: int = 20,
     device: str | None = None,
 ) -> ShiftPrediction:
-    """Predict backbone chemical shifts from a PDB/mmCIF structure.
+    """Predict backbone chemical shifts with a PyTorch checkpoint (.pt).
+
+    .. warning::
+        **The shipped production model is ONNX-only.** ``caustic.model.ShiftPredictor``
+        does not define the temperature and per-atom-rSASA projection layers that the
+        production network (``caustic/data/best_v2_carbons.onnx``) was trained with, so
+        the corresponding ``.pt`` checkpoint cannot be loaded here — ``load_state_dict``
+        fails with missing keys. Use :func:`predict_shifts_onnx` (the CLI default) for
+        the released model; this entry point only serves checkpoints whose architecture
+        matches ``ShiftPredictor``. See ``docs/LIMITATIONS.md`` in the repository.
 
     Args:
         structure_path: Path to .pdb or .cif file.
-        checkpoint_path: Path to model checkpoint (.pt).
+        checkpoint_path: Path to model checkpoint (.pt) — must match ``ShiftPredictor``.
         model_config: Model architecture config (must match checkpoint).
         graph_config: Graph construction parameters.
         chain_id: Chain to predict (None = first polymer).
@@ -101,7 +118,17 @@ def predict_shifts(
     # Load model
     model = ShiftPredictor(model_config).to(dev)
     ckpt = torch.load(checkpoint_path, map_location=dev, weights_only=True)
-    model.load_state_dict(ckpt["model"])
+    try:
+        model.load_state_dict(ckpt["model"])
+    except RuntimeError as e:  # missing / unexpected keys
+        raise RuntimeError(
+            f"Checkpoint {checkpoint_path} does not match caustic.model.ShiftPredictor. "
+            "The shipped CAUSTIC model is ONNX-only: its temperature and per-atom-rSASA "
+            "layers are not part of ShiftPredictor, so the production .pt cannot be loaded "
+            "through the PyTorch backend. Use predict_shifts_onnx() / the default "
+            "`--backend onnx` instead (see docs/LIMITATIONS.md).\n"
+            f"Original error: {e}"
+        ) from e
     model.eval()
 
     # Determine conformers
@@ -162,6 +189,7 @@ def predict_shifts(
         residue_names=residue_names,
         pdb_path=str(structure_path),
         num_conformers=len(graphs),
+        provenance=model_provenance(checkpoint_path, calibrator_applied=False),
     )
 
     for nuc_idx, nuc in enumerate(BACKBONE_NUCLEI):
@@ -293,10 +321,10 @@ def predict_shifts_onnx(
         agg_mean = np.nanmedian(stacked_mean, axis=0)    # [R, 6]
         agg_logvar = np.nanmean(stacked_lv, axis=0)       # [R, 6]
 
-    num_res = int(ref.num_residues)
     seq_ids = ref.seq_ids.tolist()
     residue_names = _residue_types_to_three_letter(ref.residue_types)
 
+    calibrator_applied = False
     if apply_calibrator:
         # SA16 v2 slim: global per-nucleus offsets + CYS-CB disulfide
         # modifier (Sγ-Sγ distance gate). See caustic/calibrate.py.
@@ -312,6 +340,7 @@ def predict_shifts_onnx(
             ref_pos = ref.pos.detach().cpu().numpy() if hasattr(ref.pos, "detach") else np.asarray(ref.pos)
             disulfide_set = detect_disulfides(ref_pos, residue_names, sg_indices)
             agg_mean = _apply_cal(agg_mean, residue_names, disulfide_set, calibrator)
+            calibrator_applied = True
             logger.info(
                 "Applied SA16 v2 slim calibration (%d disulfide CYS detected)",
                 len(disulfide_set),
@@ -324,6 +353,7 @@ def predict_shifts_onnx(
         residue_names=residue_names,
         pdb_path=str(structure_path),
         num_conformers=len(per_conf_mean),
+        provenance=model_provenance(onnx_path, calibrator_applied=calibrator_applied),
     )
 
     for nuc_idx, nuc in enumerate(BACKBONE_NUCLEI):

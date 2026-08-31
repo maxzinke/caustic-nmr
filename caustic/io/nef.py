@@ -24,6 +24,7 @@ import numpy as np
 
 from caustic.features import BACKBONE_NUCLEI
 from caustic.inference import ShiftPrediction
+from caustic.provenance import provenance_line, resolve_provenance
 
 
 # Per-nucleus element / isotope number metadata. Matches the NEF
@@ -85,8 +86,9 @@ class NEFWriterOptions:
     program_name: str = "caustic"
     """Program identifier for the NEF metadata saveframe."""
 
-    program_version: str = "unknown"
-    """Program version for the NEF metadata saveframe."""
+    program_version: str | None = None
+    """Program version for the NEF metadata saveframe. ``None`` = the
+    version recorded in the prediction's provenance (the package version)."""
 
 
 def _format_cell(value: object, digits: int | None = None) -> str:
@@ -176,13 +178,18 @@ def write_nef(
     out_path = Path(path).resolve()
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
+    prov = resolve_provenance(prediction)
+    program_version = options.program_version or str(prov["version"])
+
     lines: list[str] = []
     # --- Global data block -------------------------------------------------
     lines.append(f"data_{_sanitize_block_name(options.name)}")
+    lines.append(f"# {provenance_line(prov)}")
+    lines.append(f"# model_sha256 {prov.get('model_sha256', 'unknown')}")
     lines.append("")
 
     # --- Metadata saveframe ----------------------------------------------
-    lines.append(f"save_nef_nmr_meta_data")
+    lines.append("save_nef_nmr_meta_data")
     lines.append("   _nef_nmr_meta_data.sf_category       nef_nmr_meta_data")
     lines.append("   _nef_nmr_meta_data.sf_framecode      nef_nmr_meta_data")
     lines.append("   _nef_nmr_meta_data.format_name       nmr_exchange_format")
@@ -191,10 +198,10 @@ def write_nef(
         f"   _nef_nmr_meta_data.program_name      {_format_cell(options.program_name)}"
     )
     lines.append(
-        f"   _nef_nmr_meta_data.program_version   {_format_cell(options.program_version)}"
+        f"   _nef_nmr_meta_data.program_version   {_format_cell(program_version)}"
     )
     lines.append(
-        f"   _nef_nmr_meta_data.creation_date     {_format_cell('predicted_from_structure')}"
+        f"   _nef_nmr_meta_data.creation_date     {_format_cell(str(prov.get('date', '.')))}"
     )
     lines.append("save_")
     lines.append("")
@@ -203,7 +210,7 @@ def write_nef(
     sf_name = f"nef_chemical_shift_list_{options.list_id}"
     lines.append(f"save_{sf_name}")
     lines.append(
-        f"   _nef_chemical_shift_list.sf_category   nef_chemical_shift_list"
+        "   _nef_chemical_shift_list.sf_category   nef_chemical_shift_list"
     )
     lines.append(
         f"   _nef_chemical_shift_list.sf_framecode  {sf_name}"
@@ -247,7 +254,7 @@ def write_nef(
 def _sanitize_block_name(name: str) -> str:
     """STAR data-block names must be a single non-space token."""
     safe = "".join(c if c.isalnum() or c in "_-" else "_" for c in name)
-    return safe or "crystalline"
+    return safe or "caustic"
 
 
 # ---------------------------------------------------------------------------

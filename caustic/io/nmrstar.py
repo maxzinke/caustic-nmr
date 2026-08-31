@@ -36,6 +36,7 @@ import numpy as np
 
 from caustic.features import BACKBONE_NUCLEI
 from caustic.inference import ShiftPrediction
+from caustic.provenance import provenance_line, resolve_provenance
 
 
 _NUCLEUS_META: dict[str, tuple[str, int]] = {
@@ -66,7 +67,7 @@ def _iupac_atom_name(residue_name: str, nucleus: str) -> str:
 class NMRStarWriterOptions:
     """Tuning knobs for :func:`write_nmrstar`."""
 
-    entry_id: str = "crystalline_predicted"
+    entry_id: str = "caustic_predicted"
     """Top-level ``data_`` block and ``Entry.ID`` value."""
 
     list_id: int = 1
@@ -79,7 +80,8 @@ class NMRStarWriterOptions:
     sigma_digits: int = 4
     ambiguity_code: int = 1
     program_name: str = "caustic"
-    program_version: str = "unknown"
+    program_version: str | None = None
+    """``None`` = the version recorded in the prediction's provenance."""
 
 
 def _fmt(value: object, digits: int | None = None) -> str:
@@ -125,7 +127,7 @@ def _iter_shift_rows(prediction: ShiftPrediction) -> Iterable[tuple]:
 
 def _sanitize_block_name(name: str) -> str:
     safe = "".join(c if c.isalnum() or c in "_-" else "_" for c in name)
-    return safe or "crystalline"
+    return safe or "caustic"
 
 
 def write_nmrstar(
@@ -159,8 +161,13 @@ def write_nmrstar(
     out = Path(path).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
 
+    prov = resolve_provenance(prediction)
+    program_version = options.program_version or str(prov["version"])
+
     lines: list[str] = []
     lines.append(f"data_{_sanitize_block_name(options.entry_id)}")
+    lines.append(f"# {provenance_line(prov)}")
+    lines.append(f"# model_sha256 {prov.get('model_sha256', 'unknown')}")
     lines.append("")
     lines.append(f"save_{options.list_name}")
     lines.append("   _Assigned_chem_shift_list.Sf_category      assigned_chemical_shifts")
@@ -172,13 +179,13 @@ def write_nmrstar(
         f"   _Assigned_chem_shift_list.ID               {options.list_id}"
     )
     lines.append(
-        f"   _Assigned_chem_shift_list.Chem_shift_reference_ID  ."
+        "   _Assigned_chem_shift_list.Chem_shift_reference_ID  ."
     )
     lines.append(
         f"   _Assigned_chem_shift_list.Program_name     {_fmt(options.program_name)}"
     )
     lines.append(
-        f"   _Assigned_chem_shift_list.Program_version  {_fmt(options.program_version)}"
+        f"   _Assigned_chem_shift_list.Program_version  {_fmt(program_version)}"
     )
     lines.append("")
     lines.append("   loop_")

@@ -16,6 +16,7 @@ import numpy as np
 
 from caustic.features import BACKBONE_NUCLEI
 from caustic.inference import ShiftPrediction
+from caustic.provenance import provenance_line, resolve_provenance
 
 
 _CSV_COLUMNS = (
@@ -99,12 +100,17 @@ def write_csv(
     Columns: ``chain_code, sequence_code, residue_name, atom_name,
     element, isotope_number, shift_ppm, sigma_ppm``. NaN / missing
     predictions are skipped. Missing σ (rare) is written as an empty
-    cell.
+    cell. The file starts with two ``#`` comment lines carrying the
+    provenance stamp (package version, model SHA-256, calibrator, date);
+    read with ``pandas.read_csv(path, comment="#")``.
     """
     out = Path(path).resolve()
     out.parent.mkdir(parents=True, exist_ok=True)
     rows = _rows(prediction, chain_code=chain_code)
+    prov = resolve_provenance(prediction)
     with open(out, "w", encoding="utf-8", newline="") as f:
+        f.write(f"# {provenance_line(prov)}\n")
+        f.write(f"# model_sha256={prov.get('model_sha256', 'unknown')}\n")
         w = csv.DictWriter(f, fieldnames=list(_CSV_COLUMNS))
         w.writeheader()
         for row in rows:
@@ -132,6 +138,7 @@ def write_json(
     out.parent.mkdir(parents=True, exist_ok=True)
     rows = _rows(prediction, chain_code=chain_code)
     doc = {
+        "provenance": resolve_provenance(prediction),
         "source": prediction.pdb_path,
         "num_conformers": int(prediction.num_conformers),
         "num_residues": len(prediction.seq_ids),

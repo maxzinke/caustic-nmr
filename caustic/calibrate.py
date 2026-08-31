@@ -15,12 +15,13 @@ module applies:
      under-predicts on average. Disulfide partners are detected with
      a simple Sγ-Sγ distance gate (<2.5 Å between any two CYS).
 
-What's NOT in this slim version: per-(dssp × aromatic × rSASA) stratum
-offsets. They require aromatic ring count from neighbor search which is
-not part of the external graph pipeline. The in-tree noft production
-has them via ``scripts/caustic_stratum_calibrator.py`` (combined gain
-~−1.78% relative). The slim version captures the dominant levers — see
-``data/sa16_calibrator_v2.json`` description for details.
+What's NOT in this slim version: per-(DSSP class × aromatic × rSASA)
+stratum offsets. They require an aromatic-ring neighbour count that the
+packaged graph pipeline does not compute. The slim version keeps the
+two dominant levers (global offsets, CYS-CB oxidation state); the
+measured cost of leaving the strata out is reported in
+``docs/BENCHMARKS.md`` of the repository. See the ``description`` field
+of ``data/sa16_calibrator_v2.json``.
 
 Apply automatically inside ``predict_shifts_onnx``; opt out by setting
 ``apply_calibrator=False``.

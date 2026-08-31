@@ -17,39 +17,83 @@ Usage::
     # Batch: predict all structures in a directory
     caustic structures/*.pdb --format json -o results/
 
-    # Use the ONNX backend (default) or PyTorch
+    # Use the ONNX backend (default, bundled weights) or a PyTorch checkpoint
     caustic input.pdb --backend onnx
     caustic input.pdb --backend torch --checkpoint model.pt
+
+    # Which model / calibrator is this install running?
+    caustic --version
 """
 from __future__ import annotations
 
 import argparse
 import logging
-import sys
 from pathlib import Path
 
 logger = logging.getLogger("caustic")
 
 
+RELEASES_URL = "https://github.com/maxzinke/caustic-nmr/releases"
+
+
 def _find_default_onnx() -> Path | None:
-    """Locate the bundled ONNX weights.
+    """Locate the ONNX weights.
 
     Search order:
-    1. ``<package_dir>/weights/best.onnx`` (pip-installed editable or wheel)
-    2. ``$CAUSTIC_WEIGHTS`` environment variable
-    3. ``~/.caustic/best.onnx`` (user download)
+    1. the model bundled inside the package (``caustic/data/best_v2_carbons.onnx``)
+    2. ``$CAUSTIC_WEIGHTS`` environment variable (explicit override)
+    3. ``~/.caustic/best.onnx`` (legacy user download)
     """
     import os
 
-    pkg = Path(__file__).resolve().parent
-    for candidate in [
-        pkg / "weights" / "best.onnx",
-        Path(os.environ.get("CAUSTIC_WEIGHTS", "")) if os.environ.get("CAUSTIC_WEIGHTS") else None,
+    from .provenance import bundled_model_path
+
+    candidates: list[Path | None] = [
+        bundled_model_path(),
+        Path(os.environ["CAUSTIC_WEIGHTS"]) if os.environ.get("CAUSTIC_WEIGHTS") else None,
         Path.home() / ".caustic" / "best.onnx",
-    ]:
+    ]
+    for candidate in candidates:
         if candidate is not None and candidate.exists():
             return candidate
     return None
+
+
+def _missing_weights_message() -> str:
+    from .provenance import bundled_model_path
+
+    return (
+        "ONNX weights not found. Looked for:\n"
+        f"  1. the bundled model      {bundled_model_path()}\n"
+        "  2. $CAUSTIC_WEIGHTS       (not set or missing)\n"
+        f"  3. {Path.home() / '.caustic' / 'best.onnx'}\n"
+        "The bundled model is part of every release wheel; reinstall with\n"
+        "  pip install --force-reinstall caustic-nmr\n"
+        f"or download best_v2_carbons.onnx from {RELEASES_URL} and pass\n"
+        "  --onnx-model /path/to/best_v2_carbons.onnx"
+    )
+
+
+class _VersionAction(argparse.Action):
+    """``--version``: package version plus the model and calibrator it ships."""
+
+    def __init__(self, option_strings, dest, **kwargs):
+        super().__init__(option_strings, dest, nargs=0, **kwargs)
+
+    def __call__(self, parser, namespace, values, option_string=None):
+        from ._version import __version__
+        from .provenance import (
+            bundled_model_path,
+            calibrator_version,
+            file_sha256,
+        )
+
+        model = _find_default_onnx() or bundled_model_path()
+        sha = file_sha256(str(model)) if model.exists() else "missing"
+        print(f"caustic-nmr {__version__}")
+        print(f"model: {model.name} sha256={sha}")
+        print(f"calibrator: {calibrator_version()}")
+        parser.exit()
 
 
 def _find_default_checkpoint() -> Path | None:
@@ -106,12 +150,20 @@ def main(argv: list[str] | None = None) -> None:
         "--backend",
         choices=["onnx", "torch"],
         default="onnx",
-        help="Inference backend (default: onnx — no PyTorch needed).",
+        help=(
+            "Inference backend (default: onnx = ONNX Runtime with the bundled weights; "
+            "PyTorch is still required for graph construction in both backends). "
+            "The shipped production model is ONNX-only — 'torch' cannot load it and is "
+            "for architecture-matching .pt checkpoints only (see docs/LIMITATIONS.md)."
+        ),
     )
     parser.add_argument(
         "--checkpoint",
         default=None,
-        help="Path to .pt checkpoint (torch backend only).",
+        help=(
+            "Path to a .pt checkpoint (torch backend only; must match caustic.model.ShiftPredictor "
+            "— the production checkpoint does not)."
+        ),
     )
     parser.add_argument(
         "--onnx-model",
@@ -131,8 +183,8 @@ def main(argv: list[str] | None = None) -> None:
     )
     parser.add_argument(
         "--version",
-        action="version",
-        version=f"%(prog)s {__import__('caustic').__version__}",
+        action=_VersionAction,
+        help="Print the package version, the model file with its SHA-256, and the calibrator version.",
     )
 
     args = parser.parse_args(argv)
@@ -160,12 +212,7 @@ def main(argv: list[str] | None = None) -> None:
     if args.backend == "onnx":
         onnx_path = Path(args.onnx_model) if args.onnx_model else _find_default_onnx()
         if onnx_path is None or not onnx_path.exists():
-            parser.error(
-                "ONNX weights not found. Download them with:\n"
-                "  mkdir -p ~/.caustic && curl -L -o ~/.caustic/best.onnx "
-                "<HF_HUB_URL>\n"
-                "Or pass --onnx-model /path/to/best.onnx"
-            )
+            parser.error(_missing_weights_message())
         from .export import load_onnx_session
         session = load_onnx_session(onnx_path)
     else:

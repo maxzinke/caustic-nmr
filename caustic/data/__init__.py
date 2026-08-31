@@ -1,10 +1,12 @@
 """Bundled assets shipped with the caustic package.
 
 Currently contains:
-    best_v2_carbons.onnx — v0.3.0 production checkpoint
-        PaiNN backbone, ~740K params, trained on carbon-aggressive
-        label-noise-cleaned BMRB labels. -4.37% relative composite MAE
-        on cc.test (n=614) vs the previous PaiNN baseline.
+    best_v2_carbons.onnx — production checkpoint (unchanged since 0.3.0)
+        PaiNN backbone, 741,024 parameters, trained on carbon-aggressive
+        label-noise-cleaned BMRB labels. Benchmark numbers live in
+        docs/BENCHMARKS.md and are regenerated from benchmarks/.
+    sa16_calibrator_v2.json — post-prediction offsets (global + cysteine CB).
+    Both files are CC BY 4.0 (see LICENSE-WEIGHTS).
 
 Use ``importlib.resources`` to resolve the path::
 
