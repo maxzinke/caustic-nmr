@@ -6,7 +6,7 @@ All notable changes to `caustic-nmr` are recorded here. The format follows
 
 ## [Unreleased]
 
-## [0.4.0] — 2026-08-30
+## [0.4.0] — 2026-08-31
 
 Release-readiness version: same model weights and calibrator as 0.3.0
 (ONNX SHA-256 `ebc7bbc2…2948b2`, calibrator `sa16_v2_carbons_slim`), so

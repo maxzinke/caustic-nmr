@@ -11,9 +11,9 @@ authors:
   - family-names: Zinke
     given-names: Maximilian
     email: maximilian.zinke@gmail.com
-    # TODO(ORCID): add "orcid: https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+    orcid: "https://orcid.org/0000-0002-0541-5139"
 version: 0.4.0
-date-released: "2026-08-30"
+date-released: "2026-08-31"
 license: MIT
 repository-code: "https://github.com/maxzinke/caustic-nmr"
 url: "https://huggingface.co/spaces/SiXa18/caustic"
