@@ -1,0 +1,42 @@
+{
+  "title": "CAUSTIC: conformation-aware uncertainty and shift prediction from protein conformer ensembles",
+  "upload_type": "software",
+  "description": "<p>CAUSTIC is a PaiNN equivariant graph neural network that predicts protein backbone NMR chemical shifts (H, HA, N, CA, CB, C') with calibrated uncertainties from PDB, mmCIF or AlphaFold structures. This record archives the source code of the <code>caustic-nmr</code> Python package together with the bundled ONNX model weights and post-prediction calibrator. Code is MIT-licensed; the model weights and calibrator are CC BY 4.0 (see LICENSE-WEIGHTS). Method, data, benchmark protocol and limitations are documented in the repository under docs/.</p>",
+  "creators": [
+    {
+      "name": "Zinke, Maximilian",
+      "_comment": "TODO(ORCID): add \"orcid\": \"XXXX-XXXX-XXXX-XXXX\""
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "NMR",
+    "chemical shift prediction",
+    "protein structure",
+    "graph neural network",
+    "PaiNN",
+    "AlphaFold",
+    "uncertainty calibration"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/maxzinke/caustic-nmr",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/SiXa18/caustic-weights",
+      "relation": "isSupplementedBy",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://huggingface.co/spaces/SiXa18/caustic",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

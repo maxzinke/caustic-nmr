@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use CAUSTIC, please cite it using the metadata below."
+type: software
+title: "CAUSTIC: conformation-aware uncertainty and shift prediction from protein conformer ensembles"
+abstract: >-
+  A PaiNN equivariant graph neural network that predicts protein backbone NMR
+  chemical shifts (H, HA, N, CA, CB, C') with calibrated uncertainties from PDB,
+  mmCIF or AlphaFold structures. Ships as a pip-installable package with bundled
+  ONNX weights and NEF / NMR-STAR / CSV / JSON output.
+authors:
+  - family-names: Zinke
+    given-names: Maximilian
+    email: maximilian.zinke@gmail.com
+    # TODO(ORCID): add "orcid: https://orcid.org/XXXX-XXXX-XXXX-XXXX"
+version: 0.4.0
+date-released: "2026-08-30"
+license: MIT
+repository-code: "https://github.com/maxzinke/caustic-nmr"
+url: "https://huggingface.co/spaces/SiXa18/caustic"
+keywords:
+  - NMR
+  - chemical shift prediction
+  - protein structure
+  - graph neural network
+  - PaiNN
+  - AlphaFold
+  - uncertainty calibration

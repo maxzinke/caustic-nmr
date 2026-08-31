@@ -1,10 +1,34 @@
+# Python
 __pycache__/
 *.pyc
+*.pyo
 *.egg-info/
+.eggs/
 dist/
 build/
-.eggs/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Model files: only the bundled release artifacts under caustic/data/ are tracked.
 *.onnx
-# v0.3.0 shipped checkpoint: bundle inside the wheel so `pip install caustic`
-# is self-contained. Override the blanket *.onnx rule for this one path.
+*.pt
 !caustic/data/*.onnx
+
+# Local downloads / scratch
+.caustic/
+benchmarks/**/tmp/
+benchmarks/**/cache/
+*.log
+
+# Prediction outputs written next to inputs during development
+examples/*.str
+examples/*.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

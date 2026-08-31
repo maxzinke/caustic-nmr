@@ -1,5 +1,5 @@
 [build-system]
-requires = ["hatchling"]
+requires = ["hatchling>=1.27"]
 build-backend = "hatchling.build"
 
 [project]
@@ -8,20 +8,25 @@ build-backend = "hatchling.build"
 # stranger's package. The import name stays `caustic`, matching the sibling
 # `facet-nmr`/`facet` pair.
 name = "caustic-nmr"
-version = "0.3.0"
-description = "Predict NMR backbone chemical shifts from 3D protein structure"
+dynamic = ["version"]
+description = "Predict protein backbone NMR chemical shifts from 3D structure (PaiNN GNN, ONNX Runtime)"
 readme = "README.md"
 license = "MIT"
+license-files = ["LICENSE", "LICENSE-WEIGHTS"]
 requires-python = ">=3.10"
 authors = [
-    { name = "Maxim" },
+    { name = "Maximilian Zinke", email = "maximilian.zinke@gmail.com" },
 ]
-keywords = ["NMR", "chemical shifts", "protein", "structure", "GNN", "SchNet", "AlphaFold"]
+keywords = ["NMR", "chemical shifts", "protein", "structure", "GNN", "PaiNN", "AlphaFold", "ONNX"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Topic :: Scientific/Engineering :: Chemistry",
 ]
@@ -41,13 +46,27 @@ train = [
 bmrb = [
     "pynmrstar>=3.3",
 ]
+dev = [
+    "pytest>=7",
+    "ruff>=0.5",
+    "build>=1.0",
+    "twine>=5",
+    "onnx>=1.15",
+]
 
 [project.scripts]
 caustic = "caustic.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/bluegems661/caustic"
-Documentation = "https://github.com/bluegems661/caustic#readme"
+Homepage = "https://github.com/maxzinke/caustic-nmr"
+Repository = "https://github.com/maxzinke/caustic-nmr"
+Issues = "https://github.com/maxzinke/caustic-nmr/issues"
+Changelog = "https://github.com/maxzinke/caustic-nmr/blob/main/CHANGELOG.md"
+"Web app" = "https://huggingface.co/spaces/SiXa18/caustic"
+"Model weights" = "https://huggingface.co/SiXa18/caustic-weights"
+
+[tool.hatch.version]
+path = "caustic/_version.py"
 
 [tool.hatch.build.targets.wheel]
 packages = ["caustic"]
@@ -61,9 +80,23 @@ include = [
     "caustic/**/*.py",
     "caustic/data/*.onnx",
     "caustic/data/*.json",
+    "tests/**",
     "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "LICENSE-WEIGHTS",
     "pyproject.toml",
 ]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W"]
+# E501: the graph/feature modules carry long physics comments and data tables;
+# wrapping them adds churn without value. Everything else in E/F/W is enforced.
+ignore = ["E501"]

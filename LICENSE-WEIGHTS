@@ -1,0 +1,30 @@
+CAUSTIC model weights and calibrator — licence
+
+This licence applies to the following files, which are model parameters and a
+fitted calibrator produced by this project (not to the source code, which is
+covered by the MIT licence in LICENSE):
+
+    caustic/data/best_v2_carbons.onnx      (PaiNN network, ONNX; SHA-256
+                                            ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2)
+    caustic/data/sa16_calibrator_v2.json   (post-prediction calibrator, version sa16_v2_carbons_slim)
+
+They are licensed under the Creative Commons Attribution 4.0 International
+licence (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt these files for any purpose, including
+commercially, provided you give appropriate credit, link to the licence and
+indicate whether changes were made.
+
+Attribution: "CAUSTIC model weights, Maximilian Zinke, 2026,
+https://github.com/maxzinke/caustic-nmr". When a DOI is available (see
+CITATION.cff), please cite it.
+
+Copies of these files published before this notice (versions 0.1.0–0.3.0 of
+this repository and the Hugging Face Space) were distributed under the MIT
+licence; that grant is not withdrawn for those copies.
+
+Training data acknowledgement: the network was trained on experimental
+chemical shifts from the Biological Magnetic Resonance Data Bank
+(https://bmrb.io) paired with coordinates from the Protein Data Bank
+(https://www.rcsb.org), both of which are gratefully acknowledged. No BMRB or
+PDB records are redistributed in this package.
