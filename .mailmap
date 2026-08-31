@@ -1,11 +1,9 @@
 # Canonical identity for `git log`, `git shortlog` and anything that counts authors.
 #
-# Display only. A .mailmap says "these names are the same person" — it transfers no
-# rights and is not evidence of ownership. The ownership record is the signed
-# declaration (docs/OWNERSHIP.md in the CRYSTALLINE-FID repository).
+# Display only: a .mailmap says "these names are the same person". It maps the commits
+# that were made before this repository's git identity was configured.
 #
-# `Your Name <your.email@example.com>` is git's out-of-the-box default, left
-# unconfigured on the machine these commits were authored on.
+# Note that GitHub does not read .mailmap - it links commits to accounts by the commit
+# e-mail address - so the web UI still shows the original address on those commits.
 Maximilian Zinke <maximilian.zinke@gmail.com> <your.email@example.com>
 Maximilian Zinke <maximilian.zinke@gmail.com> <SiXa18@users.noreply.huggingface.co>
-Maximilian Zinke <maximilian.zinke@gmail.com> <mzinke@Maximilians-MacBook-Pro-2.local>
