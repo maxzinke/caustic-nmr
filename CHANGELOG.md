@@ -6,6 +6,24 @@ All notable changes to `caustic-nmr` are recorded here. The format follows
 
 ## [Unreleased]
 
+## [0.4.2] — 2026-09-01
+
+Compliance and attribution corrections. The model, calibrator and every benchmark
+number are unchanged.
+
+### Fixed
+- Retained the complete upstream MIT copyright and permission notice for POTENCI,
+  whose numerical tables and prediction logic are adapted in `caustic/potenci.py`.
+- Corrected the benchmark documentation: the exact CSpred/UCBShift2 checkout does
+  contain the UC Regents research and not-for-profit licence.
+- Corrected the data documentation to distinguish unshipped training coordinates
+  from the two coordinate examples in the source distribution, and documented the
+  AlphaFold example's embedded CC BY 4.0 attribution.
+
+### Added
+- `THIRD_PARTY_NOTICES.md` and a no-affiliation/no-endorsement clarification for
+  third-party product names used in scientific comparisons.
+
 ## [0.4.1] — 2026-08-31
 
 Documentation and packaging fixes found by verifying the published 0.4.0 artifacts from

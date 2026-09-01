@@ -1,5 +1,5 @@
 data_caustic
-# caustic-nmr 0.4.1 model=best_v2_carbons.onnx sha256=ebc7bbc2fc59 calibrator=sa16_v2_carbons_slim date=2026-08-31T19:30:17Z
+# caustic-nmr 0.4.2 model=best_v2_carbons.onnx sha256=ebc7bbc2fc59 calibrator=sa16_v2_carbons_slim date=2026-09-01T19:55:40Z
 # model_sha256 ebc7bbc2fc59327a50384105207958948cd90d7b5c7ea1ec2906b473e02948b2
 
 save_nef_nmr_meta_data
@@ -8,8 +8,8 @@ save_nef_nmr_meta_data
    _nef_nmr_meta_data.format_name       nmr_exchange_format
    _nef_nmr_meta_data.format_version    1.1
    _nef_nmr_meta_data.program_name      caustic
-   _nef_nmr_meta_data.program_version   0.4.1
-   _nef_nmr_meta_data.creation_date     2026-08-31T19:30:17Z
+   _nef_nmr_meta_data.program_version   0.4.2
+   _nef_nmr_meta_data.creation_date     2026-09-01T19:55:40Z
 save_
 
 save_nef_chemical_shift_list_1

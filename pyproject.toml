@@ -12,7 +12,7 @@ dynamic = ["version"]
 description = "Predict protein backbone NMR chemical shifts from 3D structure (PaiNN GNN, ONNX Runtime)"
 readme = "README.md"
 license = "MIT"
-license-files = ["LICENSE", "LICENSE-WEIGHTS"]
+license-files = ["LICENSE", "LICENSE-WEIGHTS", "THIRD_PARTY_NOTICES.md"]
 requires-python = ">=3.10"
 authors = [
     { name = "Maximilian Zinke", email = "maximilian.zinke@gmail.com" },
@@ -89,6 +89,7 @@ include = [
     "/CITATION.cff",
     "/LICENSE",
     "/LICENSE-WEIGHTS",
+    "/THIRD_PARTY_NOTICES.md",
     "/pyproject.toml",
 ]
 

@@ -1,11 +1,11 @@
 """POTENCI random coil chemical shift prediction.
 
-Reimplemented from Nielsen & Mulder (2018) — prediction of temperature,
-neighbor and pH-corrected random coil chemical shifts for intrinsically
-disordered proteins.
+Adapted and ported from POTENCI v1.3 by Nielsen & Mulder (2018) — prediction
+of temperature, neighbor and pH-corrected random coil chemical shifts for
+intrinsically disordered proteins.
 
 Reference: https://github.com/protein-nmr/POTENCI
-License: MIT
+License: MIT; see THIRD_PARTY_NOTICES.md for the retained upstream notice.
 
 Predicts random coil shifts for backbone atoms (H, HA, N, CA, CB, C)
 as f(sequence, pH, temperature, ionic_strength), accounting for:

@@ -12,16 +12,13 @@ authors:
     given-names: Maximilian
     email: maximilian.zinke@gmail.com
     orcid: "https://orcid.org/0000-0002-0541-5139"
-version: 0.4.0
+version: 0.4.2
 doi: "10.5281/zenodo.22213167"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.22213167"
     description: "Concept DOI - always resolves to the latest version"
-  - type: doi
-    value: "10.5281/zenodo.22213168"
-    description: "DOI for version 0.4.0"
-date-released: "2026-08-31"
+date-released: "2026-09-01"
 license: MIT
 repository-code: "https://github.com/maxzinke/caustic-nmr"
 url: "https://huggingface.co/spaces/SiXa18/caustic"

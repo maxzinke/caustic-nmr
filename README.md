@@ -48,7 +48,7 @@ result.provenance        # package version, model SHA-256, calibrator, date
 Every output file carries the same provenance stamp in its header:
 
 ```
-# caustic-nmr 0.4.0 model=best_v2_carbons.onnx sha256=ebc7bbc2fc59 calibrator=sa16_v2_carbons_slim date=2026-08-30T16:27:19Z
+# caustic-nmr 0.4.2 model=best_v2_carbons.onnx sha256=ebc7bbc2fc59 calibrator=sa16_v2_carbons_slim date=2026-09-01T00:00:00Z
 ```
 
 Inputs and outputs for ubiquitin and an AlphaFold model are in [`examples/`](https://github.com/maxzinke/caustic-nmr/tree/main/examples/).
@@ -80,6 +80,10 @@ in UCBShift2's own reference database (where its transfer module excels); they a
 competitor versions, crash accounting and the fairness slices:
 [docs/BENCHMARKS.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/BENCHMARKS.md); regenerate everything with
 `python benchmarks/rescore.py --bootstrap 2000`.
+
+TALOS-N, SPARTA+, UCBShift, LEGOLAS and other third-party product names belong
+to their respective owners. They are used solely for identification and scientific
+comparison; no affiliation, sponsorship or endorsement is implied.
 
 ## Where the details are
 
@@ -120,6 +124,7 @@ Code: [MIT](https://github.com/maxzinke/caustic-nmr/blob/main/LICENSE). Model we
 [CC BY 4.0](https://github.com/maxzinke/caustic-nmr/blob/main/LICENSE-WEIGHTS) — attribution *CAUSTIC model weights, Maximilian Zinke, 2026,
 https://github.com/maxzinke/caustic-nmr*. Training data come from the BMRB and the wwPDB;
 no BMRB records are redistributed ([DATA.md](https://github.com/maxzinke/caustic-nmr/blob/main/docs/DATA.md) §6).
+Third-party code notices are in [THIRD_PARTY_NOTICES.md](https://github.com/maxzinke/caustic-nmr/blob/main/THIRD_PARTY_NOTICES.md).
 
 ## Citation
 

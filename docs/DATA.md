@@ -147,11 +147,13 @@ counted for this document (not verified).
   depositors. No BMRB record is redistributed with this package in any case; the
   training labels are not shipped.
 - **wwPDB.** Coordinate data are in the public domain under CC0 1.0
-  (https://www.wwpdb.org/about/usage-policies, checked 2026-08-30). No coordinates are
-  redistributed.
-- **AlphaFold DB.** Predictions are distributed under CC BY 4.0 according to EMBL-EBI (the
-  licence text on https://alphafold.ebi.ac.uk is rendered client-side and could not be
-  extracted by a plain HTTP fetch — not verified here).
+  (https://www.wwpdb.org/about/usage-policies, checked 2026-09-01). Training coordinates
+  are not redistributed. The package source distribution includes `examples/1ubq.pdb`
+  as a CC0-licensed worked example.
+- **AlphaFold DB.** Predictions are distributed under CC BY 4.0 according to EMBL-EBI
+  (https://alphafold.ebi.ac.uk/faq, checked 2026-09-01). The package source distribution
+  includes `examples/AF-P01112-F1-model_v6.cif`; that original ModelCIF file embeds the
+  CC BY 4.0 link, DeepMind copyright and disclaimer, and the AlphaFold citation.
 - **This package.** Code is MIT ([../LICENSE](../LICENSE)); the model weights and the
   calibrator are CC BY 4.0 ([../LICENSE-WEIGHTS](../LICENSE-WEIGHTS)). The published split
   id lists and the blocklist are lists of BMRB ids and residue indices, not BMRB content.
